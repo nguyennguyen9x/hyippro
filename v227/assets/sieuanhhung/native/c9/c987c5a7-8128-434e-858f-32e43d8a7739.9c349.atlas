@@ -1,0 +1,258 @@
+
+screen-jackpot-luffy.png
+size: 1893,1033
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DEAD OR ALIVE
+  rotate: false
+  xy: 434, 491
+  size: 117, 19
+  orig: 119, 21
+  offset: 1, 1
+  index: -1
+LFpp2
+  rotate: true
+  xy: 272, 17
+  size: 470, 93
+  orig: 473, 95
+  offset: 2, 1
+  index: -1
+LFpp2jackpot
+  rotate: true
+  xy: 2, 3
+  size: 484, 268
+  orig: 486, 271
+  offset: 1, 1
+  index: -1
+Layer 21
+  rotate: false
+  xy: 1724, 349
+  size: 132, 134
+  orig: 134, 136
+  offset: 1, 1
+  index: -1
+Layer 26
+  rotate: false
+  xy: 1724, 272
+  size: 118, 75
+  orig: 120, 77
+  offset: 1, 1
+  index: -1
+Layer 30 copy
+  rotate: false
+  xy: 1428, 102
+  size: 216, 173
+  orig: 219, 175
+  offset: 2, 1
+  index: -1
+Layer 30 copy-
+  rotate: false
+  xy: 617, 48
+  size: 147, 110
+  orig: 150, 122
+  offset: 2, 6
+  index: -1
+Layer 38
+  rotate: false
+  xy: 872, 78
+  size: 78, 80
+  orig: 81, 82
+  offset: 1, 1
+  index: -1
+Layer 40
+  rotate: true
+  xy: 964, 2
+  size: 267, 201
+  orig: 270, 203
+  offset: 2, 1
+  index: -1
+Layer 42
+  rotate: false
+  xy: 1063, 324
+  size: 271, 253
+  orig: 273, 255
+  offset: 1, 1
+  index: -1
+Layer 43
+  rotate: false
+  xy: 1749, 593
+  size: 142, 112
+  orig: 144, 114
+  offset: 1, 1
+  index: -1
+Layer 45
+  rotate: false
+  xy: 2, 489
+  size: 430, 542
+  orig: 595, 681
+  offset: 165, 0
+  index: -1
+Layer 46
+  rotate: false
+  xy: 1464, 277
+  size: 258, 211
+  orig: 260, 213
+  offset: 1, 1
+  index: -1
+Layer 46-
+  rotate: true
+  xy: 1336, 427
+  size: 150, 126
+  orig: 150, 126
+  offset: 0, 0
+  index: -1
+Layer 48
+  rotate: false
+  xy: 1465, 726
+  size: 303, 305
+  orig: 305, 307
+  offset: 1, 1
+  index: -1
+Layer 48 copy
+  rotate: false
+  xy: 1167, 62
+  size: 259, 260
+  orig: 261, 262
+  offset: 1, 1
+  index: -1
+Layer 49
+  rotate: false
+  xy: 1717, 100
+  size: 65, 73
+  orig: 67, 75
+  offset: 1, 1
+  index: -1
+Layer 50
+  rotate: false
+  xy: 766, 50
+  size: 104, 108
+  orig: 105, 108
+  offset: 0, 0
+  index: -1
+Layer 51
+  rotate: false
+  xy: 1749, 485
+  size: 142, 106
+  orig: 142, 106
+  offset: 0, 0
+  index: -1
+Layer 53
+  rotate: false
+  xy: 1465, 490
+  size: 282, 234
+  orig: 282, 237
+  offset: 0, 3
+  index: -1
+Layer 54
+  rotate: true
+  xy: 1336, 329
+  size: 96, 121
+  orig: 98, 123
+  offset: 1, 1
+  index: -1
+Layer 55
+  rotate: false
+  xy: 1717, 175
+  size: 117, 95
+  orig: 119, 97
+  offset: 1, 1
+  index: -1
+energy/energy_00064
+  rotate: false
+  xy: 434, 739
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00065
+  rotate: false
+  xy: 434, 512
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00066
+  rotate: true
+  xy: 836, 564
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00067
+  rotate: false
+  xy: 1063, 806
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00068
+  rotate: false
+  xy: 1063, 579
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 434, 966
+  size: 579, 65
+  orig: 581, 67
+  offset: 1, 1
+  index: -1
+gradient
+  rotate: true
+  xy: 1646, 86
+  size: 189, 69
+  orig: 189, 76
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 367, 44
+  size: 248, 91
+  orig: 253, 97
+  offset: 2, 3
+  index: -1
+monkey d luffy
+  rotate: false
+  xy: 1167, 29
+  size: 222, 31
+  orig: 224, 33
+  offset: 1, 1
+  index: -1
+speed/speed_00000
+  rotate: true
+  xy: 367, 137
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: true
+  xy: 566, 160
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: true
+  xy: 765, 160
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+wanted
+  rotate: true
+  xy: 964, 271
+  size: 291, 85
+  orig: 293, 87
+  offset: 1, 1
+  index: -1
+wanted copy
+  rotate: true
+  xy: 1770, 707
+  size: 324, 121
+  orig: 328, 125
+  offset: 2, 2
+  index: -1

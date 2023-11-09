@@ -1,0 +1,272 @@
+
+ketqua-3.png
+size: 1003,315
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ketqua-3/kq3_0000
+  rotate: false
+  xy: 689, 160
+  size: 90, 75
+  orig: 102, 103
+  offset: 5, 13
+  index: -1
+ketqua-3/kq3_0001
+  rotate: false
+  xy: 505, 236
+  size: 97, 78
+  orig: 102, 103
+  offset: 3, 12
+  index: -1
+ketqua-3/kq3_0002
+  rotate: false
+  xy: 495, 144
+  size: 99, 86
+  orig: 102, 103
+  offset: 2, 8
+  index: -1
+ketqua-3/kq3_0003
+  rotate: true
+  xy: 456, 35
+  size: 98, 87
+  orig: 102, 103
+  offset: 3, 7
+  index: -1
+ketqua-3/kq3_0004
+  rotate: false
+  xy: 603, 236
+  size: 93, 78
+  orig: 102, 103
+  offset: 5, 11
+  index: -1
+ketqua-3/kq3_0005
+  rotate: false
+  xy: 1, 2
+  size: 87, 70
+  orig: 102, 103
+  offset: 8, 18
+  index: -1
+ketqua-3/kq3_0006
+  rotate: true
+  xy: 310, 217
+  size: 97, 89
+  orig: 102, 103
+  offset: 3, 8
+  index: -1
+ketqua-3/kq3_0007
+  rotate: false
+  xy: 209, 214
+  size: 100, 100
+  orig: 102, 103
+  offset: 1, 2
+  index: -1
+ketqua-3/kq3_0008
+  rotate: false
+  xy: 304, 113
+  size: 100, 100
+  orig: 102, 103
+  offset: 1, 1
+  index: -1
+ketqua-3/kq3_0009
+  rotate: true
+  xy: 405, 134
+  size: 96, 89
+  orig: 102, 103
+  offset: 2, 5
+  index: -1
+ketqua-3/kq3_0010
+  rotate: true
+  xy: 625, 66
+  size: 89, 76
+  orig: 102, 103
+  offset: 5, 13
+  index: -1
+ketqua-3/kq3_0011
+  rotate: false
+  xy: 782, 79
+  size: 79, 80
+  orig: 102, 103
+  offset: 11, 13
+  index: -1
+ketqua-3/kq3_0012
+  rotate: false
+  xy: 697, 236
+  size: 79, 78
+  orig: 102, 103
+  offset: 11, 14
+  index: -1
+ketqua-3/kq3_0013
+  rotate: true
+  xy: 777, 236
+  size: 78, 77
+  orig: 102, 103
+  offset: 11, 14
+  index: -1
+ketqua-3/kq3_0014
+  rotate: true
+  xy: 780, 160
+  size: 75, 74
+  orig: 102, 103
+  offset: 12, 16
+  index: -1
+ketqua-3/kq3_0015
+  rotate: true
+  xy: 702, 4
+  size: 73, 72
+  orig: 102, 103
+  offset: 14, 16
+  index: -1
+ketqua-3/kq3_0016
+  rotate: false
+  xy: 89, 1
+  size: 71, 71
+  orig: 102, 103
+  offset: 16, 15
+  index: -1
+ketqua-3/kq3_0017
+  rotate: false
+  xy: 917, 30
+  size: 69, 71
+  orig: 102, 103
+  offset: 18, 14
+  index: -1
+ketqua-3/kq3_0018
+  rotate: false
+  xy: 926, 245
+  size: 70, 69
+  orig: 102, 103
+  offset: 17, 16
+  index: -1
+ketqua-3/kq3_0019
+  rotate: false
+  xy: 855, 244
+  size: 70, 70
+  orig: 102, 103
+  offset: 17, 16
+  index: -1
+ketqua-3/kq3_0020
+  rotate: true
+  xy: 926, 174
+  size: 70, 69
+  orig: 102, 103
+  offset: 17, 18
+  index: -1
+ketqua-3/kq3_0021
+  rotate: false
+  xy: 775, 6
+  size: 70, 71
+  orig: 102, 103
+  offset: 17, 17
+  index: -1
+ketqua-3/kq3_0022
+  rotate: false
+  xy: 846, 7
+  size: 70, 71
+  orig: 102, 103
+  offset: 17, 17
+  index: -1
+ketqua-3/kq3_0023
+  rotate: true
+  xy: 933, 103
+  size: 70, 69
+  orig: 102, 103
+  offset: 17, 18
+  index: -1
+ketqua-3/kq3_0024
+  rotate: false
+  xy: 855, 173
+  size: 70, 70
+  orig: 102, 103
+  offset: 17, 17
+  index: -1
+ketqua-3/kq3_0025
+  rotate: false
+  xy: 862, 102
+  size: 70, 70
+  orig: 102, 103
+  offset: 17, 17
+  index: -1
+xoay/xoay0000
+  rotate: true
+  xy: 702, 78
+  size: 81, 79
+  orig: 120, 103
+  offset: 19, 12
+  index: -1
+xoay/xoay0001
+  rotate: false
+  xy: 400, 231
+  size: 104, 83
+  orig: 120, 103
+  offset: 7, 9
+  index: -1
+xoay/xoay0002
+  rotate: false
+  xy: 161, 9
+  size: 107, 88
+  orig: 120, 103
+  offset: 7, 6
+  index: -1
+xoay/xoay0003
+  rotate: false
+  xy: 544, 51
+  size: 80, 92
+  orig: 120, 103
+  offset: 21, 4
+  index: -1
+xoay/xoay0004
+  rotate: true
+  xy: 204, 101
+  size: 107, 99
+  orig: 120, 103
+  offset: 5, 1
+  index: -1
+xoay/xoay0005
+  rotate: true
+  xy: 1, 194
+  size: 120, 103
+  orig: 120, 103
+  offset: 0, 0
+  index: -1
+xoay/xoay0006
+  rotate: true
+  xy: 105, 209
+  size: 105, 103
+  orig: 120, 103
+  offset: 8, 0
+  index: -1
+xoay/xoay0007
+  rotate: true
+  xy: 1, 73
+  size: 120, 103
+  orig: 120, 103
+  offset: 0, 0
+  index: -1
+xoay/xoay0008
+  rotate: true
+  xy: 105, 98
+  size: 110, 98
+  orig: 120, 103
+  offset: 7, 2
+  index: -1
+xoay/xoay0009
+  rotate: true
+  xy: 595, 156
+  size: 79, 93
+  orig: 120, 103
+  offset: 22, 3
+  index: -1
+xoay/xoay0010
+  rotate: false
+  xy: 269, 13
+  size: 103, 87
+  orig: 120, 103
+  offset: 7, 6
+  index: -1
+xoay/xoay0011
+  rotate: true
+  xy: 373, 7
+  size: 105, 82
+  orig: 120, 103
+  offset: 8, 10
+  index: -1

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Win365 - nạp rút 1 - Rút nhanh trong 10s</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1248464629184294');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1248464629184294&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+    <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+
+    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+
+    <!-- force screen orientation on some browser -->
+    <meta name="screen-orientation" content="landscape" />
+    <meta name="x5-orientation" content="landscape">
+
+    <!--fix fireball/issues/3568 -->
+    <!--<meta name="browsermode" content="application">-->
+    <meta name="x5-page-mode" content="app">
+
+    <!--<link rel="apple-touch-icon" href=".png" />-->
+    <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+    <link rel="stylesheet" type="text/css" href="style-mobile.5527a.css" />
+    <link rel="icon" href="favicon.cd09b.ico" />
+</head>
+
+<body>
+    <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+    <div id="splash">
+        <div class="progress-bar stripes">
+            <span style="width: 0%"></span>
+        </div>
+    </div>
+
+    <style type="text/css">
+        #splash {
+            background-size: 100% auto;
+        }
+    </style>
+
+    <script src="src/settings.05c9d.js" charset="utf-8"></script>
+
+    <script src="main.32088.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+    <script type="text/javascript">
+        (function () {
+            // open web debugger console
+            if (typeof VConsole !== 'undefined') {
+                window.vConsole = new VConsole();
+            }
+
+            var debug = window._CCSettings.debug;
+            var splash = document.getElementById('splash');
+            splash.style.display = 'block';
+
+            function loadScript(moduleName, cb) {
+                function scriptLoaded() {
+                    document.body.removeChild(domScript);
+                    domScript.removeEventListener('load', scriptLoaded, false);
+                    cb && cb();
+                };
+                var domScript = document.createElement('script');
+                domScript.async = true;
+                domScript.src = moduleName;
+                domScript.addEventListener('load', scriptLoaded, false);
+                document.body.appendChild(domScript);
+            }
+
+            loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.ec163.js', function () {
+                if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
+                    loadScript(debug ? 'physics.js' : 'physics-min.9bae2.js', window.boot);
+                }
+                else {
+                    window.boot();
+                }
+            });
+        })();
+        function fbTrack() {
+            fbq('track', 'CompleteRegistration');
+        }
+        window.appstoreUrl = "https://apps.apple.com/vn/app/win365-dados-3d/id1660438598";
+        window.chPlayUrl = "https://play.google.com/store/apps/details?id=com.pencil.airvc.craft";
+        $.getJSON('version.json', function (data) {
+            var webPath = "v" + data.version.split(".").join("");
+            window.webUrl = [window.location.href, webPath].join(window.location.href.endsWith("/") ? "" : "/");
+        });
+        window.apkUrl = [window.location.href, "WIN365.apk"].join(window.location.href.endsWith("/") ? "" : "/");
+        window.chPlayUrl = window.apkUrl;
+        window.cskhUrl = "https://m.me/115703051453943";
+        window.communityUrl = "https://t.me/Win365Channel";
+        window.telegramUrl = "https://t.me/CSKHWin365";
+        window.facebookUrl = "https://www.facebook.com/Win365game";
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+
+thang.png
+size: 1287,285
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 17
+  rotate: true
+  xy: 304, 65
+  size: 218, 57
+  orig: 218, 57
+  offset: 0, 0
+  index: -1
+Layer 2 copy
+  rotate: true
+  xy: 960, 11
+  size: 105, 101
+  orig: 312, 142
+  offset: 202, 40
+  index: -1
+Layer 21 copy
+  rotate: false
+  xy: 855, 99
+  size: 92, 184
+  orig: 94, 186
+  offset: 1, 1
+  index: -1
+Layer 22 copy
+  rotate: false
+  xy: 729, 93
+  size: 124, 190
+  orig: 126, 192
+  offset: 1, 1
+  index: -1
+Layer 23 copy 2
+  rotate: false
+  xy: 561, 86
+  size: 166, 197
+  orig: 168, 199
+  offset: 1, 1
+  index: -1
+Layer 24 copy
+  rotate: true
+  xy: 2, 6
+  size: 277, 55
+  orig: 279, 57
+  offset: 1, 1
+  index: -1
+Layer 25 copy
+  rotate: true
+  xy: 133, 57
+  size: 226, 169
+  orig: 228, 171
+  offset: 1, 1
+  index: -1
+Layer 26 copy
+  rotate: false
+  xy: 583, 2
+  size: 175, 82
+  orig: 177, 84
+  offset: 1, 1
+  index: -1
+Layer 27 copy
+  rotate: false
+  xy: 1063, 4
+  size: 140, 127
+  orig: 142, 129
+  offset: 1, 1
+  index: -1
+Layer 28 copy
+  rotate: false
+  xy: 760, 3
+  size: 73, 88
+  orig: 75, 90
+  offset: 1, 1
+  index: -1
+Layer 29 copy
+  rotate: true
+  xy: 835, 9
+  size: 82, 123
+  orig: 84, 125
+  offset: 1, 1
+  index: -1
+Layer 30 copy
+  rotate: true
+  xy: 59, 7
+  size: 34, 136
+  orig: 36, 138
+  offset: 1, 1
+  index: -1
+Layer 31 copy
+  rotate: true
+  xy: 252, 32
+  size: 23, 141
+  orig: 25, 143
+  offset: 1, 1
+  index: -1
+Polygon 1 copy 2
+  rotate: false
+  xy: 197, 5
+  size: 24, 50
+  orig: 26, 52
+  offset: 1, 1
+  index: -1
+Shape 19
+  rotate: true
+  xy: 59, 43
+  size: 240, 72
+  orig: 240, 72
+  offset: 0, 0
+  index: -1
+aura
+  rotate: false
+  xy: 1162, 190
+  size: 92, 93
+  orig: 94, 95
+  offset: 1, 1
+  index: -1
+debris-pink
+  rotate: false
+  xy: 223, 21
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+glitter
+  rotate: false
+  xy: 1205, 108
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+light-burst
+  rotate: true
+  xy: 363, 83
+  size: 200, 196
+  orig: 200, 196
+  offset: 0, 0
+  index: -1
+ring-blur
+  rotate: false
+  xy: 1010, 133
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+thắng
+  rotate: true
+  xy: 949, 118
+  size: 165, 59
+  orig: 167, 62
+  offset: 1, 1
+  index: -1
+thắng-
+  rotate: false
+  xy: 395, 2
+  size: 186, 79
+  orig: 187, 82
+  offset: 1, 1
+  index: -1

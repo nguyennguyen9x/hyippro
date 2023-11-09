@@ -1,0 +1,244 @@
+
+item-roger.png
+size: 1986,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 24
+  rotate: false
+  xy: 1790, 50
+  size: 117, 117
+  orig: 119, 119
+  offset: 1, 1
+  index: -1
+Layer 20
+  rotate: false
+  xy: 278, 291
+  size: 287, 230
+  orig: 288, 336
+  offset: 1, 0
+  index: -1
+Layer 21
+  rotate: true
+  xy: 1909, 99
+  size: 68, 75
+  orig: 70, 77
+  offset: 1, 1
+  index: -1
+Layer 22
+  rotate: true
+  xy: 344, 2
+  size: 71, 87
+  orig: 74, 89
+  offset: 2, 1
+  index: -1
+Layer 23
+  rotate: false
+  xy: 154, 4
+  size: 93, 69
+  orig: 93, 69
+  offset: 0, 0
+  index: -1
+Layer 23-
+  rotate: false
+  xy: 249, 4
+  size: 93, 69
+  orig: 93, 69
+  offset: 0, 0
+  index: -1
+Layer 25
+  rotate: true
+  xy: 1909, 54
+  size: 43, 52
+  orig: 45, 54
+  offset: 1, 1
+  index: -1
+Layer 26
+  rotate: true
+  xy: 567, 310
+  size: 51, 20
+  orig: 53, 22
+  offset: 1, 1
+  index: -1
+Layer 28
+  rotate: false
+  xy: 1588, 10
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 277
+  size: 274, 244
+  orig: 333, 250
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 2, 8
+  size: 150, 65
+  orig: 156, 69
+  offset: 3, 2
+  index: -1
+lightning/lightning_00126
+  rotate: false
+  xy: 2, 75
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00128
+  rotate: false
+  xy: 856, 321
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00130
+  rotate: false
+  xy: 1058, 321
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00132
+  rotate: false
+  xy: 1260, 321
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00134
+  rotate: false
+  xy: 1462, 321
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00136
+  rotate: false
+  xy: 1664, 321
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00138
+  rotate: false
+  xy: 204, 75
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00140
+  rotate: false
+  xy: 406, 89
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00142
+  rotate: false
+  xy: 608, 161
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00144
+  rotate: false
+  xy: 810, 119
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+speed/speed_00000
+  rotate: true
+  xy: 1866, 321
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: false
+  xy: 608, 46
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: false
+  xy: 810, 4
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+speed/speed_00003
+  rotate: false
+  xy: 1588, 54
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 567, 363
+  size: 287, 158
+  orig: 288, 336
+  offset: 1, 72
+  index: -1
+sword/sword_00000
+  rotate: false
+  xy: 1012, 169
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00001
+  rotate: false
+  xy: 1204, 169
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00002
+  rotate: false
+  xy: 1396, 169
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00003
+  rotate: false
+  xy: 1588, 169
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00004
+  rotate: false
+  xy: 1780, 169
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00006
+  rotate: false
+  xy: 1012, 17
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00009
+  rotate: false
+  xy: 1204, 17
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1
+sword/sword_00013
+  rotate: false
+  xy: 1396, 17
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1

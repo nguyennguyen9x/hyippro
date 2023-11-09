@@ -1,0 +1,20 @@
+
+fx-scan-bg.png
+size: 395,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light-fx
+  rotate: false
+  xy: 302, 208
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+scan-pattern
+  rotate: false
+  xy: 1, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

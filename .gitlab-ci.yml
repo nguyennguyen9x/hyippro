@@ -1,0 +1,19 @@
+image: python:latest
+
+stages:
+  - deploy
+
+variables:
+  AWS_ACCESS_KEY_ID: AKIAZTKI3KS3KNDBHDHI
+  AWS_SECRET_ACCESS_KEY: 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
+  AWS_DEFAULT_REGION: ap-southeast-1
+  S3_BUCKET: taiwin365.com
+
+deploy:
+  stage: deploy
+  script:
+    - pip install awscli
+    - aws s3 rm s3://$S3_BUCKET --recursive
+    - aws s3 cp ./ s3://$S3_BUCKET --recursive --exclude "*"  --include "*.json" --include "*.jsc" --include "*.js" --include "*.png" --include "*.jpg" --include "*.html" --include "*.css" --include "*.webp" --include "*.atlas" --include "*.mp3" --include "*.ttf" --include "*.ogg" --include "*.ico" --include "*.apk" --include "*.gif"
+  only:
+    - main
