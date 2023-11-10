@@ -1,0 +1,48 @@
+
+ket3bich.png
+size: 823,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: false
+  xy: 225, 20
+  size: 229, 186
+  orig: 235, 191
+  offset: 3, 2
+  index: -1
+Group 2
+  rotate: false
+  xy: 2, 5
+  size: 221, 201
+  orig: 225, 204
+  offset: 2, 2
+  index: -1
+aura
+  rotate: false
+  xy: 654, 2
+  size: 92, 93
+  orig: 94, 95
+  offset: 1, 1
+  index: -1
+ket3
+  rotate: true
+  xy: 766, 88
+  size: 118, 55
+  orig: 120, 58
+  offset: 1, 1
+  index: -1
+light-burst
+  rotate: true
+  xy: 456, 6
+  size: 200, 196
+  orig: 200, 196
+  offset: 0, 0
+  index: -1
+spade
+  rotate: false
+  xy: 654, 97
+  size: 110, 109
+  orig: 117, 116
+  offset: 4, 3
+  index: -1
