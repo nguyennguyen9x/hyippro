@@ -1,0 +1,251 @@
+
+item-shoe.png
+size: 1876,1192
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+item-bg
+  rotate: false
+  xy: 1, 2
+  size: 198, 199
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+item-shoe
+  rotate: false
+  xy: 1506, 246
+  size: 125, 137
+  orig: 125, 137
+  offset: 0, 0
+  index: -1
+light-burst
+  rotate: false
+  xy: 1564, 892
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+light/light_00000
+  rotate: true
+  xy: 200, 1
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00001
+  rotate: true
+  xy: 369, 1
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00002
+  rotate: true
+  xy: 538, 1
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00003
+  rotate: true
+  xy: 707, 1
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00004
+  rotate: true
+  xy: 876, 1
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00005
+  rotate: true
+  xy: 1045, 30
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00006
+  rotate: true
+  xy: 1214, 30
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00007
+  rotate: true
+  xy: 1383, 30
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00008
+  rotate: false
+  xy: 1506, 722
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00009
+  rotate: true
+  xy: 1564, 991
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00010
+  rotate: true
+  xy: 1707, 790
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00011
+  rotate: true
+  xy: 1707, 589
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00012
+  rotate: false
+  xy: 1506, 553
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00013
+  rotate: true
+  xy: 1707, 388
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00014
+  rotate: false
+  xy: 1506, 384
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00015
+  rotate: true
+  xy: 1707, 187
+  size: 200, 168
+  orig: 200, 168
+  offset: 0, 0
+  index: -1
+light/light_00016
+  rotate: true
+  xy: 1733, 1021
+  size: 170, 138
+  orig: 170, 138
+  offset: 0, 0
+  index: -1
+lightning/fx_00000
+  rotate: false
+  xy: 1, 862
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00001
+  rotate: false
+  xy: 1, 532
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00002
+  rotate: false
+  xy: 1, 202
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00003
+  rotate: false
+  xy: 302, 862
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00004
+  rotate: false
+  xy: 302, 532
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00005
+  rotate: false
+  xy: 302, 202
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00006
+  rotate: false
+  xy: 603, 862
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00007
+  rotate: false
+  xy: 603, 532
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00008
+  rotate: false
+  xy: 603, 202
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00009
+  rotate: true
+  xy: 904, 891
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00010
+  rotate: false
+  xy: 904, 561
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00011
+  rotate: false
+  xy: 904, 231
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00012
+  rotate: false
+  xy: 1205, 561
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00013
+  rotate: true
+  xy: 1234, 891
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1
+lightning/fx_00014
+  rotate: false
+  xy: 1205, 231
+  size: 300, 329
+  orig: 300, 329
+  offset: 0, 0
+  index: -1

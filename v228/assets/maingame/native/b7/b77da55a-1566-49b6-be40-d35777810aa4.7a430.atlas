@@ -1,0 +1,13 @@
+
+select-fx.png
+size: 136,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+select-fx
+  rotate: false
+  xy: 1, 1
+  size: 134, 90
+  orig: 142, 111
+  offset: 4, 0
+  index: -1

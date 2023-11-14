@@ -1,0 +1,174 @@
+
+bt-spin.png
+size: 458,1038
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 26
+  rotate: true
+  xy: 1, 315
+  size: 722, 146
+  orig: 722, 146
+  offset: 0, 0
+  index: -1
+bt-stop
+  rotate: true
+  xy: 263, 418
+  size: 221, 72
+  orig: 221, 72
+  offset: 0, 0
+  index: -1
+bt-stop-
+  rotate: true
+  xy: 366, 801
+  size: 236, 88
+  orig: 237, 88
+  offset: 1, 0
+  index: -1
+face
+  rotate: false
+  xy: 148, 640
+  size: 172, 173
+  orig: 174, 175
+  offset: 1, 1
+  index: -1
+face-outer
+  rotate: false
+  xy: 148, 814
+  size: 217, 223
+  orig: 223, 229
+  offset: 3, 3
+  index: -1
+hilo-flare
+  rotate: true
+  xy: 321, 713
+  size: 100, 28
+  orig: 100, 28
+  offset: 0, 0
+  index: -1
+lightning/lightning_00000
+  rotate: false
+  xy: 145, 64
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+lightning/lightning_00002
+  rotate: false
+  xy: 197, 71
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+lightning/lightning_00004
+  rotate: false
+  xy: 249, 167
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+lightning/lightning_00006
+  rotate: false
+  xy: 301, 167
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+lightning/lightning_00008
+  rotate: false
+  xy: 336, 462
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+lightning/lightning_00010
+  rotate: false
+  xy: 353, 211
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+lightning/lightning_00012
+  rotate: false
+  xy: 388, 550
+  size: 51, 250
+  orig: 100, 250
+  offset: 24, 0
+  index: -1
+machine-1
+  rotate: true
+  xy: 1, 8
+  size: 115, 140
+  orig: 117, 142
+  offset: 1, 1
+  index: -1
+machine-10
+  rotate: true
+  xy: 353, 167
+  size: 43, 47
+  orig: 45, 49
+  offset: 1, 1
+  index: -1
+machine-2
+  rotate: true
+  xy: 1, 124
+  size: 190, 143
+  orig: 192, 145
+  offset: 1, 1
+  index: -1
+machine-3
+  rotate: false
+  xy: 148, 423
+  size: 114, 216
+  orig: 116, 218
+  offset: 1, 1
+  index: -1
+machine-4
+  rotate: false
+  xy: 388, 485
+  size: 60, 64
+  orig: 62, 66
+  offset: 1, 1
+  index: -1
+machine-6
+  rotate: true
+  xy: 405, 435
+  size: 49, 39
+  orig: 51, 41
+  offset: 1, 1
+  index: -1
+machine-7
+  rotate: true
+  xy: 142, 1
+  size: 62, 53
+  orig: 64, 55
+  offset: 1, 1
+  index: -1
+machine-8
+  rotate: false
+  xy: 405, 389
+  size: 45, 45
+  orig: 47, 47
+  offset: 1, 1
+  index: -1
+ring-2
+  rotate: false
+  xy: 148, 322
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+spin
+  rotate: false
+  xy: 249, 5
+  size: 193, 72
+  orig: 195, 74
+  offset: 1, 1
+  index: -1
+spin-blur
+  rotate: false
+  xy: 249, 78
+  size: 208, 88
+  orig: 210, 90
+  offset: 1, 1
+  index: -1

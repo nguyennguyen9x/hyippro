@@ -1,0 +1,41 @@
+
+win-rec-2.png
+size: 619,287
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 21
+  rotate: false
+  xy: 223, 144
+  size: 197, 142
+  orig: 199, 144
+  offset: 1, 1
+  index: -1
+Layer 21 copy
+  rotate: false
+  xy: 421, 144
+  size: 197, 142
+  orig: 199, 144
+  offset: 1, 1
+  index: -1
+Layer 21 copy 1
+  rotate: false
+  xy: 223, 1
+  size: 197, 142
+  orig: 199, 144
+  offset: 1, 1
+  index: -1
+Layer 21 copy 2
+  rotate: false
+  xy: 421, 1
+  size: 197, 142
+  orig: 199, 144
+  offset: 1, 1
+  index: -1
+Rectangle 1 copy 3-
+  rotate: false
+  xy: 1, 44
+  size: 221, 242
+  orig: 223, 245
+  offset: 1, 2
+  index: -1
