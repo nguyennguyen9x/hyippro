@@ -103,11 +103,11 @@
         data-size="small" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
     <script type="text/javascript">
         function onTelegramAuth(user) {
-            alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
-            console.log(user.hash);
-            var cocosGame = document.getElementById("Cocos").contentWindow;
-            var command = { method: "settext", params: { stringtext: JSON.stringify(user) } };
-            cocosGame.postMessage(command, "*");
+            // alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+            // console.log(user.hash);
+            // var cocosGame = document.getElementById("Cocos").contentWindow;
+            // var command = { method: "settext", params: { stringtext: JSON.stringify(user) } };
+            // cocosGame.postMessage(command, "*");
         }
     </script>
 
