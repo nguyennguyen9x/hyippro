@@ -119,13 +119,13 @@
             fbq('track', 'CompleteRegistration');
         }
         window.appstoreUrl = "https://apps.apple.com/vn/app/win365-dados-3d/id1660438598";
-        window.chPlayUrl = "https://play.google.com/store/apps/details?id=com.pencil.airvc.craft";
+        window.chPlayUrl = "https://play.google.com/store/apps/details?id=com.gamebk.win365vl.xanhchin";
         $.getJSON('version.json', function (data) {
             var webPath = "v" + data.version.split(".").join("");
             window.webUrl = [window.location.href, webPath].join(window.location.href.endsWith("/") ? "" : "/");
         });
         window.apkUrl = [window.location.href, "WIN365.apk"].join(window.location.href.endsWith("/") ? "" : "/");
-        window.chPlayUrl = window.apkUrl;
+        // window.chPlayUrl = window.apkUrl;
         window.cskhUrl = "https://m.me/115703051453943";
         window.communityUrl = "https://t.me/Win365Channel";
         window.telegramUrl = "https://t.me/CSKHWin365";
