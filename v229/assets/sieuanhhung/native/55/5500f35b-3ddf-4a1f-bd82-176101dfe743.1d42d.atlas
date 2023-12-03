@@ -1,0 +1,104 @@
+
+screenbonus3-fruit2.png
+size: 222,736
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+New folder/fire_00000
+  rotate: false
+  xy: 2, 512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00001
+  rotate: false
+  xy: 104, 508
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00002
+  rotate: false
+  xy: 2, 410
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00003
+  rotate: false
+  xy: 104, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00004
+  rotate: false
+  xy: 2, 308
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00005
+  rotate: false
+  xy: 104, 304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00006
+  rotate: false
+  xy: 2, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00007
+  rotate: false
+  xy: 104, 202
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00008
+  rotate: false
+  xy: 2, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00009
+  rotate: false
+  xy: 104, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+New folder/fire_00010
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bonusit2
+  rotate: false
+  xy: 124, 610
+  size: 96, 124
+  orig: 96, 124
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 104, 63
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+light-ring-2 - Copy
+  rotate: false
+  xy: 2, 614
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1

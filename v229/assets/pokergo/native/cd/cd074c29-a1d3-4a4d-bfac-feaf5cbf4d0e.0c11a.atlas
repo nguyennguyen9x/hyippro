@@ -1,0 +1,174 @@
+
+bt-spin.png
+size: 1920,529
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 1 copy
+  rotate: false
+  xy: 1039, 2
+  size: 220, 220
+  orig: 222, 222
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 11
+  rotate: true
+  xy: 1636, 259
+  size: 269, 268
+  orig: 271, 270
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 15
+  rotate: false
+  xy: 1, 136
+  size: 392, 392
+  orig: 395, 395
+  offset: 1, 2
+  index: -1
+Ellipse 1 copy 2
+  rotate: true
+  xy: 760, 4
+  size: 204, 210
+  orig: 206, 212
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 3
+  rotate: true
+  xy: 1260, 12
+  size: 210, 209
+  orig: 212, 211
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 4
+  rotate: false
+  xy: 1470, 27
+  size: 209, 210
+  orig: 211, 212
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 6
+  rotate: false
+  xy: 1345, 238
+  size: 290, 290
+  orig: 292, 292
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 7
+  rotate: false
+  xy: 1039, 223
+  size: 305, 305
+  orig: 307, 307
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 8
+  rotate: false
+  xy: 719, 209
+  size: 319, 319
+  orig: 321, 321
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 9
+  rotate: false
+  xy: 394, 204
+  size: 324, 324
+  orig: 326, 326
+  offset: 1, 1
+  index: -1
+Ellipse 2 copy 4
+  rotate: false
+  xy: 342, 9
+  size: 25, 25
+  orig: 28, 28
+  offset: 2, 2
+  index: -1
+Group 2
+  rotate: false
+  xy: 1680, 19
+  size: 239, 239
+  orig: 241, 241
+  offset: 1, 1
+  index: -1
+Shape 1
+  rotate: false
+  xy: 971, 70
+  size: 60, 138
+  orig: 62, 140
+  offset: 1, 1
+  index: -1
+Shape 2
+  rotate: true
+  xy: 184, 14
+  size: 121, 72
+  orig: 123, 74
+  offset: 1, 1
+  index: -1
+Shape 3
+  rotate: true
+  xy: 394, 138
+  size: 65, 73
+  orig: 67, 76
+  offset: 1, 2
+  index: -1
+Shape 4
+  rotate: false
+  xy: 397, 1
+  size: 49, 136
+  orig: 51, 138
+  offset: 1, 1
+  index: -1
+Shape 5
+  rotate: true
+  xy: 1, 11
+  size: 124, 95
+  orig: 127, 98
+  offset: 2, 1
+  index: -1
+Shape 6
+  rotate: false
+  xy: 97, 14
+  size: 86, 121
+  orig: 88, 123
+  offset: 1, 1
+  index: -1
+Shape 7
+  rotate: true
+  xy: 342, 35
+  size: 100, 54
+  orig: 103, 56
+  offset: 1, 1
+  index: -1
+Shape 8
+  rotate: false
+  xy: 257, 20
+  size: 84, 115
+  orig: 87, 118
+  offset: 1, 1
+  index: -1
+text-1
+  rotate: true
+  xy: 687, 25
+  size: 178, 72
+  orig: 208, 102
+  offset: 15, 15
+  index: -1
+text-2
+  rotate: true
+  xy: 468, 19
+  size: 184, 72
+  orig: 208, 102
+  offset: 15, 15
+  index: -1
+text-3
+  rotate: true
+  xy: 541, 22
+  size: 181, 72
+  orig: 208, 102
+  offset: 15, 15
+  index: -1
+text-4
+  rotate: true
+  xy: 614, 23
+  size: 180, 72
+  orig: 208, 102
+  offset: 15, 15
+  index: -1

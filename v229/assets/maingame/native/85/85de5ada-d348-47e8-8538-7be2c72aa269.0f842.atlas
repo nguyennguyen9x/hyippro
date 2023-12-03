@@ -1,0 +1,55 @@
+
+xizach.png
+size: 384,946
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: true
+  xy: 1, 308
+  size: 312, 195
+  orig: 314, 197
+  offset: 1, 1
+  index: -1
+Group 3 copy
+  rotate: true
+  xy: 210, 673
+  size: 272, 156
+  orig: 279, 159
+  offset: 2, 3
+  index: -1
+Layer 19
+  rotate: true
+  xy: 1, 1
+  size: 306, 190
+  orig: 308, 192
+  offset: 1, 1
+  index: -1
+Xì Zách
+  rotate: false
+  xy: 197, 326
+  size: 186, 60
+  orig: 188, 62
+  offset: 1, 1
+  index: -1
+a
+  rotate: true
+  xy: 197, 387
+  size: 233, 158
+  orig: 233, 158
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 1, 621
+  size: 324, 208
+  orig: 326, 210
+  offset: 1, 1
+  index: -1
+stroke
+  rotate: true
+  xy: 192, 1
+  size: 306, 190
+  orig: 308, 192
+  offset: 1, 1
+  index: -1

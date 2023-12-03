@@ -1,0 +1,174 @@
+
+item-nami.png
+size: 1141,550
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 14
+  rotate: false
+  xy: 573, 81
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 16
+  rotate: false
+  xy: 537, 153
+  size: 34, 66
+  orig: 36, 68
+  offset: 1, 1
+  index: -1
+Layer 17
+  rotate: true
+  xy: 608, 199
+  size: 349, 134
+  orig: 351, 136
+  offset: 1, 1
+  index: -1
+Layer 17 copy
+  rotate: true
+  xy: 1083, 13
+  size: 56, 55
+  orig: 58, 57
+  offset: 1, 1
+  index: -1
+Layer 18
+  rotate: true
+  xy: 946, 312
+  size: 236, 176
+  orig: 236, 177
+  offset: 0, 0
+  index: -1
+Layer 20
+  rotate: false
+  xy: 1115, 190
+  size: 24, 120
+  orig: 26, 122
+  offset: 1, 1
+  index: -1
+Layer 21
+  rotate: true
+  xy: 406, 221
+  size: 125, 150
+  orig: 196, 176
+  offset: 0, 0
+  index: -1
+Layer 22
+  rotate: true
+  xy: 943, 7
+  size: 62, 68
+  orig: 64, 70
+  offset: 1, 1
+  index: -1
+Layer 22-
+  rotate: true
+  xy: 1013, 7
+  size: 62, 68
+  orig: 64, 70
+  offset: 1, 1
+  index: -1
+Layer 23
+  rotate: true
+  xy: 946, 71
+  size: 239, 167
+  orig: 239, 167
+  offset: 0, 0
+  index: -1
+Layer 24
+  rotate: true
+  xy: 537, 2
+  size: 77, 96
+  orig: 77, 96
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 406, 69
+  size: 129, 128
+  orig: 132, 131
+  offset: 2, 1
+  index: -1
+cloud/cloud_00027
+  rotate: false
+  xy: 2, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+cloud/cloud_00034
+  rotate: false
+  xy: 204, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+cloud/cloud_00038
+  rotate: false
+  xy: 406, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+cloud/cloud_00042
+  rotate: false
+  xy: 744, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+cloud/cloud_00046
+  rotate: false
+  xy: 744, 146
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+cloud/cloud_00050
+  rotate: false
+  xy: 2, 146
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+cloud/cloud_00054
+  rotate: false
+  xy: 204, 146
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lightning/lightning_00006
+  rotate: false
+  xy: 691, 32
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning_00007
+  rotate: true
+  xy: 829, 8
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning_00008
+  rotate: false
+  xy: 2, 32
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning_00009
+  rotate: false
+  xy: 140, 32
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning_00010
+  rotate: true
+  xy: 278, 8
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1

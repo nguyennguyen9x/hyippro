@@ -1,0 +1,125 @@
+
+item-rayleigh.png
+size: 1588,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 16
+  rotate: false
+  xy: 1150, 40
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 24
+  rotate: false
+  xy: 544, 117
+  size: 287, 153
+  orig: 290, 155
+  offset: 2, 1
+  index: -1
+Layer 27
+  rotate: true
+  xy: 1486, 36
+  size: 125, 100
+  orig: 127, 102
+  offset: 1, 1
+  index: -1
+Layer 28
+  rotate: true
+  xy: 340, 37
+  size: 233, 202
+  orig: 233, 202
+  offset: 0, 0
+  index: -1
+Layer 30
+  rotate: true
+  xy: 1035, 158
+  size: 112, 125
+  orig: 114, 127
+  offset: 1, 1
+  index: -1
+Layer 31
+  rotate: true
+  xy: 1528, 192
+  size: 78, 43
+  orig: 78, 43
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 340, 3
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+slash-2/splash_00017
+  rotate: false
+  xy: 1162, 163
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+slash-2/splash_00019
+  rotate: true
+  xy: 1268, 41
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+slash-2/splash_00021
+  rotate: false
+  xy: 1284, 163
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+slash-2/splash_00023
+  rotate: true
+  xy: 1377, 41
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+slash-2/splash_00025
+  rotate: false
+  xy: 1406, 163
+  size: 120, 107
+  orig: 120, 107
+  offset: 0, 0
+  index: -1
+speed/speed_00000
+  rotate: false
+  xy: 746, 2
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: false
+  xy: 833, 157
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: false
+  xy: 948, 42
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+speed/speed_00003
+  rotate: false
+  xy: 544, 2
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 2, 2
+  size: 336, 268
+  orig: 336, 268
+  offset: 0, 0
+  index: -1
