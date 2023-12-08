@@ -102,12 +102,7 @@
     </script>
 
     <script>
-        alert(window.location.hostname)
-        alert(document.querySelector('.telegram-app-container'))
-        alert(window.Telegram.WebApp)
-        const userAgent = navigator.userAgent.toLowerCase();
-        alert(userAgent.includes('telegramweb'))
-        alert(userAgent.includes('tdesktop'))
+        alert(navigator.userAgent.toLowerCase())
         if (!document.querySelector('.telegram-app-container')) {
             const scriptElement = document.createElement('script');
             scriptElement.src = 'https://telegram.org/js/telegram-widget.js?22';
