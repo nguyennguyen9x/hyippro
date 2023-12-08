@@ -1,0 +1,104 @@
+
+ic-tuxi.png
+size: 2032,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 335, 22
+  size: 316, 255
+  orig: 318, 257
+  offset: 1, 1
+  index: -1
+BG-
+  rotate: false
+  xy: 652, 22
+  size: 316, 255
+  orig: 318, 257
+  offset: 1, 1
+  index: -1
+Group 1
+  rotate: false
+  xy: 1286, 15
+  size: 301, 262
+  orig: 303, 264
+  offset: 1, 1
+  index: -1
+INNER-OUTER-GLOW
+  rotate: false
+  xy: 1, 4
+  size: 333, 273
+  orig: 336, 275
+  offset: 1, 1
+  index: -1
+STROKE
+  rotate: false
+  xy: 969, 22
+  size: 316, 255
+  orig: 318, 257
+  offset: 1, 1
+  index: -1
+arm-1
+  rotate: false
+  xy: 1726, 144
+  size: 190, 133
+  orig: 192, 135
+  offset: 2, 0
+  index: -1
+arm-2
+  rotate: true
+  xy: 1731, 1
+  size: 142, 174
+  orig: 143, 178
+  offset: 0, 2
+  index: -1
+arm-3
+  rotate: true
+  xy: 1588, 91
+  size: 186, 137
+  orig: 193, 140
+  offset: 3, 3
+  index: -1
+spotlight
+  rotate: false
+  xy: 1917, 177
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+text-1
+  rotate: false
+  xy: 1686, 41
+  size: 44, 49
+  orig: 47, 51
+  offset: 1, 1
+  index: -1
+text-2
+  rotate: false
+  xy: 1588, 22
+  size: 47, 68
+  orig: 50, 70
+  offset: 2, 1
+  index: -1
+text-3
+  rotate: true
+  xy: 1636, 40
+  size: 50, 49
+  orig: 52, 51
+  offset: 1, 1
+  index: -1
+text-4
+  rotate: true
+  xy: 1636, 13
+  size: 26, 67
+  orig: 28, 69
+  offset: 1, 1
+  index: -1
+title-light-bulb
+  rotate: true
+  xy: 1906, 13
+  size: 130, 125
+  orig: 130, 125
+  offset: 0, 0
+  index: -1

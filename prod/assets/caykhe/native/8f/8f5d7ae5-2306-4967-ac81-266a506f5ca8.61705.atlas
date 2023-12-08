@@ -1,0 +1,272 @@
+
+item-jackpot.png
+size: 1213,1035
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 3
+  rotate: false
+  xy: 1095, 392
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 16
+  rotate: false
+  xy: 335, 522
+  size: 286, 121
+  orig: 288, 173
+  offset: 1, 2
+  index: -1
+Layer 17
+  rotate: false
+  xy: 1095, 510
+  size: 116, 133
+  orig: 116, 133
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: false
+  xy: 817, 27
+  size: 98, 100
+  orig: 98, 125
+  offset: 0, 25
+  index: -1
+Layer 26
+  rotate: false
+  xy: 219, 31
+  size: 116, 54
+  orig: 118, 56
+  offset: 1, 1
+  index: -1
+Layer 27
+  rotate: false
+  xy: 514, 82
+  size: 70, 48
+  orig: 72, 50
+  offset: 1, 1
+  index: -1
+Layer 28
+  rotate: true
+  xy: 917, 5
+  size: 64, 67
+  orig: 66, 69
+  offset: 1, 1
+  index: -1
+Layer 29
+  rotate: true
+  xy: 335, 465
+  size: 55, 35
+  orig: 57, 37
+  offset: 1, 1
+  index: -1
+Layer 30
+  rotate: false
+  xy: 345, 186
+  size: 32, 34
+  orig: 34, 36
+  offset: 1, 1
+  index: -1
+Layer 31
+  rotate: false
+  xy: 917, 71
+  size: 106, 56
+  orig: 108, 58
+  offset: 1, 1
+  index: -1
+Layer 32
+  rotate: false
+  xy: 2, 2
+  size: 207, 64
+  orig: 210, 66
+  offset: 2, 1
+  index: -1
+arm
+  rotate: false
+  xy: 1080, 123
+  size: 112, 137
+  orig: 139, 154
+  offset: 9, 17
+  index: -1
+arm-
+  rotate: false
+  xy: 702, 17
+  size: 113, 110
+  orig: 139, 154
+  offset: 8, 17
+  index: -1
+blur
+  rotate: false
+  xy: 586, 15
+  size: 114, 112
+  orig: 155, 166
+  offset: 20, 34
+  index: -1
+blur-
+  rotate: false
+  xy: 219, 87
+  size: 124, 133
+  orig: 155, 166
+  offset: 15, 24
+  index: -1
+circle
+  rotate: false
+  xy: 1080, 262
+  size: 129, 128
+  orig: 132, 131
+  offset: 2, 1
+  index: -1
+demo
+  rotate: false
+  xy: 2, 458
+  size: 331, 575
+  orig: 331, 575
+  offset: 0, 0
+  index: -1
+jackpot copy
+  rotate: false
+  xy: 337, 18
+  size: 150, 65
+  orig: 156, 69
+  offset: 3, 2
+  index: -1
+punch/punch_00001
+  rotate: false
+  xy: 2, 263
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00002
+  rotate: false
+  xy: 335, 840
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00003
+  rotate: false
+  xy: 2, 68
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00004
+  rotate: false
+  xy: 335, 645
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00005
+  rotate: false
+  xy: 552, 840
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00007
+  rotate: false
+  xy: 552, 645
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00008
+  rotate: false
+  xy: 769, 840
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00009
+  rotate: false
+  xy: 769, 645
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00010
+  rotate: false
+  xy: 986, 840
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00012
+  rotate: false
+  xy: 986, 645
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00013
+  rotate: false
+  xy: 391, 327
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+punch/punch_00014
+  rotate: false
+  xy: 391, 132
+  size: 215, 193
+  orig: 215, 193
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00058
+  rotate: false
+  xy: 623, 473
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00059
+  rotate: false
+  xy: 859, 473
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00060
+  rotate: true
+  xy: 219, 222
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00061
+  rotate: false
+  xy: 608, 301
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00062
+  rotate: false
+  xy: 844, 301
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00063
+  rotate: false
+  xy: 608, 129
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00064
+  rotate: false
+  xy: 844, 129
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 345, 85
+  size: 167, 45
+  orig: 176, 53
+  offset: 4, 5
+  index: -1

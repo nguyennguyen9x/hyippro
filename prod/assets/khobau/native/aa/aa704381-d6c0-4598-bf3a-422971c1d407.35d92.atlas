@@ -1,0 +1,174 @@
+
+item-jackpot.png
+size: 1419,403
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LIGHT RING
+  rotate: false
+  xy: 565, 152
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Layer 36
+  rotate: false
+  xy: 1, 50
+  size: 302, 352
+  orig: 302, 352
+  offset: 0, 0
+  index: -1
+Layer 81
+  rotate: false
+  xy: 719, 59
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+Layer 82
+  rotate: true
+  xy: 532, 28
+  size: 112, 93
+  orig: 153, 169
+  offset: 41, 0
+  index: -1
+Layer 83
+  rotate: false
+  xy: 304, 75
+  size: 113, 65
+  orig: 113, 66
+  offset: 0, 0
+  index: -1
+Layer 84
+  rotate: false
+  xy: 320, 5
+  size: 92, 69
+  orig: 92, 69
+  offset: 0, 0
+  index: -1
+Layer 85
+  rotate: false
+  xy: 413, 46
+  size: 26, 28
+  orig: 28, 30
+  offset: 1, 1
+  index: -1
+Layer 86
+  rotate: false
+  xy: 82, 24
+  size: 63, 25
+  orig: 65, 27
+  offset: 1, 1
+  index: -1
+Layer 87
+  rotate: false
+  xy: 41, 8
+  size: 40, 41
+  orig: 42, 44
+  offset: 1, 1
+  index: -1
+Layer 88
+  rotate: false
+  xy: 289, 6
+  size: 30, 43
+  orig: 32, 46
+  offset: 1, 2
+  index: -1
+Layer 89
+  rotate: false
+  xy: 146, 8
+  size: 36, 41
+  orig: 38, 45
+  offset: 1, 2
+  index: -1
+Layer 90
+  rotate: false
+  xy: 220, 8
+  size: 34, 41
+  orig: 36, 45
+  offset: 1, 2
+  index: -1
+Layer 91
+  rotate: false
+  xy: 1, 6
+  size: 39, 43
+  orig: 41, 46
+  offset: 1, 2
+  index: -1
+Layer 92
+  rotate: false
+  xy: 183, 8
+  size: 36, 41
+  orig: 38, 45
+  offset: 1, 2
+  index: -1
+explode-3/explode-3_00001
+  rotate: false
+  xy: 816, 202
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+explode-3/explode-3_00003
+  rotate: false
+  xy: 816, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+explode-3/explode-3_00004
+  rotate: false
+  xy: 1017, 202
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+explode-3/explode-3_00005
+  rotate: false
+  xy: 1017, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+explode-3/explode-3_00007
+  rotate: false
+  xy: 1218, 202
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 440, 16
+  size: 91, 124
+  orig: 91, 124
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 255, 8
+  size: 33, 41
+  orig: 35, 45
+  offset: 1, 2
+  index: -1
+light-fx
+  rotate: false
+  xy: 626, 58
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+light-ring-2
+  rotate: false
+  xy: 1218, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+vong
+  rotate: true
+  xy: 304, 141
+  size: 261, 260
+  orig: 263, 262
+  offset: 1, 1
+  index: -1
