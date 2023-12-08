@@ -1,0 +1,244 @@
+
+100.png
+size: 1940,379
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100
+  rotate: false
+  xy: 779, 101
+  size: 124, 60
+  orig: 126, 62
+  offset: 1, 1
+  index: -1
+100-outer
+  rotate: false
+  xy: 850, 7
+  size: 156, 92
+  orig: 161, 98
+  offset: 3, 3
+  index: -1
+Layer 256
+  rotate: true
+  xy: 1008, 2
+  size: 159, 169
+  orig: 372, 228
+  offset: 213, 59
+  index: -1
+Layer 257
+  rotate: true
+  xy: 1842, 302
+  size: 75, 80
+  orig: 75, 80
+  offset: 0, 0
+  index: -1
+Layer 258
+  rotate: true
+  xy: 2, 18
+  size: 359, 272
+  orig: 361, 277
+  offset: 2, 0
+  index: -1
+Layer 258-
+  rotate: true
+  xy: 516, 87
+  size: 290, 261
+  orig: 363, 279
+  offset: 72, 12
+  index: -1
+Layer 259
+  rotate: true
+  xy: 727, 15
+  size: 70, 121
+  orig: 70, 121
+  offset: 0, 0
+  index: -1
+Layer 260
+  rotate: true
+  xy: 1083, 202
+  size: 175, 145
+  orig: 228, 145
+  offset: 0, 0
+  index: -1
+Layer 520
+  rotate: true
+  xy: 488, 2
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+Layer 521
+  rotate: true
+  xy: 422, 4
+  size: 43, 64
+  orig: 43, 64
+  offset: 0, 0
+  index: -1
+Layer 523
+  rotate: false
+  xy: 1825, 2
+  size: 113, 103
+  orig: 117, 103
+  offset: 0, 0
+  index: -1
+Layer 525
+  rotate: true
+  xy: 2, 10
+  size: 6, 5
+  orig: 8, 7
+  offset: 1, 1
+  index: -1
+Layer 526
+  rotate: false
+  xy: 2, 3
+  size: 5, 5
+  orig: 7, 7
+  offset: 1, 1
+  index: -1
+frame
+  rotate: true
+  xy: 779, 163
+  size: 214, 302
+  orig: 240, 328
+  offset: 13, 13
+  index: -1
+frame-outer
+  rotate: false
+  xy: 276, 49
+  size: 238, 328
+  orig: 240, 328
+  offset: 1, 0
+  index: -1
+vien/vien_00000
+  rotate: false
+  xy: 1179, 66
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00001
+  rotate: false
+  xy: 1230, 243
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00002
+  rotate: false
+  xy: 1281, 107
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00003
+  rotate: true
+  xy: 1281, 5
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00004
+  rotate: false
+  xy: 1332, 243
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00005
+  rotate: false
+  xy: 1383, 107
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00006
+  rotate: true
+  xy: 1417, 5
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00007
+  rotate: false
+  xy: 1434, 243
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00008
+  rotate: false
+  xy: 1485, 107
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00009
+  rotate: true
+  xy: 1553, 5
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00010
+  rotate: false
+  xy: 1536, 243
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00011
+  rotate: false
+  xy: 1587, 107
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00012
+  rotate: false
+  xy: 1638, 243
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00013
+  rotate: false
+  xy: 1689, 107
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00014
+  rotate: true
+  xy: 1689, 5
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00015
+  rotate: false
+  xy: 1740, 243
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+vien/vien_00016
+  rotate: false
+  xy: 1791, 107
+  size: 100, 134
+  orig: 100, 134
+  offset: 0, 0
+  index: -1
+wanted
+  rotate: false
+  xy: 276, 5
+  size: 144, 42
+  orig: 146, 44
+  offset: 1, 1
+  index: -1
+wanted-outer
+  rotate: false
+  xy: 548, 9
+  size: 177, 76
+  orig: 181, 82
+  offset: 2, 3
+  index: -1

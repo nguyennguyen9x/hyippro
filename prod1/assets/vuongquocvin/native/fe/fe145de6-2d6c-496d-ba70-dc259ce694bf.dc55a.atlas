@@ -1,0 +1,293 @@
+
+char.png
+size: 1729,1286
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 31
+  rotate: false
+  xy: 722, 345
+  size: 450, 317
+  orig: 450, 317
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 1, 659
+  size: 626, 493
+  orig: 626, 493
+  offset: 0, 0
+  index: -1
+Layer 38
+  rotate: true
+  xy: 1374, 525
+  size: 180, 171
+  orig: 180, 171
+  offset: 0, 0
+  index: -1
+Layer 42
+  rotate: false
+  xy: 1567, 1009
+  size: 148, 131
+  orig: 148, 131
+  offset: 0, 0
+  index: -1
+Layer 42 copy
+  rotate: true
+  xy: 1599, 1155
+  size: 130, 129
+  orig: 130, 129
+  offset: 0, 0
+  index: -1
+Layer 44
+  rotate: false
+  xy: 973, 93
+  size: 237, 251
+  orig: 237, 251
+  offset: 0, 0
+  index: -1
+Layer 45
+  rotate: false
+  xy: 1173, 374
+  size: 200, 289
+  orig: 200, 289
+  offset: 0, 0
+  index: -1
+Layer 46
+  rotate: true
+  xy: 1224, 2
+  size: 120, 164
+  orig: 122, 166
+  offset: 1, 1
+  index: -1
+Layer 47
+  rotate: false
+  xy: 811, 834
+  size: 264, 100
+  orig: 266, 102
+  offset: 1, 1
+  index: -1
+Layer 48
+  rotate: true
+  xy: 1389, 5
+  size: 117, 167
+  orig: 120, 167
+  offset: 0, 0
+  index: -1
+arm-1
+  rotate: true
+  xy: 528, 9
+  size: 300, 225
+  orig: 300, 225
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 1, 310
+  size: 720, 348
+  orig: 720, 348
+  offset: 0, 0
+  index: -1
+bg-
+  rotate: true
+  xy: 495, 808
+  size: 477, 315
+  orig: 720, 348
+  offset: 243, 0
+  index: -1
+bg--
+  rotate: false
+  xy: 1, 17
+  size: 526, 292
+  orig: 720, 348
+  offset: 0, 56
+  index: -1
+bg---
+  rotate: true
+  xy: 754, 54
+  size: 290, 218
+  orig: 720, 348
+  offset: 0, 0
+  index: -1
+bg----
+  rotate: true
+  xy: 811, 935
+  size: 350, 169
+  orig: 350, 169
+  offset: 0, 0
+  index: -1
+dust
+  rotate: true
+  xy: 233, 1
+  size: 15, 14
+  orig: 35, 34
+  offset: 9, 11
+  index: -1
+exhaust
+  rotate: false
+  xy: 1, 1
+  size: 231, 15
+  orig: 236, 15
+  offset: 5, 0
+  index: -1
+fireflake/fireflake_00041
+  rotate: false
+  xy: 495, 663
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00042
+  rotate: false
+  xy: 746, 663
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00043
+  rotate: true
+  xy: 1211, 123
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00044
+  rotate: true
+  xy: 1356, 123
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00045
+  rotate: false
+  xy: 1348, 1141
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00046
+  rotate: false
+  xy: 1076, 1141
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00047
+  rotate: false
+  xy: 1065, 996
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00048
+  rotate: false
+  xy: 1076, 851
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00049
+  rotate: false
+  xy: 1316, 996
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00050
+  rotate: false
+  xy: 1327, 851
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+fireflake/fireflake_00051
+  rotate: false
+  xy: 1348, 706
+  size: 250, 144
+  orig: 250, 144
+  offset: 0, 0
+  index: -1
+flake
+  rotate: false
+  xy: 248, 2
+  size: 12, 14
+  orig: 20, 21
+  offset: 4, 4
+  index: -1
+frame
+  rotate: false
+  xy: 997, 664
+  size: 350, 169
+  orig: 350, 169
+  offset: 0, 0
+  index: -1
+gun-fire
+  rotate: false
+  xy: 973, 14
+  size: 250, 78
+  orig: 250, 78
+  offset: 0, 0
+  index: -1
+gun/gun_00000
+  rotate: false
+  xy: 1578, 858
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+gun/gun_00001
+  rotate: false
+  xy: 1374, 374
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+gun/gun_00002
+  rotate: false
+  xy: 1501, 223
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+gun/gun_00003
+  rotate: false
+  xy: 1525, 374
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+gun/gun_00004
+  rotate: false
+  xy: 1546, 555
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light-fx
+  rotate: false
+  xy: 722, 314
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+light-fx - Copy
+  rotate: false
+  xy: 1599, 764
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+plane
+  rotate: false
+  xy: 754, 18
+  size: 53, 35
+  orig: 53, 35
+  offset: 0, 0
+  index: -1
+shoot
+  rotate: true
+  xy: 981, 1135
+  size: 150, 83
+  orig: 150, 83
+  offset: 0, 0
+  index: -1

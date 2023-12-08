@@ -1,0 +1,97 @@
+
+banchoi-bg.png
+size: 1429,1036
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fsfsf
+  rotate: false
+  xy: 2, 2
+  size: 337, 308
+  orig: 350, 311
+  offset: 0, 3
+  index: -1
+settings (3)
+  rotate: false
+  xy: 1240, 192
+  size: 89, 86
+  orig: 93, 90
+  offset: 2, 3
+  index: -1
+sky
+  rotate: true
+  xy: 2, 312
+  size: 722, 1282
+  orig: 722, 1282
+  offset: 0, 0
+  index: -1
+water-1/water-1_00037
+  rotate: true
+  xy: 1286, 784
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00038
+  rotate: false
+  xy: 341, 169
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00039
+  rotate: true
+  xy: 1286, 532
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00040
+  rotate: false
+  xy: 341, 26
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00041
+  rotate: false
+  xy: 593, 169
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00042
+  rotate: false
+  xy: 593, 26
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00043
+  rotate: false
+  xy: 845, 169
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00044
+  rotate: false
+  xy: 845, 26
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00045
+  rotate: true
+  xy: 1097, 60
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+water-1/water-1_00046
+  rotate: true
+  xy: 1286, 280
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1

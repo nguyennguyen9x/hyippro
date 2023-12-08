@@ -1,0 +1,55 @@
+
+bigwin-coin.png
+size: 441,438
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin 2
+  rotate: false
+  xy: 302, 162
+  size: 136, 136
+  orig: 138, 138
+  offset: 1, 1
+  index: -1
+coin 3
+  rotate: false
+  xy: 302, 22
+  size: 130, 139
+  orig: 132, 141
+  offset: 1, 1
+  index: -1
+coin 4
+  rotate: false
+  xy: 1, 1
+  size: 120, 141
+  orig: 122, 143
+  offset: 1, 1
+  index: -1
+coin 5
+  rotate: false
+  xy: 122, 1
+  size: 103, 141
+  orig: 105, 143
+  offset: 1, 1
+  index: -1
+coin1
+  rotate: false
+  xy: 302, 299
+  size: 138, 138
+  orig: 140, 140
+  offset: 1, 1
+  index: -1
+glitter
+  rotate: false
+  xy: 226, 92
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+light-burst
+  rotate: false
+  xy: 1, 143
+  size: 300, 294
+  orig: 300, 294
+  offset: 0, 0
+  index: -1

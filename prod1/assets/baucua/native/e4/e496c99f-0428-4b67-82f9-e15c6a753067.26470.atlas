@@ -1,0 +1,55 @@
+
+trangtri.png
+size: 887,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aura
+  rotate: false
+  xy: 691, 79
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+buc-light
+  rotate: false
+  xy: 1, 1
+  size: 344, 198
+  orig: 344, 198
+  offset: 0, 0
+  index: -1
+buc-light-
+  rotate: false
+  xy: 346, 1
+  size: 344, 198
+  orig: 344, 198
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 812, 164
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+dust-p
+  rotate: false
+  xy: 848, 164
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+select-fx-b
+  rotate: false
+  xy: 691, 1
+  size: 97, 77
+  orig: 97, 77
+  offset: 0, 0
+  index: -1
+select-fx-p
+  rotate: false
+  xy: 789, 1
+  size: 97, 77
+  orig: 97, 77
+  offset: 0, 0
+  index: -1
