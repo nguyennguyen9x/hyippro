@@ -102,8 +102,9 @@
     </script>
 
     <script>
-        alert(location.href)
-        if (!document.querySelector('.telegram-app-container')) {
+        if (window.location.hash) { // Telegram web app
+            window.Telegram?.WebApp?.expand();
+        } else { // Web page
             const scriptElement = document.createElement('script');
             scriptElement.src = 'https://telegram.org/js/telegram-widget.js?22';
             scriptElement.async = true;
@@ -113,10 +114,7 @@
             scriptElement.setAttribute('data-request-access', 'write');
             document.body.appendChild(scriptElement);
         }
-
-        window.Telegram?.WebApp?.expand();
     </script>
-
 </body>
 
 </html>
