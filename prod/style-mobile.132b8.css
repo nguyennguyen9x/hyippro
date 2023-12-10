@@ -89,8 +89,14 @@ p.footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #171717 url(./splash.819fb.jpg) no-repeat center;
+  background: #171717 url(./splash-desktop.819fb.jpg) no-repeat center;
   background-size: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+    #splash {
+        background: url(./splash-mobile.49732.jpg);
+    }
 }
 
 .progress-bar {
