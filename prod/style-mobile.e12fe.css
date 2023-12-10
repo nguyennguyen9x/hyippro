@@ -96,6 +96,7 @@ p.footer {
 @media only screen and (max-width: 768px) {
     #splash {
         background: url(./splash-mobile.49732.jpg);
+        background-size: 100%;
     }
 }
 
