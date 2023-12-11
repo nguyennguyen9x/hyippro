@@ -42,8 +42,8 @@ body {
 
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
   
   /* fix bug: https://github.com/cocos-creator/2d-tasks/issues/791 */
   /* overflow cannot be applied in Cocos2dGameContainer, 
