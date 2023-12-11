@@ -7,10 +7,6 @@ body {
   text-align: center;
   background-color: white;
   font-family: Helvetica, Verdana, Arial, sans-serif;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 body, canvas, div {
