@@ -1,0 +1,27 @@
+
+item-pad.png
+size: 526,187
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 385, 46
+  size: 140, 140
+  orig: 196, 201
+  offset: 28, 30
+  index: -1
+Layer 3
+  rotate: false
+  xy: 222, 24
+  size: 162, 162
+  orig: 164, 164
+  offset: 1, 1
+  index: -1
+item-pad
+  rotate: false
+  xy: 1, 1
+  size: 220, 185
+  orig: 220, 185
+  offset: 0, 0
+  index: -1

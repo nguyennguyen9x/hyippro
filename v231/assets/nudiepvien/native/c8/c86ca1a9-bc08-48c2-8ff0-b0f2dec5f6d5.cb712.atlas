@@ -1,0 +1,83 @@
+
+bonus-sc-dragon.png
+size: 1277,969
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 1, 129
+  size: 400, 510
+  orig: 400, 510
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: false
+  xy: 900, 131
+  size: 166, 253
+  orig: 166, 253
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: true
+  xy: 1067, 207
+  size: 177, 126
+  orig: 177, 126
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1, 31
+  size: 145, 97
+  orig: 148, 100
+  offset: 1, 1
+  index: -1
+Layer 4
+  rotate: true
+  xy: 964, 385
+  size: 583, 268
+  orig: 600, 268
+  offset: 8, 0
+  index: -1
+Layer 44 copy 2
+  rotate: true
+  xy: 512, 29
+  size: 500, 387
+  orig: 500, 387
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1, 530
+  size: 962, 438
+  orig: 962, 440
+  offset: 0, 2
+  index: -1
+Layer 7
+  rotate: true
+  xy: 900, 394
+  size: 135, 60
+  orig: 137, 62
+  offset: 1, 1
+  index: -1
+Layer 8
+  rotate: false
+  xy: 1057, 5
+  size: 219, 125
+  orig: 219, 125
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 900, 1
+  size: 129, 156
+  orig: 130, 156
+  offset: 0, 0
+  index: -1
+rau
+  rotate: false
+  xy: 1233, 426
+  size: 23, 542
+  orig: 23, 542
+  offset: 0, 0
+  index: -1

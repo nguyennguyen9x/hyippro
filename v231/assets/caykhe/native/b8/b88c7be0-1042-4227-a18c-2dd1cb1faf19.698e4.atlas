@@ -1,0 +1,272 @@
+
+screen-jackpot-luffy.png
+size: 1996,1017
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DEAD OR ALIVE
+  rotate: false
+  xy: 770, 14
+  size: 117, 19
+  orig: 119, 21
+  offset: 1, 1
+  index: -1
+LFpp2
+  rotate: false
+  xy: 69, 436
+  size: 470, 93
+  orig: 473, 95
+  offset: 2, 1
+  index: -1
+LFpp2jackpot
+  rotate: true
+  xy: 69, 531
+  size: 484, 268
+  orig: 486, 271
+  offset: 1, 1
+  index: -1
+Layer 21
+  rotate: false
+  xy: 1348, 9
+  size: 132, 134
+  orig: 134, 136
+  offset: 1, 1
+  index: -1
+Layer 26
+  rotate: false
+  xy: 419, 538
+  size: 118, 75
+  orig: 120, 77
+  offset: 1, 1
+  index: -1
+Layer 27
+  rotate: true
+  xy: 995, 448
+  size: 165, 141
+  orig: 167, 143
+  offset: 1, 1
+  index: -1
+Layer 28
+  rotate: true
+  xy: 1418, 775
+  size: 240, 217
+  orig: 242, 219
+  offset: 1, 1
+  index: -1
+Layer 30 copy
+  rotate: false
+  xy: 777, 440
+  size: 216, 173
+  orig: 219, 175
+  offset: 2, 1
+  index: -1
+Layer 30 copy-
+  rotate: false
+  xy: 541, 437
+  size: 234, 176
+  orig: 239, 195
+  offset: 3, 10
+  index: -1
+Layer 38
+  rotate: false
+  xy: 339, 533
+  size: 78, 80
+  orig: 81, 82
+  offset: 1, 1
+  index: -1
+Layer 40
+  rotate: false
+  xy: 1398, 462
+  size: 267, 201
+  orig: 270, 203
+  offset: 2, 1
+  index: -1
+Layer 42
+  rotate: false
+  xy: 1723, 762
+  size: 271, 253
+  orig: 273, 255
+  offset: 1, 1
+  index: -1
+Layer 43
+  rotate: false
+  xy: 1579, 31
+  size: 142, 112
+  orig: 144, 114
+  offset: 1, 1
+  index: -1
+Layer 45
+  rotate: true
+  xy: 2, 4
+  size: 430, 542
+  orig: 595, 681
+  offset: 165, 0
+  index: -1
+Layer 46
+  rotate: false
+  xy: 1138, 452
+  size: 258, 211
+  orig: 260, 213
+  offset: 1, 1
+  index: -1
+Layer 46-
+  rotate: true
+  xy: 1831, 82
+  size: 181, 163
+  orig: 200, 168
+  offset: 9, 2
+  index: -1
+Layer 48
+  rotate: false
+  xy: 1322, 145
+  size: 303, 305
+  orig: 305, 307
+  offset: 1, 1
+  index: -1
+Layer 48 copy
+  rotate: true
+  xy: 1723, 265
+  size: 259, 260
+  orig: 261, 262
+  offset: 1, 1
+  index: -1
+Layer 49
+  rotate: true
+  xy: 1637, 950
+  size: 65, 73
+  orig: 67, 75
+  offset: 1, 1
+  index: -1
+Layer 50
+  rotate: false
+  xy: 1627, 155
+  size: 104, 108
+  orig: 105, 108
+  offset: 0, 0
+  index: -1
+Layer 51
+  rotate: true
+  xy: 1723, 11
+  size: 142, 106
+  orig: 142, 106
+  offset: 0, 0
+  index: -1
+Layer 53
+  rotate: false
+  xy: 1711, 526
+  size: 282, 234
+  orig: 282, 237
+  offset: 0, 3
+  index: -1
+Layer 54
+  rotate: false
+  xy: 1250, 3
+  size: 96, 121
+  orig: 98, 123
+  offset: 1, 1
+  index: -1
+Layer 55
+  rotate: true
+  xy: 1482, 26
+  size: 117, 95
+  orig: 119, 97
+  offset: 1, 1
+  index: -1
+energy/energy_00064
+  rotate: true
+  xy: 339, 615
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00065
+  rotate: true
+  xy: 566, 615
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00066
+  rotate: true
+  xy: 546, 35
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00067
+  rotate: true
+  xy: 773, 35
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00068
+  rotate: true
+  xy: 793, 615
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+ff
+  rotate: true
+  xy: 2, 436
+  size: 579, 65
+  orig: 581, 67
+  offset: 1, 1
+  index: -1
+gradient
+  rotate: true
+  xy: 1627, 271
+  size: 189, 69
+  orig: 189, 76
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 1000, 3
+  size: 248, 91
+  orig: 253, 97
+  offset: 2, 3
+  index: -1
+monkey d luffy
+  rotate: false
+  xy: 546, 2
+  size: 222, 31
+  orig: 224, 33
+  offset: 1, 1
+  index: -1
+speed/speed_00000
+  rotate: true
+  xy: 1020, 665
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: true
+  xy: 1000, 96
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: true
+  xy: 1219, 665
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+wanted
+  rotate: false
+  xy: 1418, 675
+  size: 291, 85
+  orig: 293, 87
+  offset: 1, 1
+  index: -1
+wanted copy
+  rotate: true
+  xy: 1199, 126
+  size: 324, 121
+  orig: 328, 125
+  offset: 2, 2
+  index: -1
