@@ -1,0 +1,174 @@
+
+item-kaido.png
+size: 1982,386
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 11
+  rotate: false
+  xy: 783, 69
+  size: 117, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 281 copy 2
+  rotate: false
+  xy: 700, 187
+  size: 206, 197
+  orig: 208, 199
+  offset: 1, 1
+  index: -1
+Layer 90
+  rotate: false
+  xy: 1716, 195
+  size: 159, 189
+  orig: 161, 192
+  offset: 1, 2
+  index: -1
+Layer 91
+  rotate: false
+  xy: 2, 8
+  size: 323, 210
+  orig: 381, 358
+  offset: 1, 148
+  index: -1
+Layer 91-2
+  rotate: false
+  xy: 375, 174
+  size: 323, 210
+  orig: 381, 358
+  offset: 1, 148
+  index: -1
+Layer 92
+  rotate: false
+  xy: 2, 220
+  size: 371, 164
+  orig: 372, 164
+  offset: 1, 0
+  index: -1
+Layer 93
+  rotate: false
+  xy: 888, 6
+  size: 160, 24
+  orig: 160, 87
+  offset: 0, 63
+  index: -1
+Layer 94
+  rotate: true
+  xy: 1877, 276
+  size: 108, 95
+  orig: 109, 96
+  offset: 1, 1
+  index: -1
+face
+  rotate: true
+  xy: 783, 2
+  size: 65, 103
+  orig: 65, 103
+  offset: 0, 0
+  index: -1
+face-2
+  rotate: true
+  xy: 1877, 209
+  size: 65, 103
+  orig: 65, 103
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00008
+  rotate: false
+  xy: 327, 22
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00009
+  rotate: false
+  xy: 479, 22
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00011
+  rotate: false
+  xy: 631, 22
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00012
+  rotate: false
+  xy: 902, 32
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00013
+  rotate: false
+  xy: 1054, 32
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00014
+  rotate: false
+  xy: 1206, 32
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00016
+  rotate: false
+  xy: 1358, 32
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00017
+  rotate: false
+  xy: 1510, 32
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00018
+  rotate: false
+  xy: 1662, 32
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightning-2/lightning4/lightning4_00020
+  rotate: false
+  xy: 1814, 43
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+speed/speed_00000
+  rotate: false
+  xy: 1110, 184
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: false
+  xy: 1312, 184
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: false
+  xy: 1514, 184
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+speed/speed_00003
+  rotate: false
+  xy: 908, 184
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

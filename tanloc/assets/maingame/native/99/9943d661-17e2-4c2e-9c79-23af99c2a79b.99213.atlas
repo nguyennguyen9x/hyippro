@@ -1,0 +1,13 @@
+
+menu.png
+size: 722,190
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg-trangtri-2
+  rotate: false
+  xy: 1, 1
+  size: 720, 188
+  orig: 720, 188
+  offset: 0, 0
+  index: -1

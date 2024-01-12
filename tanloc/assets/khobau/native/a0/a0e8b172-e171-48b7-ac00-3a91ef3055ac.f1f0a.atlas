@@ -1,0 +1,132 @@
+
+background.png
+size: 1760,723
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 1, 2
+  size: 720, 1280
+  orig: 722, 1282
+  offset: 1, 1
+  index: -1
+Layer 32
+  rotate: true
+  xy: 1282, 2
+  size: 720, 347
+  orig: 722, 350
+  offset: 1, 2
+  index: -1
+planet
+  rotate: false
+  xy: 1630, 622
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ring/Camera0001
+  rotate: false
+  xy: 1702, 136
+  size: 55, 80
+  orig: 55, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0003
+  rotate: false
+  xy: 1709, 379
+  size: 31, 80
+  orig: 31, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0005
+  rotate: false
+  xy: 1711, 541
+  size: 29, 80
+  orig: 29, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0007
+  rotate: true
+  xy: 1630, 1
+  size: 53, 80
+  orig: 53, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0009
+  rotate: false
+  xy: 1630, 136
+  size: 71, 80
+  orig: 71, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0011
+  rotate: false
+  xy: 1630, 541
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0013
+  rotate: false
+  xy: 1630, 379
+  size: 78, 80
+  orig: 78, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0015
+  rotate: false
+  xy: 1630, 55
+  size: 65, 80
+  orig: 65, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0017
+  rotate: false
+  xy: 1703, 217
+  size: 44, 80
+  orig: 44, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0019
+  rotate: false
+  xy: 1731, 642
+  size: 18, 80
+  orig: 18, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0021
+  rotate: false
+  xy: 1708, 298
+  size: 41, 80
+  orig: 41, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0023
+  rotate: false
+  xy: 1696, 55
+  size: 63, 80
+  orig: 63, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0025
+  rotate: false
+  xy: 1630, 298
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0027
+  rotate: false
+  xy: 1630, 460
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ring/Camera0029
+  rotate: false
+  xy: 1630, 217
+  size: 72, 80
+  orig: 72, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+thoi3bich.png
+size: 261,800
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Thối 3
+  rotate: false
+  xy: 2, 756
+  size: 122, 42
+  orig: 124, 44
+  offset: 1, 1
+  index: -1
+Triangle 1 copy
+  rotate: false
+  xy: 2, 2
+  size: 230, 197
+  orig: 234, 200
+  offset: 2, 2
+  index: -1
+cloud
+  rotate: false
+  xy: 2, 201
+  size: 255, 109
+  orig: 263, 166
+  offset: 4, 28
+  index: -1
+lightning2/lightning_00018
+  rotate: true
+  xy: 126, 678
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+lightning2/lightning_00020
+  rotate: false
+  xy: 2, 621
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+lightning2/lightning_00021
+  rotate: true
+  xy: 124, 556
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+lightning2/lightning_00023
+  rotate: false
+  xy: 2, 486
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+lightning2/lightning_00025
+  rotate: true
+  xy: 124, 434
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+lightning2/lightning_00026
+  rotate: false
+  xy: 2, 351
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+lightning2/lightning_00027
+  rotate: true
+  xy: 124, 312
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1

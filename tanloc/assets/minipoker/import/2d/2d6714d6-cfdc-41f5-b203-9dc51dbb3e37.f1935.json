@@ -1,0 +1,742 @@
+[
+  1,
+  [
+    "f1OdV9jRRHMaK6r2l7XAbV"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "bt-spin",
+      "\r\nbt-spin.png\r\nsize: 1920,529\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nEllipse 1 copy\r\n  rotate: false\r\n  xy: 1039, 2\r\n  size: 220, 220\r\n  orig: 222, 222\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 11\r\n  rotate: true\r\n  xy: 1636, 259\r\n  size: 269, 268\r\n  orig: 271, 270\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 15\r\n  rotate: false\r\n  xy: 1, 136\r\n  size: 392, 392\r\n  orig: 395, 395\r\n  offset: 1, 2\r\n  index: -1\r\nEllipse 1 copy 2\r\n  rotate: true\r\n  xy: 760, 4\r\n  size: 204, 210\r\n  orig: 206, 212\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 3\r\n  rotate: true\r\n  xy: 1260, 12\r\n  size: 210, 209\r\n  orig: 212, 211\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 4\r\n  rotate: false\r\n  xy: 1470, 27\r\n  size: 209, 210\r\n  orig: 211, 212\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 6\r\n  rotate: false\r\n  xy: 1345, 238\r\n  size: 290, 290\r\n  orig: 292, 292\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 7\r\n  rotate: false\r\n  xy: 1039, 223\r\n  size: 305, 305\r\n  orig: 307, 307\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 8\r\n  rotate: false\r\n  xy: 719, 209\r\n  size: 319, 319\r\n  orig: 321, 321\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 9\r\n  rotate: false\r\n  xy: 394, 204\r\n  size: 324, 324\r\n  orig: 326, 326\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 2 copy 4\r\n  rotate: false\r\n  xy: 342, 9\r\n  size: 25, 25\r\n  orig: 28, 28\r\n  offset: 2, 2\r\n  index: -1\r\nGroup 2\r\n  rotate: false\r\n  xy: 1680, 19\r\n  size: 239, 239\r\n  orig: 241, 241\r\n  offset: 1, 1\r\n  index: -1\r\nShape 1\r\n  rotate: false\r\n  xy: 971, 70\r\n  size: 60, 138\r\n  orig: 62, 140\r\n  offset: 1, 1\r\n  index: -1\r\nShape 2\r\n  rotate: true\r\n  xy: 184, 14\r\n  size: 121, 72\r\n  orig: 123, 74\r\n  offset: 1, 1\r\n  index: -1\r\nShape 3\r\n  rotate: true\r\n  xy: 394, 138\r\n  size: 65, 73\r\n  orig: 67, 76\r\n  offset: 1, 2\r\n  index: -1\r\nShape 4\r\n  rotate: false\r\n  xy: 397, 1\r\n  size: 49, 136\r\n  orig: 51, 138\r\n  offset: 1, 1\r\n  index: -1\r\nShape 5\r\n  rotate: true\r\n  xy: 1, 11\r\n  size: 124, 95\r\n  orig: 127, 98\r\n  offset: 2, 1\r\n  index: -1\r\nShape 6\r\n  rotate: false\r\n  xy: 97, 14\r\n  size: 86, 121\r\n  orig: 88, 123\r\n  offset: 1, 1\r\n  index: -1\r\nShape 7\r\n  rotate: true\r\n  xy: 342, 35\r\n  size: 100, 54\r\n  orig: 103, 56\r\n  offset: 1, 1\r\n  index: -1\r\nShape 8\r\n  rotate: false\r\n  xy: 257, 20\r\n  size: 84, 115\r\n  orig: 87, 118\r\n  offset: 1, 1\r\n  index: -1\r\ntext-1\r\n  rotate: true\r\n  xy: 687, 25\r\n  size: 178, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\ntext-2\r\n  rotate: true\r\n  xy: 468, 19\r\n  size: 184, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\ntext-3\r\n  rotate: true\r\n  xy: 541, 22\r\n  size: 181, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\ntext-4\r\n  rotate: true\r\n  xy: 614, 23\r\n  size: 180, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\n",
+      [
+        "bt-spin.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "VECYK0eSrTwxd9dqIwr+WGbH6Bg",
+          "spine": "3.8.98",
+          "x": -200.63,
+          "y": -201.65,
+          "width": 398.52,
+          "height": 399.55,
+          "images": "../MINIGAMES/mario/bt-spin/",
+          "audio": "D:/Design/spine/game/WIN365/MINIGAMES/mario/./bt-spin"
+        },
+        "bones": [
+          {
+            "name": "root",
+            "scaleX": 0.9655,
+            "scaleY": 0.9655
+          },
+          {
+            "name": "Ellipse 1 copy",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 2",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 3",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 4",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 6",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 7",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 8",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 9",
+            "parent": "root",
+            "scaleX": 1.0559,
+            "scaleY": 1.0559
+          },
+          {
+            "name": "Ellipse 1 copy 11",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 15",
+            "parent": "root",
+            "scaleX": 0.9539,
+            "scaleY": 0.9539
+          },
+          {
+            "name": "Group 2",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 16",
+            "parent": "root",
+            "scaleX": 1.0378,
+            "scaleY": 1.0378
+          },
+          {
+            "name": "text-1",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 12",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "Ellipse 1 copy 6",
+            "bone": "Ellipse 1 copy 6",
+            "attachment": "Ellipse 1 copy 6"
+          },
+          {
+            "name": "Ellipse 1 copy 7",
+            "bone": "Ellipse 1 copy 7",
+            "attachment": "Ellipse 1 copy 7"
+          },
+          {
+            "name": "Ellipse 1 copy 9",
+            "bone": "Ellipse 1 copy 9",
+            "color": "ffffffa8",
+            "attachment": "Ellipse 1 copy 9"
+          },
+          {
+            "name": "Ellipse 1 copy 8",
+            "bone": "Ellipse 1 copy 8",
+            "attachment": "Ellipse 1 copy 8"
+          },
+          {
+            "name": "Ellipse 1 copy 15",
+            "bone": "Ellipse 1 copy 15",
+            "color": "ffffff7d",
+            "attachment": "Ellipse 1 copy 15"
+          },
+          {
+            "name": "Ellipse 1 copy 16",
+            "bone": "Ellipse 1 copy 16",
+            "color": "ffffff4a",
+            "attachment": "Ellipse 1 copy 15"
+          },
+          {
+            "name": "Ellipse 1 copy 11",
+            "bone": "Ellipse 1 copy 11",
+            "attachment": "Ellipse 1 copy 11"
+          },
+          {
+            "name": "Ellipse 1 copy 12",
+            "bone": "Ellipse 1 copy 12",
+            "attachment": "Ellipse 1 copy 11"
+          },
+          {
+            "name": "Ellipse 1 copy",
+            "bone": "Ellipse 1 copy",
+            "attachment": "Ellipse 1 copy"
+          },
+          {
+            "name": "Group 2",
+            "bone": "Group 2",
+            "attachment": "Group 2"
+          },
+          {
+            "name": "Ellipse 1 copy 4",
+            "bone": "Ellipse 1 copy 4",
+            "attachment": "Ellipse 1 copy 4"
+          },
+          {
+            "name": "Ellipse 1 copy 2",
+            "bone": "Ellipse 1 copy 2",
+            "attachment": "Ellipse 1 copy 2"
+          },
+          {
+            "name": "Ellipse 1 copy 3",
+            "bone": "Ellipse 1 copy 3",
+            "attachment": "Ellipse 1 copy 3"
+          },
+          {
+            "name": "Shape 1",
+            "bone": "root",
+            "attachment": "Shape 1"
+          },
+          {
+            "name": "Shape 2",
+            "bone": "root",
+            "attachment": "Shape 2"
+          },
+          {
+            "name": "Shape 3",
+            "bone": "root",
+            "attachment": "Shape 3"
+          },
+          {
+            "name": "Shape 4",
+            "bone": "root",
+            "attachment": "Shape 4"
+          },
+          {
+            "name": "Shape 5",
+            "bone": "root",
+            "attachment": "Shape 5"
+          },
+          {
+            "name": "Shape 6",
+            "bone": "root",
+            "attachment": "Shape 6"
+          },
+          {
+            "name": "Shape 7",
+            "bone": "root",
+            "attachment": "Shape 7"
+          },
+          {
+            "name": "Shape 8",
+            "bone": "root",
+            "attachment": "Shape 8"
+          },
+          {
+            "name": "Ellipse 2 copy 4",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 5",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 6",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 7",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 8",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 9",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 10",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "Ellipse 2 copy 12",
+            "bone": "root",
+            "attachment": "Ellipse 2 copy 4",
+            "blend": "screen"
+          },
+          {
+            "name": "text-1",
+            "bone": "text-1",
+            "attachment": "text-1"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "Ellipse 1 copy": {
+                "Ellipse 1 copy": {
+                  "width": 222,
+                  "height": 222
+                }
+              },
+              "Ellipse 1 copy 2": {
+                "Ellipse 1 copy 2": {
+                  "width": 206,
+                  "height": 212
+                }
+              },
+              "Ellipse 1 copy 3": {
+                "Ellipse 1 copy 3": {
+                  "width": 212,
+                  "height": 211
+                }
+              },
+              "Ellipse 1 copy 4": {
+                "Ellipse 1 copy 4": {
+                  "width": 211,
+                  "height": 212
+                }
+              },
+              "Ellipse 1 copy 6": {
+                "Ellipse 1 copy 6": {
+                  "width": 292,
+                  "height": 292
+                }
+              },
+              "Ellipse 1 copy 7": {
+                "Ellipse 1 copy 7": {
+                  "width": 307,
+                  "height": 307
+                }
+              },
+              "Ellipse 1 copy 8": {
+                "Ellipse 1 copy 8": {
+                  "width": 321,
+                  "height": 321
+                }
+              },
+              "Ellipse 1 copy 9": {
+                "Ellipse 1 copy 9": {
+                  "width": 326,
+                  "height": 326
+                }
+              },
+              "Ellipse 1 copy 11": {
+                "Ellipse 1 copy 11": {
+                  "width": 271,
+                  "height": 270
+                }
+              },
+              "Ellipse 1 copy 12": {
+                "Ellipse 1 copy 11": {
+                  "width": 271,
+                  "height": 270
+                }
+              },
+              "Ellipse 1 copy 15": {
+                "Ellipse 1 copy 15": {
+                  "width": 395,
+                  "height": 395
+                }
+              },
+              "Ellipse 1 copy 16": {
+                "Ellipse 1 copy 15": {
+                  "width": 395,
+                  "height": 395
+                }
+              },
+              "Ellipse 2 copy 4": {
+                "Ellipse 2 copy 4": {
+                  "x": 74.76,
+                  "y": -48.38,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 5": {
+                "Ellipse 2 copy 4": {
+                  "x": 63.98,
+                  "y": -60.35,
+                  "scaleX": 0.6406,
+                  "scaleY": 0.6406,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 6": {
+                "Ellipse 2 copy 4": {
+                  "x": -22.23,
+                  "y": -84.29,
+                  "scaleX": 0.6406,
+                  "scaleY": 0.6406,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 7": {
+                "Ellipse 2 copy 4": {
+                  "x": -46.77,
+                  "y": -73.51,
+                  "scaleX": 0.9917,
+                  "scaleY": 0.9917,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 8": {
+                "Ellipse 2 copy 4": {
+                  "x": -53.36,
+                  "y": 70.77,
+                  "scaleX": 0.9917,
+                  "scaleY": 0.9917,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 9": {
+                "Ellipse 2 copy 4": {
+                  "x": -84.49,
+                  "y": 83.35,
+                  "scaleX": 0.6889,
+                  "scaleY": 0.6889,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 10": {
+                "Ellipse 2 copy 4": {
+                  "x": 73.56,
+                  "y": 50.43,
+                  "scaleX": 0.6889,
+                  "scaleY": 0.6889,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Ellipse 2 copy 12": {
+                "Ellipse 2 copy 4": {
+                  "x": 68.17,
+                  "y": 97.13,
+                  "scaleX": 0.6889,
+                  "scaleY": 0.6889,
+                  "width": 28,
+                  "height": 28
+                }
+              },
+              "Group 2": {
+                "Group 2": {
+                  "width": 241,
+                  "height": 241
+                }
+              },
+              "Shape 1": {
+                "Shape 1": {
+                  "x": 102.94,
+                  "y": -113.91,
+                  "width": 62,
+                  "height": 140
+                }
+              },
+              "Shape 2": {
+                "Shape 2": {
+                  "x": 121.98,
+                  "y": -93.37,
+                  "width": 123,
+                  "height": 74
+                }
+              },
+              "Shape 3": {
+                "Shape 3": {
+                  "x": -52.78,
+                  "y": -120.23,
+                  "width": 67,
+                  "height": 76
+                }
+              },
+              "Shape 4": {
+                "Shape 4": {
+                  "x": -68.95,
+                  "y": -139.86,
+                  "width": 51,
+                  "height": 138
+                }
+              },
+              "Shape 5": {
+                "Shape 5": {
+                  "x": -144.3,
+                  "y": 128.94,
+                  "width": 127,
+                  "height": 98
+                }
+              },
+              "Shape 6": {
+                "Shape 6": {
+                  "x": -94.2,
+                  "y": 130.29,
+                  "width": 88,
+                  "height": 123
+                }
+              },
+              "Shape 7": {
+                "Shape 7": {
+                  "x": 116.24,
+                  "y": 121.6,
+                  "width": 103,
+                  "height": 56
+                }
+              },
+              "Shape 8": {
+                "Shape 8": {
+                  "x": 113.57,
+                  "y": 106.91,
+                  "width": 87,
+                  "height": 118
+                }
+              },
+              "text-1": {
+                "text-1": {
+                  "width": 208,
+                  "height": 102
+                },
+                "text-2": {
+                  "width": 208,
+                  "height": 102
+                },
+                "text-3": {
+                  "width": 208,
+                  "height": 102
+                },
+                "text-4": {
+                  "width": 208,
+                  "height": 102
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "text-1": {
+                "attachment": [
+                  {
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": "text-4"
+                  },
+                  {
+                    "time": 0.4,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 0.4667,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 0.6333,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 0.7333,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 0.8,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 5.4667,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 5.6,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 5.6667,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 5.7333,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 5.8,
+                    "name": "text-4"
+                  },
+                  {
+                    "time": 5.8667,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 5.9333,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 6.1,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 6.2,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 6.2667,
+                    "name": "text-1"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "Ellipse 1 copy": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 3.3333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 6.6667
+                  }
+                ]
+              },
+              "Ellipse 1 copy 2": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 1.6667,
+                    "angle": 90
+                  },
+                  {
+                    "time": 3.3333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 5,
+                    "angle": -90
+                  },
+                  {
+                    "time": 6.6667
+                  }
+                ]
+              },
+              "Ellipse 1 copy 8": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 1.6667,
+                    "angle": 90
+                  },
+                  {
+                    "time": 3.3333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 5,
+                    "angle": -90
+                  },
+                  {
+                    "time": 6.6667
+                  }
+                ]
+              },
+              "Ellipse 1 copy 9": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 3.3333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 6.6667
+                  }
+                ]
+              },
+              "Ellipse 1 copy 15": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.8333,
+                    "angle": 90
+                  },
+                  {
+                    "time": 1.6667,
+                    "angle": 180
+                  },
+                  {
+                    "time": 2.5,
+                    "angle": -90
+                  },
+                  {
+                    "time": 3.3333
+                  },
+                  {
+                    "time": 4.1667,
+                    "angle": 90
+                  },
+                  {
+                    "time": 5,
+                    "angle": 180
+                  },
+                  {
+                    "time": 5.8333,
+                    "angle": -90
+                  },
+                  {
+                    "time": 6.6667
+                  }
+                ]
+              },
+              "Ellipse 1 copy 11": {
+                "rotate": [
+                  {
+                    "angle": -50.31
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

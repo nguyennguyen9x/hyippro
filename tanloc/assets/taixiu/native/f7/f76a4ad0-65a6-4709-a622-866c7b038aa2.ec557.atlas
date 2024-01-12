@@ -1,0 +1,69 @@
+
+bt-cuoc.png
+size: 485,496
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt-cuoc/Ellipse 1
+  rotate: true
+  xy: 178, 133
+  size: 177, 175
+  orig: 181, 181
+  offset: 2, 3
+  index: -1
+bt-cuoc/Ellipse 1 copy
+  rotate: false
+  xy: 1, 134
+  size: 176, 176
+  orig: 178, 178
+  offset: 1, 1
+  index: -1
+bt-cuoc/Ellipse 1 copy 2
+  rotate: false
+  xy: 186, 327
+  size: 168, 168
+  orig: 170, 170
+  offset: 1, 1
+  index: -1
+bt-cuoc/Ellipse 1 copy 3
+  rotate: false
+  xy: 354, 77
+  size: 117, 117
+  orig: 119, 119
+  offset: 1, 1
+  index: -1
+bt-cuoc/Ellipse 1 copy 4
+  rotate: false
+  xy: 228, 52
+  size: 79, 80
+  orig: 81, 82
+  offset: 1, 1
+  index: -1
+bt-cuoc/Ellipse 1 copy 5
+  rotate: false
+  xy: 354, 195
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1
+bt-cuoc/Ellipse 1 copy 6
+  rotate: false
+  xy: 1, 311
+  size: 184, 184
+  orig: 186, 186
+  offset: 1, 1
+  index: -1
+light-fx-
+  rotate: true
+  xy: 134, 40
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+square-particle
+  rotate: false
+  xy: 355, 349
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1

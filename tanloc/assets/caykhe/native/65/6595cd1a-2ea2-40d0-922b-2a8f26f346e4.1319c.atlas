@@ -1,0 +1,251 @@
+
+item-sanji.png
+size: 506,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 9
+  rotate: false
+  xy: 169, 603
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 10
+  rotate: true
+  xy: 309, 628
+  size: 223, 182
+  orig: 225, 185
+  offset: 1, 2
+  index: -1
+Layer 11
+  rotate: false
+  xy: 154, 471
+  size: 98, 84
+  orig: 98, 87
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: true
+  xy: 2, 711
+  size: 137, 165
+  orig: 138, 165
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: false
+  xy: 439, 391
+  size: 58, 150
+  orig: 59, 151
+  offset: 1, 1
+  index: -1
+Layer 14
+  rotate: false
+  xy: 309, 853
+  size: 192, 166
+  orig: 195, 166
+  offset: 1, 0
+  index: -1
+Layer 15
+  rotate: true
+  xy: 254, 518
+  size: 37, 29
+  orig: 39, 31
+  offset: 1, 1
+  index: -1
+Layer 18
+  rotate: true
+  xy: 154, 400
+  size: 69, 92
+  orig: 69, 92
+  offset: 0, 0
+  index: -1
+Layer 189 copy
+  rotate: true
+  xy: 154, 310
+  size: 88, 90
+  orig: 90, 92
+  offset: 1, 1
+  index: -1
+Layer 19
+  rotate: true
+  xy: 393, 2
+  size: 83, 70
+  orig: 83, 70
+  offset: 0, 0
+  index: -1
+Layer 20
+  rotate: false
+  xy: 254, 473
+  size: 27, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+Layer 21
+  rotate: false
+  xy: 287, 704
+  size: 19, 15
+  orig: 22, 17
+  offset: 1, 1
+  index: -1
+Layer 8
+  rotate: false
+  xy: 154, 557
+  size: 104, 44
+  orig: 106, 107
+  offset: 1, 19
+  index: -1
+Layer 9
+  rotate: false
+  xy: 2, 850
+  size: 305, 169
+  orig: 308, 171
+  offset: 1, 1
+  index: -1
+f9ed26fcf65e228afd3b055d8f07a82bf348e9b97bed-O4rKoO_fw1200 copy 2
+  rotate: false
+  xy: 169, 721
+  size: 129, 127
+  orig: 132, 131
+  offset: 2, 2
+  index: -1
+hand
+  rotate: false
+  xy: 439, 543
+  size: 65, 83
+  orig: 65, 84
+  offset: 0, 1
+  index: -1
+speed/speed_00000
+  rotate: false
+  xy: 2, 624
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: false
+  xy: 2, 537
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: false
+  xy: 287, 541
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00003
+  rotate: false
+  xy: 2, 450
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00004
+  rotate: false
+  xy: 285, 454
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00005
+  rotate: false
+  xy: 2, 363
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00006
+  rotate: false
+  xy: 248, 367
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00007
+  rotate: false
+  xy: 2, 276
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00008
+  rotate: true
+  xy: 400, 239
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00009
+  rotate: false
+  xy: 246, 280
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00010
+  rotate: true
+  xy: 154, 158
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00011
+  rotate: false
+  xy: 2, 189
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00012
+  rotate: false
+  xy: 2, 102
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00013
+  rotate: false
+  xy: 241, 193
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00014
+  rotate: true
+  xy: 154, 6
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00015
+  rotate: false
+  xy: 2, 15
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00016
+  rotate: true
+  xy: 393, 87
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00017
+  rotate: false
+  xy: 241, 106
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+speed/speed_00018
+  rotate: false
+  xy: 241, 19
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1

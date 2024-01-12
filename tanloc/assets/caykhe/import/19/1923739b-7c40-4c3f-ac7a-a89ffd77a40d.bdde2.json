@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1f2abdc39"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "screenbonus1-bg",
+      "rect": [
+        410,
+        621,
+        400,
+        564
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        404,
+        568
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

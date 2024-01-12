@@ -1,0 +1,90 @@
+
+ic-baucua.png
+size: 1012,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: true
+  xy: 231, 211
+  size: 310, 205
+  orig: 312, 207
+  offset: 1, 1
+  index: -1
+Group 1 copy
+  rotate: true
+  xy: 201, 45
+  size: 159, 148
+  orig: 161, 150
+  offset: 1, 1
+  index: -1
+Group 1 copy 3
+  rotate: false
+  xy: 350, 79
+  size: 131, 131
+  orig: 133, 133
+  offset: 1, 1
+  index: -1
+Group 1 copy 3-glow
+  rotate: true
+  xy: 1, 2
+  size: 202, 199
+  orig: 211, 211
+  offset: 4, 6
+  index: -1
+Group 1 copy-glow
+  rotate: false
+  xy: 482, 1
+  size: 230, 221
+  orig: 240, 230
+  offset: 5, 5
+  index: -1
+bg
+  rotate: true
+  xy: 437, 223
+  size: 298, 211
+  orig: 300, 213
+  offset: 1, 1
+  index: -1
+glitter
+  rotate: false
+  xy: 201, 36
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+inner
+  rotate: true
+  xy: 649, 223
+  size: 298, 211
+  orig: 300, 213
+  offset: 1, 1
+  index: -1
+outer
+  rotate: true
+  xy: 1, 205
+  size: 316, 229
+  orig: 318, 231
+  offset: 1, 1
+  index: -1
+stroke
+  rotate: false
+  xy: 713, 11
+  size: 298, 211
+  orig: 300, 213
+  offset: 1, 1
+  index: -1
+text-1
+  rotate: false
+  xy: 350, 11
+  size: 109, 67
+  orig: 111, 69
+  offset: 1, 1
+  index: -1
+text-2
+  rotate: false
+  xy: 861, 465
+  size: 107, 56
+  orig: 109, 58
+  offset: 1, 1
+  index: -1

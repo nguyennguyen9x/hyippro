@@ -1,0 +1,41 @@
+
+screenbonus2-fruit2.png
+size: 466,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
++500
+  rotate: true
+  xy: 429, 84
+  size: 69, 35
+  orig: 71, 37
+  offset: 1, 1
+  index: -1
+bonusit2
+  rotate: false
+  xy: 187, 9
+  size: 118, 144
+  orig: 134, 159
+  offset: 8, 7
+  index: -1
+bonusit2-
+  rotate: true
+  xy: 2, 2
+  size: 151, 183
+  orig: 160, 189
+  offset: 3, 3
+  index: -1
+dust
+  rotate: false
+  xy: 429, 47
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+light-ring-2 - Copy
+  rotate: false
+  xy: 307, 33
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1

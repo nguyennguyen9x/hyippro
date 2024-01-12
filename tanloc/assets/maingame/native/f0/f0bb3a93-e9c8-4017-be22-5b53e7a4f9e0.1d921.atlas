@@ -1,0 +1,153 @@
+
+ic-TLMN.png
+size: 869,1048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2bich
+  rotate: false
+  xy: 738, 879
+  size: 130, 168
+  orig: 130, 168
+  offset: 0, 0
+  index: -1
+2co
+  rotate: false
+  xy: 738, 710
+  size: 130, 168
+  orig: 130, 168
+  offset: 0, 0
+  index: -1
+2ro
+  rotate: false
+  xy: 717, 541
+  size: 130, 168
+  orig: 130, 168
+  offset: 0, 0
+  index: -1
+2tep
+  rotate: false
+  xy: 657, 372
+  size: 130, 168
+  orig: 130, 168
+  offset: 0, 0
+  index: -1
+Group 1
+  rotate: false
+  xy: 1, 336
+  size: 655, 229
+  orig: 657, 231
+  offset: 1, 1
+  index: -1
+Group 3
+  rotate: true
+  xy: 668, 779
+  size: 268, 69
+  orig: 276, 71
+  offset: 1, 1
+  index: -1
+Layer 20
+  rotate: false
+  xy: 302, 5
+  size: 285, 106
+  orig: 300, 106
+  offset: 15, 0
+  index: -1
+Rectangle 6 copy 2
+  rotate: false
+  xy: 1, 566
+  size: 658, 241
+  orig: 660, 243
+  offset: 1, 1
+  index: -1
+bg
+  rotate: false
+  xy: 1, 8
+  size: 300, 103
+  orig: 300, 103
+  offset: 0, 0
+  index: -1
+bllue
+  rotate: true
+  xy: 789, 103
+  size: 69, 53
+  orig: 71, 55
+  offset: 1, 1
+  index: -1
+bllue-glow
+  rotate: true
+  xy: 789, 173
+  size: 85, 68
+  orig: 87, 72
+  offset: 1, 2
+  index: -1
+inner-outer
+  rotate: false
+  xy: 1, 808
+  size: 666, 239
+  orig: 668, 241
+  offset: 1, 1
+  index: -1
+pink
+  rotate: true
+  xy: 783, 259
+  size: 92, 80
+  orig: 94, 82
+  offset: 1, 1
+  index: -1
+pink-glow
+  rotate: true
+  xy: 588, 3
+  size: 108, 96
+  orig: 112, 98
+  offset: 2, 1
+  index: -1
+purple
+  rotate: true
+  xy: 709, 243
+  size: 128, 73
+  orig: 131, 76
+  offset: 1, 2
+  index: -1
+purple-glow
+  rotate: false
+  xy: 685, 1
+  size: 145, 91
+  orig: 148, 93
+  offset: 1, 1
+  index: -1
+solo
+  rotate: true
+  xy: 709, 93
+  size: 149, 79
+  orig: 153, 80
+  offset: 1, 1
+  index: -1
+stroke
+  rotate: false
+  xy: 1, 112
+  size: 650, 223
+  orig: 650, 223
+  offset: 0, 0
+  index: -1
+text
+  rotate: true
+  xy: 788, 352
+  size: 188, 56
+  orig: 190, 58
+  offset: 1, 1
+  index: -1
+text-glitch-1
+  rotate: true
+  xy: 660, 583
+  size: 195, 56
+  orig: 195, 56
+  offset: 0, 0
+  index: -1
+text-glitch-2
+  rotate: true
+  xy: 652, 143
+  size: 192, 56
+  orig: 192, 56
+  offset: 0, 0
+  index: -1

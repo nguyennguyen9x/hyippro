@@ -1,0 +1,272 @@
+
+item-jackpot.png
+size: 1872,393
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 1, 8
+  size: 131, 126
+  orig: 134, 128
+  offset: 1, 1
+  index: -1
+Layer 19
+  rotate: false
+  xy: 1, 135
+  size: 171, 257
+  orig: 173, 259
+  offset: 1, 1
+  index: -1
+light-fx
+  rotate: false
+  xy: 1834, 175
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+smoke/smoke_00002
+  rotate: false
+  xy: 133, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00004
+  rotate: false
+  xy: 267, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00006
+  rotate: false
+  xy: 401, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00008
+  rotate: false
+  xy: 535, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00010
+  rotate: false
+  xy: 669, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00012
+  rotate: false
+  xy: 803, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00014
+  rotate: false
+  xy: 937, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00016
+  rotate: false
+  xy: 1071, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00018
+  rotate: false
+  xy: 1205, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00020
+  rotate: false
+  xy: 1339, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00022
+  rotate: false
+  xy: 1473, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+smoke/smoke_00024
+  rotate: false
+  xy: 1607, 1
+  size: 133, 89
+  orig: 133, 89
+  offset: 0, 0
+  index: -1
+text-1
+  rotate: true
+  xy: 1834, 206
+  size: 186, 37
+  orig: 186, 37
+  offset: 0, 0
+  index: -1
+winjp/winjp_00000
+  rotate: false
+  xy: 173, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00001
+  rotate: false
+  xy: 324, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00002
+  rotate: false
+  xy: 475, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00003
+  rotate: false
+  xy: 626, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00004
+  rotate: false
+  xy: 777, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00005
+  rotate: false
+  xy: 928, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00006
+  rotate: false
+  xy: 1079, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00007
+  rotate: false
+  xy: 1230, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00008
+  rotate: false
+  xy: 1381, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00009
+  rotate: false
+  xy: 1532, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00010
+  rotate: false
+  xy: 1683, 242
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00011
+  rotate: false
+  xy: 173, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00012
+  rotate: false
+  xy: 324, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00013
+  rotate: false
+  xy: 475, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_00014
+  rotate: false
+  xy: 626, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00015
+  rotate: false
+  xy: 777, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00016
+  rotate: false
+  xy: 928, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00017
+  rotate: false
+  xy: 1079, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00018
+  rotate: false
+  xy: 1230, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00019
+  rotate: false
+  xy: 1381, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00020
+  rotate: false
+  xy: 1532, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+winjp/winjp_disappear_00021
+  rotate: false
+  xy: 1683, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

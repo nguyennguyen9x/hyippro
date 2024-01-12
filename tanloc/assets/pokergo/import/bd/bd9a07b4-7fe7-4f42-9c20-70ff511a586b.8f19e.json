@@ -1,0 +1,117 @@
+[
+  1,
+  [
+    "81tlXYPbJLaq738pamuOcT"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "chon-muc-cuoc",
+      "\r\nchon-muc-cuoc.png\r\nsize: 98,98\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nmc1\r\n  rotate: false\r\n  xy: 1, 1\r\n  size: 96, 96\r\n  orig: 98, 98\r\n  offset: 1, 1\r\n  index: -1\r\n",
+      [
+        "chon-muc-cuoc.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "qvAeKeS7acAV09Y/x4Jjq7KW6zk",
+          "spine": "3.8.98",
+          "x": 218.22,
+          "y": -1030.9,
+          "width": 98,
+          "height": 98,
+          "images": "../MINIGAMES/mario/banchoi/",
+          "audio": "../MINIGAMES/mario/banchoi/"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "mc1",
+            "parent": "root",
+            "x": 267.22,
+            "y": -981.9
+          }
+        ],
+        "slots": [
+          {
+            "name": "mc1",
+            "bone": "mc1",
+            "attachment": "mc1"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "mc1": {
+                "mc1": {
+                  "width": 98,
+                  "height": 98
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "bones": {
+              "mc1": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 2,
+                    "angle": 180
+                  },
+                  {
+                    "time": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,188 @@
+
+item-wildbig-whitebeard.png
+size: 1394,1027
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: false
+  xy: 1022, 80
+  size: 204, 191
+  orig: 206, 199
+  offset: 1, 8
+  index: -1
+Layer 4
+  rotate: true
+  xy: 849, 668
+  size: 182, 257
+  orig: 186, 259
+  offset: 1, 1
+  index: -1
+Layer 5
+  rotate: true
+  xy: 2, 27
+  size: 77, 271
+  orig: 77, 271
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 2, 699
+  size: 537, 326
+  orig: 537, 326
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 2, 250
+  size: 390, 447
+  orig: 390, 452
+  offset: 0, 0
+  index: -1
+attack2/attack2_00000
+  rotate: true
+  xy: 1108, 717
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00001
+  rotate: true
+  xy: 538, 398
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00002
+  rotate: true
+  xy: 1108, 551
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00003
+  rotate: true
+  xy: 780, 349
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00004
+  rotate: true
+  xy: 538, 232
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00005
+  rotate: true
+  xy: 780, 183
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00006
+  rotate: false
+  xy: 1022, 273
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00007
+  rotate: false
+  xy: 1188, 309
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00008
+  rotate: false
+  xy: 1228, 67
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00009
+  rotate: false
+  xy: 310, 8
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00010
+  rotate: true
+  xy: 476, 66
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00011
+  rotate: true
+  xy: 718, 17
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 541, 852
+  size: 173, 537
+  orig: 173, 537
+  offset: 0, 0
+  index: -1
+glass
+  rotate: true
+  xy: 2, 2
+  size: 23, 276
+  orig: 23, 276
+  offset: 0, 0
+  index: -1
+glass-big
+  rotate: false
+  xy: 849, 515
+  size: 250, 151
+  orig: 250, 151
+  offset: 0, 0
+  index: -1
+lightning/lightning_00000
+  rotate: true
+  xy: 2, 106
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00001
+  rotate: false
+  xy: 394, 391
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00002
+  rotate: true
+  xy: 541, 708
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00003
+  rotate: true
+  xy: 1080, 883
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00004
+  rotate: true
+  xy: 541, 564
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+rock-1
+  rotate: false
+  xy: 394, 324
+  size: 67, 65
+  orig: 67, 65
+  offset: 0, 0
+  index: -1

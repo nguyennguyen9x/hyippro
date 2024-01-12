@@ -1,0 +1,118 @@
+
+item-sabo.png
+size: 409,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 248
+  rotate: false
+  xy: 2, 264
+  size: 324, 257
+  orig: 326, 259
+  offset: 1, 1
+  index: -1
+Layer 250
+  rotate: true
+  xy: 283, 2
+  size: 59, 54
+  orig: 59, 55
+  offset: 0, 1
+  index: -1
+Layer 251
+  rotate: true
+  xy: 341, 77
+  size: 51, 50
+  orig: 54, 52
+  offset: 1, 1
+  index: -1
+Layer 252
+  rotate: false
+  xy: 283, 63
+  size: 56, 62
+  orig: 56, 62
+  offset: 0, 0
+  index: -1
+Layer 254
+  rotate: true
+  xy: 328, 263
+  size: 94, 79
+  orig: 96, 81
+  offset: 1, 1
+  index: -1
+Layer 523
+  rotate: true
+  xy: 328, 359
+  size: 162, 53
+  orig: 164, 55
+  offset: 1, 1
+  index: -1
+Layer 528
+  rotate: false
+  xy: 2, 132
+  size: 163, 130
+  orig: 165, 132
+  offset: 1, 1
+  index: -1
+Layer 529
+  rotate: false
+  xy: 383, 452
+  size: 7, 8
+  orig: 9, 10
+  offset: 1, 1
+  index: -1
+Layer 530
+  rotate: false
+  xy: 2, 4
+  size: 8, 8
+  orig: 10, 10
+  offset: 1, 1
+  index: -1
+Layer 531
+  rotate: true
+  xy: 383, 462
+  size: 59, 23
+  orig: 61, 25
+  offset: 1, 1
+  index: -1
+arm
+  rotate: true
+  xy: 304, 130
+  size: 52, 80
+  orig: 52, 80
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 14
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+body
+  rotate: true
+  xy: 120, 22
+  size: 103, 113
+  orig: 103, 116
+  offset: 0, 3
+  index: -1
+circle
+  rotate: false
+  xy: 167, 127
+  size: 135, 135
+  orig: 137, 137
+  offset: 1, 1
+  index: -1
+circle copy
+  rotate: true
+  xy: 235, 2
+  size: 123, 46
+  orig: 137, 134
+  offset: 5, 1
+  index: -1
+hair
+  rotate: false
+  xy: 304, 184
+  size: 100, 77
+  orig: 103, 79
+  offset: 1, 1
+  index: -1

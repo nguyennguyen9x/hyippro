@@ -1,0 +1,27 @@
+
+screen-levelup-bg.png
+size: 368,227
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust
+  rotate: false
+  xy: 298, 1
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+gradient
+  rotate: true
+  xy: 298, 37
+  size: 189, 69
+  orig: 189, 76
+  offset: 0, 0
+  index: -1
+meteor
+  rotate: true
+  xy: 1, 6
+  size: 220, 296
+  orig: 223, 298
+  offset: 1, 1
+  index: -1

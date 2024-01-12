@@ -1,0 +1,41 @@
+
+bt-hong.png
+size: 648,270
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust
+  rotate: false
+  xy: 424, 41
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+poker (1)
+  rotate: false
+  xy: 463, 85
+  size: 184, 184
+  orig: 186, 186
+  offset: 1, 1
+  index: -1
+poker (1) copy 3
+  rotate: false
+  xy: 270, 77
+  size: 192, 192
+  orig: 194, 194
+  offset: 1, 1
+  index: -1
+poker (1)-glow
+  rotate: false
+  xy: 1, 1
+  size: 268, 268
+  orig: 364, 353
+  offset: 48, 40
+  index: -1
+text
+  rotate: false
+  xy: 270, 25
+  size: 153, 51
+  orig: 153, 51
+  offset: 0, 0
+  index: -1

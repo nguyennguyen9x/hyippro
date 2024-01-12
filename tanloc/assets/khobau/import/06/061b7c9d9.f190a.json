@@ -1,0 +1,393 @@
+[
+  1,
+  [
+    "1fcdac647",
+    "f9Re2fsn5Fzp/nZgB62Yi8",
+    "4bCObKW0JAF4IdNski+vq4",
+    "84GB/nUqlOk7l0gp9f+EOO",
+    "cc5Wj3mTNIv4fJUE3n7YUb",
+    "e5WKt3q9ZBjIp7rEdedT2v",
+    "61Y0OSBgtEXIGE1/XLk60u",
+    "7bZCFYAC9BvZMzL7O8eWNQ"
+  ],
+  [
+    "_textureSetter",
+    "anvil",
+    "bag",
+    "book",
+    "bottle",
+    "bullseye",
+    "map",
+    "pouch"
+  ],
+  [
+    "cc.SpriteFrame",
+    [
+      "cc.SpriteAtlas",
+      [
+        "_name",
+        "_spriteFrames"
+      ],
+      2,
+      11
+    ]
+  ],
+  [
+    [
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  [
+    [
+      [
+        {
+          "name": "bag",
+          "rect": [
+            1883,
+            357,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "map",
+          "rect": [
+            1883,
+            649,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "pouch",
+          "rect": [
+            1883,
+            941,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "book",
+          "rect": [
+            1883,
+            1087,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "bottle",
+          "rect": [
+            1883,
+            1233,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          "list-item-blur.plist",
+          [
+            {},
+            "anvil",
+            6,
+            0,
+            "bag",
+            6,
+            1,
+            "book",
+            6,
+            2,
+            "bottle",
+            6,
+            3,
+            "bullseye",
+            6,
+            4,
+            "map",
+            6,
+            5,
+            "pouch",
+            6,
+            6
+          ]
+        ]
+      ],
+      0,
+      0,
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    [
+      [
+        {
+          "name": "bullseye",
+          "rect": [
+            1883,
+            1525,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "anvil",
+          "rect": [
+            1876,
+            1671,
+            140,
+            160
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            140,
+            160
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  ]
+]

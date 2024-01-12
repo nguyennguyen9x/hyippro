@@ -1,0 +1,111 @@
+
+casino_live.png
+size: 1090,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 36
+  rotate: false
+  xy: 1, 268
+  size: 662, 255
+  orig: 664, 257
+  offset: 1, 1
+  index: -1
+Layer 37
+  rotate: true
+  xy: 1039, 1
+  size: 522, 50
+  orig: 527, 53
+  offset: 1, 2
+  index: -1
+Layer 38
+  rotate: false
+  xy: 954, 117
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+Layer 39
+  rotate: true
+  xy: 862, 40
+  size: 63, 26
+  orig: 66, 28
+  offset: 2, 1
+  index: -1
+Layer 40
+  rotate: false
+  xy: 891, 111
+  size: 62, 41
+  orig: 64, 43
+  offset: 1, 1
+  index: -1
+Layer 42
+  rotate: false
+  xy: 789, 35
+  size: 72, 68
+  orig: 74, 70
+  offset: 1, 1
+  index: -1
+Layer 44
+  rotate: false
+  xy: 865, 326
+  size: 173, 197
+  orig: 174, 197
+  offset: 0, 0
+  index: -1
+Layer 44-
+  rotate: true
+  xy: 664, 149
+  size: 173, 197
+  orig: 174, 197
+  offset: 0, 0
+  index: -1
+Layer 45
+  rotate: false
+  xy: 865, 274
+  size: 156, 51
+  orig: 158, 53
+  offset: 1, 1
+  index: -1
+Layer 46
+  rotate: false
+  xy: 983, 160
+  size: 49, 113
+  orig: 49, 113
+  offset: 0, 0
+  index: -1
+Rectangle 6 copy 5
+  rotate: false
+  xy: 1, 18
+  size: 655, 249
+  orig: 658, 251
+  offset: 2, 1
+  index: -1
+aura
+  rotate: false
+  xy: 862, 153
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+casino live copy
+  rotate: false
+  xy: 657, 104
+  size: 233, 44
+  orig: 235, 46
+  offset: 1, 1
+  index: -1
+chipp
+  rotate: false
+  xy: 657, 9
+  size: 131, 94
+  orig: 133, 97
+  offset: 1, 2
+  index: -1
+light
+  rotate: false
+  xy: 664, 323
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

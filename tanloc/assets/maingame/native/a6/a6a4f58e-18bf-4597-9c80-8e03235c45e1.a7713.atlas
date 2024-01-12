@@ -1,0 +1,27 @@
+
+vippoint.png
+size: 93,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Vippoint
+  rotate: true
+  xy: 64, 48
+  size: 85, 28
+  orig: 87, 30
+  offset: 1, 1
+  index: -1
+d695e035d7328b36c1e98afad4566c7723e46e713b648-CdLoix
+  rotate: true
+  xy: 1, 60
+  size: 73, 62
+  orig: 75, 64
+  offset: 1, 1
+  index: -1
+glitterr
+  rotate: false
+  xy: 1, 1
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1

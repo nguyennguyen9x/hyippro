@@ -1,0 +1,34 @@
+
+item-franky.png
+size: 287,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 18
+  rotate: false
+  xy: 2, 131
+  size: 217, 163
+  orig: 222, 167
+  offset: 1, 2
+  index: -1
+Layer 19
+  rotate: false
+  xy: 221, 171
+  size: 64, 123
+  orig: 67, 129
+  offset: 3, 0
+  index: -1
+circle
+  rotate: false
+  xy: 2, 2
+  size: 129, 127
+  orig: 132, 131
+  offset: 2, 2
+  index: -1
+circle-2
+  rotate: false
+  xy: 133, 13
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1

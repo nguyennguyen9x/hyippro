@@ -1,0 +1,181 @@
+
+OngNhom.png
+size: 756,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 179
+  rotate: true
+  xy: 605, 280
+  size: 91, 88
+  orig: 93, 90
+  offset: 1, 1
+  index: -1
+Layer 179-
+  rotate: false
+  xy: 174, 1
+  size: 78, 68
+  orig: 93, 90
+  offset: 14, 21
+  index: -1
+Layer 180
+  rotate: false
+  xy: 98, 1
+  size: 10, 15
+  orig: 12, 17
+  offset: 1, 1
+  index: -1
+Layer 181
+  rotate: false
+  xy: 604, 16
+  size: 110, 86
+  orig: 112, 88
+  offset: 1, 1
+  index: -1
+Layer 182
+  rotate: false
+  xy: 98, 17
+  size: 75, 46
+  orig: 75, 46
+  offset: 0, 0
+  index: -1
+Layer 183
+  rotate: true
+  xy: 1, 7
+  size: 56, 96
+  orig: 56, 96
+  offset: 0, 0
+  index: -1
+Layer 184
+  rotate: true
+  xy: 391, 15
+  size: 54, 41
+  orig: 54, 41
+  offset: 0, 0
+  index: -1
+Layer 187
+  rotate: false
+  xy: 253, 4
+  size: 73, 65
+  orig: 75, 67
+  offset: 1, 1
+  index: -1
+Layer 187-
+  rotate: true
+  xy: 433, 7
+  size: 62, 25
+  orig: 75, 67
+  offset: 1, 40
+  index: -1
+ball
+  rotate: false
+  xy: 327, 6
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 454, 94
+  size: 126, 125
+  orig: 133, 134
+  offset: 3, 5
+  index: -1
+light-streak
+  rotate: true
+  xy: 459, 13
+  size: 80, 144
+  orig: 80, 144
+  offset: 0, 0
+  index: -1
+light/light_00001
+  rotate: false
+  xy: 1, 64
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00003
+  rotate: false
+  xy: 152, 372
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00005
+  rotate: false
+  xy: 152, 221
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00007
+  rotate: false
+  xy: 152, 70
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00009
+  rotate: false
+  xy: 303, 372
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00011
+  rotate: false
+  xy: 303, 221
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00013
+  rotate: false
+  xy: 303, 70
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00015
+  rotate: false
+  xy: 454, 372
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00017
+  rotate: false
+  xy: 605, 372
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+light/light_00019
+  rotate: false
+  xy: 454, 221
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+pngegg (90)
+  rotate: true
+  xy: 1, 369
+  size: 153, 150
+  orig: 153, 150
+  offset: 0, 0
+  index: -1
+pngegg (90)-
+  rotate: true
+  xy: 1, 215
+  size: 153, 150
+  orig: 153, 150
+  offset: 0, 0
+  index: -1
+stroke
+  rotate: false
+  xy: 580, 103
+  size: 116, 117
+  orig: 133, 134
+  offset: 8, 9
+  index: -1

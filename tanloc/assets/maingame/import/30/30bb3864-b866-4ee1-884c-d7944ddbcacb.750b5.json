@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1502f3eb9"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btnexchange",
+      "rect": [
+        1075,
+        1257,
+        196,
+        161
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        196,
+        161
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

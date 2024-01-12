@@ -1,0 +1,27 @@
+
+thua.png
+size: 317,96
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 17
+  rotate: false
+  xy: 2, 37
+  size: 218, 57
+  orig: 218, 57
+  offset: 0, 0
+  index: -1
+aura
+  rotate: true
+  xy: 222, 2
+  size: 92, 93
+  orig: 94, 95
+  offset: 1, 1
+  index: -1
+thua
+  rotate: false
+  xy: 2, 10
+  size: 89, 25
+  orig: 89, 25
+  offset: 0, 0
+  index: -1

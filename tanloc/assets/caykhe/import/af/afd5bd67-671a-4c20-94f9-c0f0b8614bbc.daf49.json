@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cdCi8jeZNONYWEtoK/Xf8G"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "screen-jackpot-shanks2",
+      "rect": [
+        3,
+        3,
+        1700,
+        674
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        1706,
+        679
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

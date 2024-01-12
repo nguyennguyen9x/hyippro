@@ -1,0 +1,55 @@
+
+bt-sieutoc.png
+size: 364,494
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 1
+  rotate: false
+  xy: 1, 8
+  size: 177, 177
+  orig: 181, 181
+  offset: 2, 2
+  index: -1
+Ellipse 1 copy
+  rotate: false
+  xy: 170, 186
+  size: 176, 176
+  orig: 178, 178
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 2
+  rotate: false
+  xy: 1, 207
+  size: 168, 168
+  orig: 170, 170
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 3
+  rotate: false
+  xy: 82, 376
+  size: 117, 117
+  orig: 119, 119
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 4
+  rotate: true
+  xy: 1, 414
+  size: 79, 80
+  orig: 81, 82
+  offset: 1, 1
+  index: -1
+Ellipse 1 copy 5
+  rotate: true
+  xy: 200, 363
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1
+Ellipse 1 copy 6
+  rotate: false
+  xy: 179, 1
+  size: 184, 184
+  orig: 186, 186
+  offset: 1, 1
+  index: -1

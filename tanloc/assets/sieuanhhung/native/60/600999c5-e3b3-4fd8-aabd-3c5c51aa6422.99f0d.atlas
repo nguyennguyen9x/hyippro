@@ -1,0 +1,188 @@
+
+item-bigmom.png
+size: 1767,217
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 8
+  rotate: false
+  xy: 1129, 99
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 21
+  rotate: true
+  xy: 1162, 36
+  size: 61, 50
+  orig: 63, 52
+  offset: 1, 1
+  index: -1
+Layer 22
+  rotate: false
+  xy: 1214, 45
+  size: 40, 52
+  orig: 42, 54
+  offset: 1, 1
+  index: -1
+Layer 23
+  rotate: false
+  xy: 1013, 2
+  size: 88, 30
+  orig: 90, 32
+  offset: 1, 1
+  index: -1
+Layer 24
+  rotate: false
+  xy: 1013, 34
+  size: 91, 43
+  orig: 93, 45
+  offset: 1, 1
+  index: -1
+Layer 25
+  rotate: true
+  xy: 1106, 17
+  size: 60, 54
+  orig: 62, 56
+  offset: 1, 1
+  index: -1
+body-1
+  rotate: false
+  xy: 2, 2
+  size: 278, 213
+  orig: 280, 215
+  offset: 1, 1
+  index: -1
+body-2
+  rotate: false
+  xy: 282, 2
+  size: 275, 213
+  orig: 278, 215
+  offset: 1, 1
+  index: -1
+face-1
+  rotate: false
+  xy: 869, 7
+  size: 70, 70
+  orig: 74, 70
+  offset: 1, 0
+  index: -1
+face-2
+  rotate: false
+  xy: 941, 7
+  size: 70, 70
+  orig: 74, 70
+  offset: 1, 0
+  index: -1
+fire/fire20/fire_00004
+  rotate: true
+  xy: 1247, 108
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00005
+  rotate: false
+  xy: 1256, 4
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00006
+  rotate: true
+  xy: 1351, 108
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00007
+  rotate: false
+  xy: 1365, 4
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00008
+  rotate: true
+  xy: 1455, 108
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00009
+  rotate: false
+  xy: 1474, 4
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00010
+  rotate: true
+  xy: 1559, 108
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00011
+  rotate: false
+  xy: 1583, 4
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+fire/fire20/fire_00012
+  rotate: true
+  xy: 1663, 108
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+hair-1
+  rotate: false
+  xy: 559, 11
+  size: 153, 66
+  orig: 167, 66
+  offset: 14, 0
+  index: -1
+hair-2
+  rotate: false
+  xy: 714, 11
+  size: 153, 66
+  orig: 167, 66
+  offset: 14, 0
+  index: -1
+lightning/lightning/lightning_00006
+  rotate: true
+  xy: 559, 79
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning/lightning_00007
+  rotate: true
+  xy: 673, 79
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning/lightning_00008
+  rotate: true
+  xy: 787, 79
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning/lightning_00009
+  rotate: true
+  xy: 901, 79
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+lightning/lightning/lightning_00010
+  rotate: true
+  xy: 1015, 79
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1

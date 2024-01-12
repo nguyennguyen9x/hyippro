@@ -1,0 +1,76 @@
+
+item1.png
+size: 411,163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 12
+  rotate: true
+  xy: 283, 78
+  size: 84, 74
+  orig: 84, 74
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: true
+  xy: 358, 92
+  size: 70, 44
+  orig: 70, 44
+  offset: 0, 0
+  index: -1
+Layer 14
+  rotate: true
+  xy: 164, 7
+  size: 53, 65
+  orig: 55, 67
+  offset: 1, 1
+  index: -1
+Layer 15
+  rotate: false
+  xy: 283, 9
+  size: 68, 68
+  orig: 70, 70
+  offset: 1, 1
+  index: -1
+Layer 16
+  rotate: false
+  xy: 164, 61
+  size: 118, 101
+  orig: 118, 103
+  offset: 0, 0
+  index: -1
+Layer 17
+  rotate: true
+  xy: 1, 3
+  size: 159, 162
+  orig: 161, 162
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: true
+  xy: 358, 78
+  size: 13, 20
+  orig: 15, 22
+  offset: 1, 1
+  index: -1
+Layer 19
+  rotate: true
+  xy: 379, 81
+  size: 10, 18
+  orig: 12, 20
+  offset: 1, 1
+  index: -1
+Layer 20
+  rotate: true
+  xy: 352, 14
+  size: 63, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+Layer 21
+  rotate: true
+  xy: 230, 1
+  size: 59, 40
+  orig: 60, 41
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+win-le.png
+size: 167,90
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+le-outer
+  rotate: true
+  xy: 102, 23
+  size: 66, 64
+  orig: 70, 66
+  offset: 2, 1
+  index: -1
+win-chan
+  rotate: false
+  xy: 1, 1
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1

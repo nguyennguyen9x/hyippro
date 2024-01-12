@@ -1,0 +1,90 @@
+
+jackpot-background.png
+size: 1943,624
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg-4
+  rotate: false
+  xy: 1, 1
+  size: 350, 622
+  orig: 350, 622
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00000
+  rotate: false
+  xy: 352, 237
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00002
+  rotate: true
+  xy: 352, 21
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00004
+  rotate: false
+  xy: 568, 237
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00006
+  rotate: true
+  xy: 739, 21
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00008
+  rotate: false
+  xy: 784, 237
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00010
+  rotate: false
+  xy: 1000, 237
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00012
+  rotate: true
+  xy: 1126, 21
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00014
+  rotate: false
+  xy: 1216, 237
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00016
+  rotate: false
+  xy: 1432, 237
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+bg-fx/bg-fx_00018
+  rotate: true
+  xy: 1513, 21
+  size: 215, 386
+  orig: 215, 386
+  offset: 0, 0
+  index: -1
+light-burst-2
+  rotate: true
+  xy: 1648, 323
+  size: 300, 294
+  orig: 300, 294
+  offset: 0, 0
+  index: -1

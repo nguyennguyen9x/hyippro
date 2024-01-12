@@ -1,0 +1,216 @@
+
+item-whitebeard-.png
+size: 1317,454
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 10
+  rotate: false
+  xy: 1188, 212
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 22
+  rotate: false
+  xy: 1079, 196
+  size: 107, 111
+  orig: 109, 113
+  offset: 1, 1
+  index: -1
+Layer 23 copy
+  rotate: true
+  xy: 521, 189
+  size: 263, 225
+  orig: 287, 272
+  offset: 24, 47
+  index: -1
+Layer 25
+  rotate: false
+  xy: 2, 9
+  size: 517, 443
+  orig: 517, 443
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 999, 309
+  size: 143, 134
+  orig: 145, 136
+  offset: 1, 1
+  index: -1
+WILD
+  rotate: true
+  xy: 1223, 2
+  size: 66, 31
+  orig: 101, 68
+  offset: 17, 19
+  index: -1
+arm
+  rotate: true
+  xy: 1161, 70
+  size: 124, 106
+  orig: 124, 106
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 1031, 64
+  size: 128, 128
+  orig: 150, 150
+  offset: 11, 11
+  index: -1
+glass-1
+  rotate: true
+  xy: 900, 46
+  size: 145, 129
+  orig: 384, 234
+  offset: 232, 101
+  index: -1
+glass-10
+  rotate: false
+  xy: 1256, 2
+  size: 26, 66
+  orig: 28, 68
+  offset: 1, 1
+  index: -1
+glass-11
+  rotate: false
+  xy: 1269, 160
+  size: 46, 50
+  orig: 48, 52
+  offset: 1, 1
+  index: -1
+glass-12
+  rotate: true
+  xy: 697, 3
+  size: 23, 42
+  orig: 25, 44
+  offset: 1, 1
+  index: -1
+glass-13
+  rotate: true
+  xy: 741, 3
+  size: 23, 40
+  orig: 25, 42
+  offset: 1, 1
+  index: -1
+glass-14
+  rotate: false
+  xy: 800, 3
+  size: 43, 39
+  orig: 45, 41
+  offset: 1, 1
+  index: -1
+glass-15
+  rotate: true
+  xy: 950, 195
+  size: 46, 51
+  orig: 48, 53
+  offset: 1, 1
+  index: -1
+glass-16
+  rotate: false
+  xy: 1156, 3
+  size: 65, 59
+  orig: 67, 61
+  offset: 1, 1
+  index: -1
+glass-17
+  rotate: false
+  xy: 1135, 330
+  size: 87, 122
+  orig: 93, 124
+  offset: 5, 1
+  index: -1
+glass-18
+  rotate: false
+  xy: 1095, 2
+  size: 59, 60
+  orig: 61, 62
+  offset: 1, 1
+  index: -1
+glass-2
+  rotate: false
+  xy: 884, 243
+  size: 113, 209
+  orig: 116, 216
+  offset: 2, 2
+  index: -1
+glass-3
+  rotate: true
+  xy: 521, 4
+  size: 183, 174
+  orig: 190, 188
+  offset: 6, 8
+  index: -1
+glass-4
+  rotate: true
+  xy: 748, 193
+  size: 259, 134
+  orig: 268, 141
+  offset: 5, 5
+  index: -1
+glass-5
+  rotate: true
+  xy: 800, 44
+  size: 147, 98
+  orig: 153, 100
+  offset: 5, 1
+  index: -1
+glass-6
+  rotate: false
+  xy: 1003, 194
+  size: 74, 113
+  orig: 80, 120
+  offset: 3, 1
+  index: -1
+glass-7
+  rotate: true
+  xy: 697, 28
+  size: 159, 101
+  orig: 165, 109
+  offset: 1, 7
+  index: -1
+glass-8
+  rotate: false
+  xy: 1224, 356
+  size: 86, 96
+  orig: 92, 99
+  offset: 1, 2
+  index: -1
+glass-9
+  rotate: false
+  xy: 1033, 2
+  size: 60, 60
+  orig: 63, 62
+  offset: 1, 1
+  index: -1
+text-1
+  rotate: false
+  xy: 885, 7
+  size: 78, 35
+  orig: 94, 39
+  offset: 14, 3
+  index: -1
+text-2
+  rotate: true
+  xy: 845, 3
+  size: 39, 38
+  orig: 42, 41
+  offset: 2, 2
+  index: -1
+text-3
+  rotate: true
+  xy: 884, 193
+  size: 48, 64
+  orig: 51, 68
+  offset: 2, 2
+  index: -1
+text-4
+  rotate: false
+  xy: 965, 2
+  size: 66, 42
+  orig: 70, 45
+  offset: 2, 1
+  index: -1

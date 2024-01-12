@@ -1,0 +1,48 @@
+
+title.png
+size: 394,289
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light-fx-
+  rotate: true
+  xy: 300, 130
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+square-particle
+  rotate: false
+  xy: 1, 269
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 21, 223
+  size: 288, 65
+  orig: 290, 67
+  offset: 1, 1
+  index: -1
+text copy
+  rotate: false
+  xy: 1, 91
+  size: 295, 65
+  orig: 295, 65
+  offset: 0, 0
+  index: -1
+text-copy 2
+  rotate: false
+  xy: 1, 157
+  size: 298, 65
+  orig: 298, 65
+  offset: 0, 0
+  index: -1
+text-outer
+  rotate: false
+  xy: 1, 1
+  size: 312, 89
+  orig: 318, 95
+  offset: 3, 3
+  index: -1

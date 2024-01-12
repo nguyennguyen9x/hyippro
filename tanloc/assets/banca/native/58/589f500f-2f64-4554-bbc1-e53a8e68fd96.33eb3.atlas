@@ -1,0 +1,76 @@
+
+BG.png
+size: 881,879
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Spark-bubble_0001_bubble
+  rotate: false
+  xy: 644, 671
+  size: 44, 206
+  orig: 44, 206
+  offset: 0, 0
+  index: -1
+Spark-bubble_0002_fish
+  rotate: false
+  xy: 569, 231
+  size: 258, 110
+  orig: 258, 110
+  offset: 0, 0
+  index: -1
+bg_0000_BG1
+  rotate: false
+  xy: 690, 786
+  size: 133, 91
+  orig: 133, 91
+  offset: 0, 0
+  index: -1
+bg_0001_BG2
+  rotate: false
+  xy: 690, 659
+  size: 93, 125
+  orig: 93, 125
+  offset: 0, 0
+  index: -1
+bg_0002_BG3
+  rotate: false
+  xy: 2, 25
+  size: 88, 51
+  orig: 88, 51
+  offset: 0, 0
+  index: -1
+bg_0003_BG4
+  rotate: false
+  xy: 294, 18
+  size: 436, 163
+  orig: 436, 163
+  offset: 0, 0
+  index: -1
+bg_0004_BG5
+  rotate: false
+  xy: 294, 183
+  size: 273, 292
+  orig: 273, 292
+  offset: 0, 0
+  index: -1
+bg_0005_BG6
+  rotate: false
+  xy: 2, 78
+  size: 290, 397
+  orig: 290, 397
+  offset: 0, 0
+  index: -1
+bg_0006_BG7
+  rotate: false
+  xy: 569, 343
+  size: 310, 132
+  orig: 310, 132
+  offset: 0, 0
+  index: -1
+bg_0007_BG8
+  rotate: false
+  xy: 2, 477
+  size: 640, 400
+  orig: 640, 400
+  offset: 0, 0
+  index: -1

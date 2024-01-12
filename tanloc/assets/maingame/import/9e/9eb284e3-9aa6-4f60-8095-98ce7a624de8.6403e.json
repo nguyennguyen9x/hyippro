@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e7CLDU/69EMIeKeSyTH924"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "loading",
+      "rect": [
+        1,
+        1,
+        351,
+        156
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        353,
+        158
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

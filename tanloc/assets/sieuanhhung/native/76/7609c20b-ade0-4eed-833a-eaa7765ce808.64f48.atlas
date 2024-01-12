@@ -1,0 +1,188 @@
+
+item-jackpot-luffy.png
+size: 707,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 14 copy 3
+  rotate: false
+  xy: 518, 112
+  size: 116, 116
+  orig: 119, 119
+  offset: 1, 2
+  index: -1
+Layer 16
+  rotate: true
+  xy: 579, 744
+  size: 286, 121
+  orig: 288, 173
+  offset: 1, 2
+  index: -1
+Layer 17
+  rotate: false
+  xy: 576, 344
+  size: 116, 133
+  orig: 116, 133
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: true
+  xy: 474, 390
+  size: 98, 100
+  orig: 98, 125
+  offset: 0, 25
+  index: -1
+Layer 26
+  rotate: false
+  xy: 346, 299
+  size: 116, 54
+  orig: 118, 56
+  offset: 1, 1
+  index: -1
+Layer 27
+  rotate: true
+  xy: 294, 283
+  size: 70, 48
+  orig: 72, 50
+  offset: 1, 1
+  index: -1
+Layer 28
+  rotate: false
+  xy: 228, 286
+  size: 64, 67
+  orig: 66, 69
+  offset: 1, 1
+  index: -1
+Layer 29
+  rotate: true
+  xy: 540, 642
+  size: 55, 35
+  orig: 57, 37
+  offset: 1, 1
+  index: -1
+Layer 30
+  rotate: true
+  xy: 540, 608
+  size: 32, 34
+  orig: 34, 36
+  offset: 1, 1
+  index: -1
+Layer 31
+  rotate: false
+  xy: 346, 241
+  size: 106, 56
+  orig: 108, 58
+  offset: 1, 1
+  index: -1
+Layer 32
+  rotate: true
+  xy: 474, 490
+  size: 207, 64
+  orig: 210, 66
+  offset: 2, 1
+  index: -1
+arm
+  rotate: true
+  xy: 541, 230
+  size: 112, 137
+  orig: 139, 154
+  offset: 9, 17
+  index: -1
+arm-
+  rotate: true
+  xy: 116, 240
+  size: 113, 110
+  orig: 139, 154
+  offset: 8, 17
+  index: -1
+blur
+  rotate: true
+  xy: 2, 239
+  size: 114, 112
+  orig: 155, 166
+  offset: 20, 34
+  index: -1
+blur-
+  rotate: false
+  xy: 579, 609
+  size: 124, 133
+  orig: 155, 166
+  offset: 15, 24
+  index: -1
+circle
+  rotate: false
+  xy: 576, 479
+  size: 129, 128
+  orig: 132, 131
+  offset: 2, 1
+  index: -1
+demo
+  rotate: true
+  xy: 2, 699
+  size: 331, 575
+  orig: 331, 575
+  offset: 0, 0
+  index: -1
+jackpot copy
+  rotate: true
+  xy: 474, 238
+  size: 150, 65
+  orig: 156, 69
+  offset: 3, 2
+  index: -1
+speed/speed11/speed_00058
+  rotate: false
+  xy: 2, 527
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00059
+  rotate: false
+  xy: 238, 527
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00060
+  rotate: false
+  xy: 2, 355
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00061
+  rotate: false
+  xy: 238, 355
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00062
+  rotate: true
+  xy: 2, 2
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00063
+  rotate: true
+  xy: 174, 4
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+speed/speed11/speed_00064
+  rotate: true
+  xy: 346, 2
+  size: 234, 170
+  orig: 234, 170
+  offset: 0, 0
+  index: -1
+text
+  rotate: true
+  xy: 636, 61
+  size: 167, 45
+  orig: 176, 53
+  offset: 4, 5
+  index: -1

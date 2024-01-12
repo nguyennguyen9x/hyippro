@@ -1,0 +1,368 @@
+[
+  1,
+  [
+    "baXp1ShSRHU6H7cyLocl3k"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "chip",
+      "\r\nchip.png\r\nsize: 206,206\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nchip23D\r\n  rotate: false\r\n  xy: 2, 87\r\n  size: 110, 117\r\n  orig: 110, 117\r\n  offset: 0, 0\r\n  index: -1\r\nchip53D.png copy\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 83, 74\r\n  orig: 83, 74\r\n  offset: 0, 0\r\n  index: -1\r\nchip83D.png copy\r\n  rotate: true\r\n  xy: 78, 23\r\n  size: 62, 53\r\n  orig: 62, 53\r\n  offset: 0, 0\r\n  index: -1\r\n",
+      [
+        "chip.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "2swFGCHiwqY4UIs1HOVbTjUPNPM",
+          "spine": "3.8.85",
+          "x": -327.71,
+          "y": -178.16,
+          "width": 916.46,
+          "height": 447.86
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "chipnew",
+            "parent": "root",
+            "x": 25.14,
+            "y": 612.47
+          },
+          {
+            "name": "chipnew2",
+            "parent": "root",
+            "x": -49.97,
+            "y": 581.09
+          },
+          {
+            "name": "chipnew3",
+            "parent": "root",
+            "x": -320.32,
+            "y": 369.96,
+            "scaleX": 1.312,
+            "scaleY": 1.312
+          }
+        ],
+        "slots": [
+          {
+            "name": "chipnew",
+            "bone": "chipnew",
+            "color": "bcbcbc00",
+            "attachment": "chip53D.png copy"
+          },
+          {
+            "name": "chipnew3",
+            "bone": "chipnew3",
+            "color": "bcbcbc00",
+            "attachment": "chip83D.png copy"
+          },
+          {
+            "name": "chipnew2",
+            "bone": "chipnew2",
+            "color": "bcbcbc00",
+            "attachment": "chip23D"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "chipnew": {
+                "chip53D.png copy": {
+                  "x": 4.49,
+                  "y": -1.15,
+                  "width": 83,
+                  "height": 74
+                }
+              },
+              "chipnew2": {
+                "chip23D": {
+                  "x": 4.49,
+                  "y": -1.15,
+                  "width": 110,
+                  "height": 117
+                }
+              },
+              "chipnew3": {
+                "chip83D.png copy": {
+                  "x": 4.49,
+                  "y": -1.15,
+                  "width": 62,
+                  "height": 53
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "anim": {
+            "slots": {
+              "chipnew": {
+                "color": [
+                  {
+                    "color": "bcbcbc00"
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "797979ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "797979ff"
+                  },
+                  {
+                    "time": 1.7667,
+                    "color": "bcbcbc00"
+                  }
+                ]
+              },
+              "chipnew2": {
+                "color": [
+                  {
+                    "color": "676767ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.7667,
+                    "color": "676767ff"
+                  },
+                  {
+                    "time": 1.0333,
+                    "color": "bcbcbc00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667,
+                    "color": "bcbcbc00"
+                  },
+                  {
+                    "time": 1.6,
+                    "color": "676767ff"
+                  }
+                ]
+              },
+              "chipnew3": {
+                "color": [
+                  {
+                    "color": "434343ff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2,
+                    "color": "434343ff"
+                  },
+                  {
+                    "time": 1.4667,
+                    "color": "bcbcbc00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.7,
+                    "color": "bcbcbc00"
+                  },
+                  {
+                    "time": 2,
+                    "color": "434343ff"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "chipnew": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 1,
+                    "angle": 80
+                  },
+                  {
+                    "time": 2,
+                    "angle": 160
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 27.89,
+                    "y": -303.35
+                  },
+                  {
+                    "time": 2,
+                    "x": 489.09,
+                    "y": -718.41
+                  }
+                ],
+                "scale": [
+                  {},
+                  {
+                    "time": 2,
+                    "x": 1.558,
+                    "y": 1.558
+                  }
+                ]
+              },
+              "chipnew2": {
+                "rotate": [
+                  {
+                    "angle": 58.67
+                  },
+                  {
+                    "time": 0.2667,
+                    "angle": 80
+                  },
+                  {
+                    "time": 1.2333,
+                    "angle": 160,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667
+                  },
+                  {
+                    "time": 2,
+                    "angle": 58.67
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 58.78,
+                    "y": -467.18
+                  },
+                  {
+                    "time": 1.2333,
+                    "x": 327.47,
+                    "y": -880.01,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.2667,
+                    "x": -100.98,
+                    "y": -221.72
+                  },
+                  {
+                    "time": 2,
+                    "x": 58.78,
+                    "y": -467.18
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.867,
+                    "y": 0.867
+                  }
+                ]
+              },
+              "chipnew3": {
+                "rotate": [
+                  {
+                    "angle": 24
+                  },
+                  {
+                    "time": 0.7,
+                    "angle": 80
+                  },
+                  {
+                    "time": 1.6667,
+                    "angle": 160,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.7
+                  },
+                  {
+                    "time": 2,
+                    "angle": 24
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 41.78,
+                    "y": -153.78
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 215.21,
+                    "y": -728.81,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.7,
+                    "x": 10.56,
+                    "y": -50.28
+                  },
+                  {
+                    "time": 2,
+                    "x": 41.78,
+                    "y": -153.78
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 1.085,
+                    "y": 1.085
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 1.558,
+                    "y": 1.558,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.7
+                  },
+                  {
+                    "time": 2,
+                    "x": 1.085,
+                    "y": 1.085
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

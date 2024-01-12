@@ -1,0 +1,438 @@
+[
+  1,
+  [
+    "45FBeR/bVK9bbndmxzIk2o"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "hoa",
+      "\r\nhoa.png\r\nsize: 217,281\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nShape 23\r\n  rotate: true\r\n  xy: 154, 43\r\n  size: 145, 60\r\n  orig: 145, 60\r\n  offset: 0, 0\r\n  index: -1\r\nShape 24\r\n  rotate: false\r\n  xy: 109, 2\r\n  size: 75, 39\r\n  orig: 77, 41\r\n  offset: 1, 1\r\n  index: -1\r\nall-in-bt\r\n  rotate: false\r\n  xy: 2, 218\r\n  size: 165, 61\r\n  orig: 165, 61\r\n  offset: 0, 0\r\n  index: -1\r\nhoa\r\n  rotate: true\r\n  xy: 169, 190\r\n  size: 89, 46\r\n  orig: 107, 62\r\n  offset: 9, 8\r\n  index: -1\r\nhoa-\r\n  rotate: false\r\n  xy: 2, 3\r\n  size: 105, 61\r\n  orig: 107, 62\r\n  offset: 1, 0\r\n  index: -1\r\nring\r\n  rotate: false\r\n  xy: 2, 66\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n",
+      [
+        "hoa.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "aR2dSL2zv3GwVarCz0ZF2vouhPU",
+          "spine": "3.8.98",
+          "x": -90.02,
+          "y": -75,
+          "width": 181.04,
+          "height": 150,
+          "images": "../INGAME/sap/",
+          "audio": "D:/Design/spine/game/WIN365/INGAME/./sap"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "button",
+            "parent": "root",
+            "x": 4.53,
+            "y": -0.41
+          },
+          {
+            "name": "ring-blur",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "Shape 23",
+            "bone": "button",
+            "attachment": "Shape 23"
+          },
+          {
+            "name": "Shape 24",
+            "bone": "button",
+            "attachment": "Shape 24"
+          },
+          {
+            "name": "all-in-bt",
+            "bone": "button",
+            "attachment": "all-in-bt"
+          },
+          {
+            "name": "Sáp copy",
+            "bone": "button",
+            "attachment": "hoa-",
+            "blend": "screen"
+          },
+          {
+            "name": "Sáp",
+            "bone": "button",
+            "attachment": "hoa"
+          },
+          {
+            "name": "ring-blur",
+            "bone": "ring-blur",
+            "attachment": "ring",
+            "blend": "additive"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "Shape 23": {
+                "Shape 23": {
+                  "type": "mesh",
+                  "hull": 8,
+                  "width": 145,
+                  "height": 60,
+                  "uvs": [
+                    1,
+                    1,
+                    0.75218,
+                    1,
+                    0.17218,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0.20218,
+                    0,
+                    0.71218,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    2,
+                    4,
+                    1,
+                    6,
+                    7,
+                    2,
+                    5,
+                    6,
+                    1,
+                    2,
+                    6,
+                    1,
+                    7,
+                    0
+                  ],
+                  "vertices": [
+                    86.49,
+                    -39.56,
+                    50.55,
+                    -39.56,
+                    -59.94,
+                    -39.56,
+                    -84.9,
+                    -39.56,
+                    -84.9,
+                    20.44,
+                    -55.59,
+                    20.44,
+                    44.75,
+                    20.44,
+                    86.49,
+                    20.44
+                  ],
+                  "edges": [
+                    6,
+                    8,
+                    0,
+                    14,
+                    4,
+                    6,
+                    8,
+                    10,
+                    0,
+                    2,
+                    2,
+                    4,
+                    10,
+                    12,
+                    12,
+                    14
+                  ]
+                }
+              },
+              "Shape 24": {
+                "Shape 24": {
+                  "x": -56.05,
+                  "y": 21.51,
+                  "width": 77,
+                  "height": 41
+                }
+              },
+              "Sáp": {
+                "hoa": {
+                  "x": -3.71,
+                  "y": 3.85,
+                  "width": 107,
+                  "height": 62
+                }
+              },
+              "Sáp copy": {
+                "hoa-": {
+                  "x": -3.71,
+                  "y": 3.85,
+                  "width": 107,
+                  "height": 62
+                }
+              },
+              "all-in-bt": {
+                "all-in-bt": {
+                  "x": -4.37,
+                  "y": 2.35,
+                  "width": 165,
+                  "height": 61
+                }
+              },
+              "ring-blur": {
+                "ring": {
+                  "width": 150,
+                  "height": 150
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "Shape 23": {
+                "attachment": [
+                  {
+                    "time": 2.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "Shape 24": {
+                "attachment": [
+                  {
+                    "time": 2.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "Sáp": {
+                "attachment": [
+                  {
+                    "time": 2.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "Sáp copy": {
+                "color": [
+                  {
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.8333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 1.8333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 2.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2.3333,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 2.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "all-in-bt": {
+                "attachment": [
+                  {
+                    "time": 2.3333,
+                    "name": null
+                  }
+                ]
+              },
+              "ring-blur": {
+                "color": [
+                  {
+                    "time": 0.0667,
+                    "color": "c767ffff",
+                    "curve": 0.019,
+                    "c2": 0.3,
+                    "c3": 0.613
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "dc7aff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": null
+                  },
+                  {
+                    "time": 0.0667,
+                    "name": "ring"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "button": {
+                "scale": [
+                  {
+                    "x": 0.453,
+                    "y": 0.453,
+                    "curve": 0,
+                    "c2": 0.46,
+                    "c3": 0.412
+                  },
+                  {
+                    "time": 0.1333,
+                    "x": 1.391,
+                    "y": 1.391,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3,
+                    "x": 0.92,
+                    "y": 0.92,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.1667,
+                    "x": 1.247,
+                    "y": 1.247,
+                    "curve": 0.369,
+                    "c4": 0.4
+                  },
+                  {
+                    "time": 2.3333,
+                    "x": 0.2,
+                    "y": 0.2
+                  }
+                ]
+              },
+              "ring-blur": {
+                "scale": [
+                  {
+                    "time": 0.0667,
+                    "curve": 0.019,
+                    "c2": 0.3,
+                    "c3": 0.613
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 5,
+                    "y": 5
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

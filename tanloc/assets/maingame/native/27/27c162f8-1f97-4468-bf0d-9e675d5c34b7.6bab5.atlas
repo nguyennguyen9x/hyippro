@@ -1,0 +1,34 @@
+
+cup.png
+size: 172,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 142, 88
+  size: 29, 53
+  orig: 30, 54
+  offset: 1, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 115, 11
+  size: 48, 51
+  orig: 50, 53
+  offset: 1, 1
+  index: -1
+asdad
+  rotate: false
+  xy: 1, 1
+  size: 113, 140
+  orig: 113, 140
+  offset: 0, 0
+  index: -1
+text
+  rotate: true
+  xy: 115, 63
+  size: 78, 26
+  orig: 97, 34
+  offset: 9, 4
+  index: -1

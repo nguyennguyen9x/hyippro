@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1f8b77dc7"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "screenbonus1-fruit1",
+      "rect": [
+        3,
+        745,
+        470,
+        275
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        474,
+        279
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

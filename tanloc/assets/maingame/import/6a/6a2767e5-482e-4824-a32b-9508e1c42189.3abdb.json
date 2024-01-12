@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1e7e9183e"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "khungchat",
+      "rect": [
+        1373,
+        291,
+        636,
+        546
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        636,
+        546
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

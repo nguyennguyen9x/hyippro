@@ -1,0 +1,55 @@
+
+item4.png
+size: 825,201
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 803, 134
+  size: 11, 35
+  orig: 13, 37
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: false
+  xy: 803, 98
+  size: 11, 35
+  orig: 13, 37
+  offset: 1, 1
+  index: -1
+burst
+  rotate: false
+  xy: 604, 1
+  size: 198, 199
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+happy-eye
+  rotate: true
+  xy: 803, 170
+  size: 30, 21
+  orig: 30, 21
+  offset: 0, 0
+  index: -1
+hongo-mario-bros
+  rotate: false
+  xy: 1, 1
+  size: 200, 199
+  orig: 202, 201
+  offset: 1, 1
+  index: -1
+hongo-mario-bros-blue
+  rotate: false
+  xy: 403, 1
+  size: 200, 199
+  orig: 202, 201
+  offset: 1, 1
+  index: -1
+hongo-mario-bros-green
+  rotate: false
+  xy: 202, 1
+  size: 200, 199
+  orig: 202, 201
+  offset: 1, 1
+  index: -1

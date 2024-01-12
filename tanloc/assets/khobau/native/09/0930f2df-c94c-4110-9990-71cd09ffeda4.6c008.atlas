@@ -1,0 +1,41 @@
+
+bt-speed.png
+size: 332,309
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 1, 1
+  size: 164, 101
+  orig: 165, 101
+  offset: 0, 0
+  index: -1
+Layer 1-
+  rotate: false
+  xy: 166, 12
+  size: 164, 101
+  orig: 165, 101
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 253, 137
+  size: 171, 78
+  orig: 173, 80
+  offset: 1, 1
+  index: -1
+Shape 22
+  rotate: true
+  xy: 104, 114
+  size: 194, 148
+  orig: 196, 150
+  offset: 1, 1
+  index: -1
+glow
+  rotate: true
+  xy: 1, 103
+  size: 205, 102
+  orig: 213, 117
+  offset: 7, 5
+  index: -1

@@ -1,0 +1,48 @@
+
+bt-xanh.png
+size: 640,580
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust
+  rotate: false
+  xy: 238, 57
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+poker (1)
+  rotate: false
+  xy: 344, 46
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+poker (1) copy 3
+  rotate: false
+  xy: 1, 1
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+poker (1) copy 3-
+  rotate: true
+  xy: 344, 283
+  size: 296, 295
+  orig: 308, 307
+  offset: 6, 6
+  index: -1
+poker (1)-glow
+  rotate: false
+  xy: 1, 238
+  size: 342, 341
+  orig: 356, 353
+  offset: 7, 7
+  index: -1
+text
+  rotate: true
+  xy: 238, 93
+  size: 144, 44
+  orig: 144, 44
+  offset: 0, 0
+  index: -1

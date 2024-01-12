@@ -1,0 +1,293 @@
+
+screen-jackpot-shanks.png
+size: 1998,2017
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DEAD OR ALIVE
+  rotate: true
+  xy: 1322, 1581
+  size: 117, 19
+  orig: 119, 21
+  offset: 1, 1
+  index: -1
+FRAME
+  rotate: true
+  xy: 1861, 947
+  size: 349, 71
+  orig: 350, 71
+  offset: 1, 0
+  index: -1
+Layer 28
+  rotate: true
+  xy: 679, 1319
+  size: 252, 688
+  orig: 252, 1187
+  offset: 0, 0
+  index: -1
+Layer 29
+  rotate: false
+  xy: 1861, 944
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Layer 34
+  rotate: false
+  xy: 2, 784
+  size: 663, 519
+  orig: 663, 520
+  offset: 0, 0
+  index: -1
+Layer 35
+  rotate: true
+  xy: 1639, 122
+  size: 210, 190
+  orig: 212, 192
+  offset: 1, 1
+  index: -1
+Layer 36
+  rotate: false
+  xy: 768, 485
+  size: 211, 303
+  orig: 213, 303
+  offset: 1, 0
+  index: -1
+Layer 37
+  rotate: true
+  xy: 768, 333
+  size: 150, 248
+  orig: 150, 249
+  offset: 0, 0
+  index: -1
+Layer 41
+  rotate: false
+  xy: 2, 1305
+  size: 675, 710
+  orig: 675, 710
+  offset: 0, 0
+  index: -1
+Layer 42
+  rotate: false
+  xy: 2, 313
+  size: 537, 469
+  orig: 538, 473
+  offset: 0, 1
+  index: -1
+Shape 3 copy
+  rotate: false
+  xy: 2, 49
+  size: 473, 262
+  orig: 476, 265
+  offset: 2, 1
+  index: -1
+aura
+  rotate: false
+  xy: 1018, 405
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+bigwin copy
+  rotate: false
+  xy: 1585, 334
+  size: 249, 91
+  orig: 252, 95
+  offset: 1, 2
+  index: -1
+energy/energy_00064
+  rotate: true
+  xy: 541, 382
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00065
+  rotate: false
+  xy: 1369, 1473
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00066
+  rotate: false
+  xy: 1369, 1246
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00067
+  rotate: true
+  xy: 1771, 1298
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+energy/energy_00068
+  rotate: false
+  xy: 679, 1092
+  size: 400, 225
+  orig: 400, 225
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 1322, 1700
+  size: 579, 65
+  orig: 581, 67
+  offset: 1, 1
+  index: -1
+gradient
+  rotate: false
+  xy: 1639, 51
+  size: 189, 69
+  orig: 189, 76
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 1112, 412
+  size: 89, 86
+  orig: 89, 86
+  offset: 0, 0
+  index: -1
+loai bo
+  rotate: false
+  xy: 679, 1573
+  size: 641, 442
+  orig: 665, 445
+  offset: 8, 1
+  index: -1
+monkey d luffy
+  rotate: false
+  xy: 969, 1059
+  size: 104, 31
+  orig: 104, 31
+  offset: 0, 0
+  index: -1
+slashhhhhhhhhg
+  rotate: false
+  xy: 1322, 1767
+  size: 655, 248
+  orig: 655, 248
+  offset: 0, 0
+  index: -1
+sword/sword_00000
+  rotate: true
+  xy: 1646, 944
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00001
+  rotate: true
+  xy: 1646, 944
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00002
+  rotate: false
+  xy: 969, 802
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00003
+  rotate: false
+  xy: 1610, 427
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00004
+  rotate: true
+  xy: 477, 11
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00006
+  rotate: false
+  xy: 1283, 304
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00009
+  rotate: true
+  xy: 994, 2
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00010
+  rotate: true
+  xy: 1209, 2
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+sword/sword_00013
+  rotate: true
+  xy: 1424, 2
+  size: 300, 213
+  orig: 300, 213
+  offset: 0, 0
+  index: -1
+swordd
+  rotate: true
+  xy: 1081, 1017
+  size: 300, 261
+  orig: 300, 261
+  offset: 0, 0
+  index: -1
+twirl/twirl_00000
+  rotate: false
+  xy: 667, 790
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+twirl/twirl_00001
+  rotate: false
+  xy: 1344, 944
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+twirl/twirl_00002
+  rotate: false
+  xy: 981, 500
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+twirl/twirl_00003
+  rotate: false
+  xy: 1283, 642
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+twirl/twirl_00004
+  rotate: false
+  xy: 1585, 642
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+twirl/twirl_00005
+  rotate: false
+  xy: 692, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+wanted
+  rotate: false
+  xy: 1283, 519
+  size: 325, 121
+  orig: 327, 123
+  offset: 1, 1
+  index: -1

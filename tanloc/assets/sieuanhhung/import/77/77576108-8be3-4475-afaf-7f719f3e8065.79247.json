@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "183d46785"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-rayleigh",
+      "rect": [
+        3,
+        436,
+        1584,
+        268
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1588,
+        272
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

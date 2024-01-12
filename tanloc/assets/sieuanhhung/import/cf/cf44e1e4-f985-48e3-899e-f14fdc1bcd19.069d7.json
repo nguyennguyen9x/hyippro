@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "14af4fb67"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "banchoi-sail",
+      "rect": [
+        528,
+        1192,
+        821,
+        712
+      ],
+      "offset": [
+        1,
+        -0.5
+      ],
+      "originalSize": [
+        827,
+        717
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
