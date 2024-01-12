@@ -1,0 +1,125 @@
+
+Mu.png
+size: 801,203
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 620, 6
+  size: 50, 96
+  orig: 50, 96
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: true
+  xy: 608, 85
+  size: 17, 11
+  orig: 19, 13
+  offset: 1, 1
+  index: -1
+Layer 11
+  rotate: false
+  xy: 184, 1
+  size: 8, 8
+  orig: 10, 10
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: true
+  xy: 514, 3
+  size: 81, 99
+  orig: 83, 101
+  offset: 1, 1
+  index: -1
+Layer 3
+  rotate: false
+  xy: 608, 103
+  size: 96, 99
+  orig: 96, 99
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 364, 1
+  size: 61, 75
+  orig: 63, 77
+  offset: 1, 1
+  index: -1
+Layer 6
+  rotate: false
+  xy: 184, 10
+  size: 179, 192
+  orig: 181, 194
+  offset: 1, 1
+  index: -1
+Layer 7
+  rotate: false
+  xy: 671, 1
+  size: 66, 30
+  orig: 68, 32
+  offset: 1, 1
+  index: -1
+Layer 8
+  rotate: false
+  xy: 727, 136
+  size: 63, 66
+  orig: 65, 68
+  offset: 1, 1
+  index: -1
+Layer 8-
+  rotate: false
+  xy: 671, 32
+  size: 65, 70
+  orig: 65, 70
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 705, 110
+  size: 38, 23
+  orig: 40, 25
+  offset: 1, 1
+  index: -1
+background
+  rotate: false
+  xy: 737, 46
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+cheek
+  rotate: true
+  xy: 705, 134
+  size: 68, 21
+  orig: 72, 23
+  offset: 3, 1
+  index: -1
+ds
+  rotate: false
+  xy: 1, 4
+  size: 182, 198
+  orig: 183, 198
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 364, 77
+  size: 125, 125
+  orig: 129, 129
+  offset: 2, 2
+  index: -1
+heart
+  rotate: false
+  xy: 426, 4
+  size: 87, 72
+  orig: 92, 74
+  offset: 2, 0
+  index: -1
+stroke
+  rotate: false
+  xy: 490, 85
+  size: 117, 117
+  orig: 119, 119
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,181 @@
+
+banchoi-bg.png
+size: 2023,1218
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fsfsf
+  rotate: false
+  xy: 1684, 556
+  size: 337, 308
+  orig: 350, 311
+  offset: 0, 3
+  index: -1
+sky
+  rotate: true
+  xy: 2, 494
+  size: 722, 1282
+  orig: 722, 1282
+  offset: 0, 0
+  index: -1
+sky-
+  rotate: true
+  xy: 1286, 866
+  size: 350, 621
+  orig: 350, 621
+  offset: 0, 0
+  index: -1
+water-1/water-1_00037
+  rotate: true
+  xy: 2, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00038
+  rotate: true
+  xy: 201, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00039
+  rotate: true
+  xy: 400, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00040
+  rotate: true
+  xy: 599, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00041
+  rotate: true
+  xy: 798, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00042
+  rotate: true
+  xy: 997, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00043
+  rotate: true
+  xy: 1196, 142
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00044
+  rotate: true
+  xy: 1286, 514
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00045
+  rotate: true
+  xy: 1395, 162
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-1/water-1_00046
+  rotate: true
+  xy: 1485, 514
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+water-2/water2_00234
+  rotate: false
+  xy: 2, 2
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00235
+  rotate: false
+  xy: 254, 2
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00236
+  rotate: false
+  xy: 506, 2
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00237
+  rotate: false
+  xy: 758, 2
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00238
+  rotate: false
+  xy: 1010, 2
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00239
+  rotate: false
+  xy: 1262, 2
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00240
+  rotate: false
+  xy: 1514, 22
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00241
+  rotate: false
+  xy: 1766, 416
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00242
+  rotate: true
+  xy: 1594, 164
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00243
+  rotate: true
+  xy: 1734, 164
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00244
+  rotate: false
+  xy: 1766, 24
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+water-2/water2_00245
+  rotate: true
+  xy: 1874, 164
+  size: 250, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1

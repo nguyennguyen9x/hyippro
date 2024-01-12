@@ -1,0 +1,181 @@
+
+item-huouu.png
+size: 1097,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 35
+  rotate: false
+  xy: 914, 90
+  size: 125, 133
+  orig: 127, 133
+  offset: 2, 0
+  index: -1
+Layer 37
+  rotate: true
+  xy: 584, 10
+  size: 63, 137
+  orig: 63, 137
+  offset: 0, 0
+  index: -1
+Layer 38
+  rotate: false
+  xy: 1006, 5
+  size: 48, 84
+  orig: 50, 86
+  offset: 1, 1
+  index: -1
+Layer 40
+  rotate: false
+  xy: 410, 59
+  size: 93, 164
+  orig: 93, 164
+  offset: 0, 0
+  index: -1
+Layer 41
+  rotate: false
+  xy: 504, 74
+  size: 86, 149
+  orig: 86, 149
+  offset: 0, 0
+  index: -1
+Layer 43
+  rotate: true
+  xy: 1055, 186
+  size: 37, 41
+  orig: 39, 43
+  offset: 1, 1
+  index: -1
+Layer 44
+  rotate: false
+  xy: 732, 85
+  size: 81, 138
+  orig: 81, 138
+  offset: 0, 0
+  index: -1
+Layer 45
+  rotate: false
+  xy: 880, 1
+  size: 48, 86
+  orig: 50, 88
+  offset: 1, 1
+  index: -1
+Layer 46
+  rotate: false
+  xy: 1055, 110
+  size: 37, 47
+  orig: 39, 50
+  offset: 1, 1
+  index: -1
+Layer 47
+  rotate: false
+  xy: 1055, 158
+  size: 41, 27
+  orig: 41, 27
+  offset: 0, 0
+  index: -1
+Layer 48
+  rotate: false
+  xy: 748, 4
+  size: 49, 20
+  orig: 49, 20
+  offset: 0, 0
+  index: -1
+Layer 49
+  rotate: true
+  xy: 772, 45
+  size: 39, 25
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+Layer 50
+  rotate: false
+  xy: 1055, 55
+  size: 29, 29
+  orig: 32, 29
+  offset: 2, 0
+  index: -1
+Layer 51
+  rotate: false
+  xy: 451, 6
+  size: 66, 52
+  orig: 66, 52
+  offset: 0, 0
+  index: -1
+Layer 52
+  rotate: false
+  xy: 1055, 85
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+Layer 53
+  rotate: true
+  xy: 814, 88
+  size: 135, 99
+  orig: 138, 108
+  offset: 2, 5
+  index: -1
+Layer 54
+  rotate: true
+  xy: 722, 25
+  size: 50, 49
+  orig: 52, 51
+  offset: 1, 1
+  index: -1
+Layer 55
+  rotate: false
+  xy: 798, 2
+  size: 81, 82
+  orig: 81, 82
+  offset: 0, 0
+  index: -1
+Layer 56
+  rotate: false
+  xy: 929, 4
+  size: 76, 85
+  orig: 76, 85
+  offset: 0, 0
+  index: -1
+Layer 57
+  rotate: true
+  xy: 722, 3
+  size: 21, 25
+  orig: 23, 29
+  offset: 1, 2
+  index: -1
+eye-lid-1
+  rotate: false
+  xy: 410, 1
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+eye-lid-2
+  rotate: false
+  xy: 518, 6
+  size: 65, 67
+  orig: 65, 67
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 591, 76
+  size: 140, 147
+  orig: 140, 147
+  offset: 0, 0
+  index: -1
+horn-1
+  rotate: false
+  xy: 1, 3
+  size: 207, 220
+  orig: 207, 220
+  offset: 0, 0
+  index: -1
+horn-2
+  rotate: true
+  xy: 209, 3
+  size: 220, 200
+  orig: 220, 200
+  offset: 0, 0
+  index: -1

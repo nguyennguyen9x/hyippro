@@ -1,0 +1,34 @@
+
+screenbonus3-bg.png
+size: 712,323
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bonustitle
+  rotate: false
+  xy: 376, 2
+  size: 240, 96
+  orig: 242, 98
+  offset: 1, 1
+  index: -1
+aura
+  rotate: false
+  xy: 618, 5
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+fruit
+  rotate: true
+  xy: 376, 100
+  size: 221, 305
+  orig: 308, 384
+  offset: 43, 43
+  index: -1
+fruit-outer
+  rotate: true
+  xy: 2, 23
+  size: 298, 372
+  orig: 308, 384
+  offset: 5, 5
+  index: -1
