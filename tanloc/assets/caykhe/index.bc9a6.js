@@ -598,8 +598,6 @@ window.__require = function e(t, n, r) {
         cc.game.addPersistRootNode(this.node);
       }
       start() {
-        let id = 0;
-        this.initAnim([ id, id, id, id, id, id, id, id, id, id, id, id, id, id, id ]);
         BroadcastReceiver_1.default.register(BroadcastReceiver_1.default.USER_DISCONNECTED, data => {
           SlotNetworkClient_1.default.getInstance().close();
         }, this);
@@ -618,7 +616,7 @@ window.__require = function e(t, n, r) {
         this.lb_minior.string = "0";
         SlotNetworkClient_1.default.getInstance().addListener(data => {
           let inpacket = new Network_InPacket_1.default(data);
-          cc.log(inpacket.getCmdId(), data);
+          cc.warn("inpacket.getCmdId", inpacket.getCmdId());
           switch (inpacket.getCmdId()) {
            case SlotCayKhe_Cmd_1.default.Code.GET_INFO:
             {
@@ -631,7 +629,6 @@ window.__require = function e(t, n, r) {
            case SlotCayKhe_Cmd_1.default.Code.UPDATE_POT:
             {
               let res = new SlotCayKhe_Cmd_1.default.ReceiveUpdatePot(data);
-              cc.log(res);
               Tween_1.default.numberTo(this.lb_jackpot, res.jackpot, .3);
               Tween_1.default.numberTo(this.lb_major, res.major, .3);
               Tween_1.default.numberTo(this.lb_maxi, res.maxi, .3);
@@ -671,6 +668,7 @@ window.__require = function e(t, n, r) {
           }
         }, this);
         SlotNetworkClient_1.default.getInstance().send(new SlotCayKhe_Cmd_1.default.sendInfo());
+        SlotNetworkClient_1.default.getInstance().send(new SlotCayKhe_Cmd_1.default.SendSubcribe(this.betIdx));
       }
       initBet(res) {
         if (!JSON.parse(res.rooms) || !JSON.parse(res.rooms).object) return ErrorLogger_1.ErrorLogger.sendLogError("Game config error", "Slot CAY_KHE", "data " + JSON.stringify(res));
@@ -713,7 +711,7 @@ window.__require = function e(t, n, r) {
         cc.log(SlotCayKheController_1.info_awards);
         this.setStateBtnSpin(true);
         this.setupBtnSpin();
-        this.initItem();
+        this.initItem(res);
         this.nodeSetting.getChildByName("Background").active = true;
         this.nodeSetting.getChildByName("setting").scale = 0;
       }
@@ -728,10 +726,10 @@ window.__require = function e(t, n, r) {
           item.getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.spr_icon[array.length > 5 * id_item + index ? array[5 * id_item + index] : Math.floor(Math.random() * this.spr_icon.length)];
           item.position = cc.v3(670 * (index + .5) / 5, 450 * (id_item + .5) / 3 + 15);
         }
+        this.initAnim(array);
       }
       initAnim(array = []) {
         cc.log(array);
-        this.initItem(array);
         for (let index = 0; index < 5; index++) for (let id_item = 0; id_item < 3; id_item++) {
           let item = cc.instantiate(this.animPrefab);
           item.name = JSON.stringify({
@@ -883,9 +881,6 @@ window.__require = function e(t, n, r) {
       onSpinResult(result) {
         var _a, _b;
         cc.log(result);
-        let id = Math.floor(Math.random() * this.spr_icon.length);
-        result.matrix = "";
-        for (let i = 0; i < 15; i++) result.matrix += id + ",";
         let items = '{"object":[{"value":"WILD","id":"0","itemType":"WILD","name":"Wild","replaceableItems":"[WILD]","special":"true","wild":"true"},{"value":"SCATTER","id":"1","itemType":"SCATTER","name":"Scatter","replaceableItems":"[WILD]","special":"true","wild":"false"},{"value":"JACKPOT","id":"2","itemType":"JACKPOT","name":"Jackpot","replaceableItems":"[WILD]","special":"true","wild":"false"},{"value":"NGUOI_EM","id":"3","itemType":"MULTIPLE","name":"NguoiEm","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"VO_NGUOI_EM","id":"4","itemType":"MULTIPLE","name":"VoNguoiEm","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"NGUOI_ANH","id":"5","itemType":"MULTIPLE","name":"NguoiAnh","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"VO_NGUOI_ANH","id":"6","itemType":"MULTIPLE","name":"VoNguoiAnh","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"CAY_KHE","id":"7","itemType":"MULTIPLE","name":"CayKhe","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"TUI_VANG","id":"8","itemType":"MULTIPLE","name":"TuiVang","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"MANH_DAT","id":"9","itemType":"MULTIPLE","name":"ManhDat","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"NHA_TRANH","id":"10","itemType":"MULTIPLE","name":"NhaTranh","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"GIENG","id":"11","itemType":"MULTIPLE","name":"Gieng","replaceableItems":"[WILD]","special":"false","wild":"false"},{"value":"CAY_TRE","id":"12","itemType":"MULTIPLE","name":"CayTre","replaceableItems":"[WILD]","special":"false","wild":"false"}]}';
         let awards = '{"object":[{"value":"PLAY_MINI_GAME_TO_WIN_JACKPOT","awardType":"JACKPOT","duplicate":"3","freeSpin":"false","item":"JACKPOT","jackpot":"true","minigame":"false","ratio":"-3"},{"value":"PLAY_FREE_SPIN_WITH_WILD","awardType":"FREESPIN_WITH_WILD","duplicate":"3","freeSpin":"false","item":"SCATTER","jackpot":"false","minigame":"false","ratio":"-2"},{"value":"PENTA_NGUOI_EM","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"NGUOI_EM","jackpot":"false","minigame":"false","ratio":"388"},{"value":"QUADAR_NGUOI_EM","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"NGUOI_EM","jackpot":"false","minigame":"false","ratio":"168"},{"value":"TRIPLE_NGUOI_EM","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"NGUOI_EM","jackpot":"false","minigame":"false","ratio":"68"},{"value":"PENTA_VO_NGUOI_EM","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"VO_NGUOI_EM","jackpot":"false","minigame":"false","ratio":"188"},{"value":"QUADAR_VO_NGUOI_EM","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"VO_NGUOI_EM","jackpot":"false","minigame":"false","ratio":"80"},{"value":"TRIPLE_VO_NGUOI_EM","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"VO_NGUOI_EM","jackpot":"false","minigame":"false","ratio":"40"},{"value":"PENTA_NGUOI_ANH","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"NGUOI_ANH","jackpot":"false","minigame":"false","ratio":"88"},{"value":"QUADAR_NGUOI_ANH","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"NGUOI_ANH","jackpot":"false","minigame":"false","ratio":"40"},{"value":"TRIPLE_NGUOI_ANH","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"NGUOI_ANH","jackpot":"false","minigame":"false","ratio":"30"},{"value":"PENTA_VO_NGUOI_ANH","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"VO_NGUOI_ANH","jackpot":"false","minigame":"false","ratio":"60"},{"value":"QUADAR_VO_NGUOI_ANH","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"VO_NGUOI_ANH","jackpot":"false","minigame":"false","ratio":"32"},{"value":"TRIPLE_VO_NGUOI_ANH","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"VO_NGUOI_ANH","jackpot":"false","minigame":"false","ratio":"16"},{"value":"PENTA_CAY_KHE","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"CAY_KHE","jackpot":"false","minigame":"false","ratio":"50"},{"value":"QUADAR_CAY_KHE","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"CAY_KHE","jackpot":"false","minigame":"false","ratio":"24"},{"value":"TRIPLE_CAY_KHE","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"CAY_KHE","jackpot":"false","minigame":"false","ratio":"12"},{"value":"PENTA_TUI_VANG","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"TUI_VANG","jackpot":"false","minigame":"false","ratio":"40"},{"value":"QUADAR_TUI_VANG","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"TUI_VANG","jackpot":"false","minigame":"false","ratio":"20"},{"value":"TRIPLE_TUI_VANG","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"TUI_VANG","jackpot":"false","minigame":"false","ratio":"10"},{"value":"PENTA_MANH_DAT","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"MANH_DAT","jackpot":"false","minigame":"false","ratio":"32"},{"value":"QUADAR_MANH_DAT","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"MANH_DAT","jackpot":"false","minigame":"false","ratio":"16"},{"value":"TRIPLE_MANH_DAT","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"MANH_DAT","jackpot":"false","minigame":"false","ratio":"8"},{"value":"PENTA_NHA_TRANH","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"NHA_TRANH","jackpot":"false","minigame":"false","ratio":"24"},{"value":"QUADAR_NHA_TRANH","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"NHA_TRANH","jackpot":"false","minigame":"false","ratio":"12"},{"value":"TRIPLE_NHA_TRANH","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"NHA_TRANH","jackpot":"false","minigame":"false","ratio":"6"},{"value":"PENTA_GIENG","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"GIENG","jackpot":"false","minigame":"false","ratio":"16"},{"value":"QUADAR_GIENG","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"GIENG","jackpot":"false","minigame":"false","ratio":"8"},{"value":"TRIPLE_GIENG","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"GIENG","jackpot":"false","minigame":"false","ratio":"4"},{"value":"PENTA_RADAR","awardType":"MULTIPLE","duplicate":"5","freeSpin":"false","item":"CAY_TRE","jackpot":"false","minigame":"false","ratio":"8"},{"value":"QUADAR_RADAR","awardType":"MULTIPLE","duplicate":"4","freeSpin":"false","item":"CAY_TRE","jackpot":"false","minigame":"false","ratio":"4"},{"value":"TRIPLE_RADAR","awardType":"MULTIPLE","duplicate":"3","freeSpin":"false","item":"CAY_TRE","jackpot":"false","minigame":"false","ratio":"2"}]}';
         SlotCayKheController_1.info_items = JSON.parse(items).object;
@@ -921,10 +916,8 @@ window.__require = function e(t, n, r) {
           actionRoll.push(cc.callFunc(() => {
             let info = JSON.parse(children.name);
             let id = info.row < 3 ? icons[info.row][info.col] : Math.floor(Math.random() * this.spr_icon.length);
-            cc.log("=== " + children.name, id);
             let cell_result = SlotCayKheController_1.info_items.find(item => item.id == id);
             if (cell_result) {
-              cc.log(children.name, info.row < 3, icons);
               children.getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.spr_icon[id];
               info.row < 3 && (this.parentAnim.getChildByName(children.name).getChildByName("anim").getComponent(sp.Skeleton).skeletonData = this.anim_icon[id]);
             }
