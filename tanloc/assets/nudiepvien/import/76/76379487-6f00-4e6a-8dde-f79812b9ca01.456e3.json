@@ -1,0 +1,307 @@
+[
+  1,
+  [
+    "921GM1khFLb5yEO5z/q7aC"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "win",
+      "\r\nwin.png\r\nsize: 366,366\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ncore/core_00000\r\n  rotate: false\r\n  xy: 2, 184\r\n  size: 180, 180\r\n  orig: 180, 180\r\n  offset: 0, 0\r\n  index: -1\r\nglow/glow_00000\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 180, 180\r\n  orig: 180, 180\r\n  offset: 0, 0\r\n  index: -1\r\n",
+      [
+        "win.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "/g/es9OkhqM1MXGdMxAD6T9wGfY",
+          "spine": "3.8.98",
+          "x": -87.88,
+          "y": -83.64,
+          "width": 120,
+          "height": 120
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "rotate",
+            "parent": "root",
+            "x": 2.12,
+            "y": 6.36
+          },
+          {
+            "name": "half-1",
+            "parent": "rotate",
+            "scaleX": -1
+          },
+          {
+            "name": "half-2",
+            "parent": "rotate",
+            "rotation": 180,
+            "scaleX": -1
+          }
+        ],
+        "slots": [
+          {
+            "name": "glow",
+            "bone": "half-1",
+            "attachment": "glow/glow_00000",
+            "blend": "screen"
+          },
+          {
+            "name": "glow2",
+            "bone": "half-2",
+            "attachment": "glow/glow_00000",
+            "blend": "screen"
+          },
+          {
+            "name": "core",
+            "bone": "half-1",
+            "attachment": "core/core_00000",
+            "blend": "screen"
+          },
+          {
+            "name": "core2",
+            "bone": "half-2",
+            "attachment": "core/core_00000",
+            "blend": "screen"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "core": {
+                "core/core_00000": {
+                  "width": 180,
+                  "height": 180
+                }
+              },
+              "core2": {
+                "core/core_00000": {
+                  "width": 180,
+                  "height": 180
+                }
+              },
+              "glow": {
+                "glow/glow_00000": {
+                  "width": 180,
+                  "height": 180
+                }
+              },
+              "glow2": {
+                "glow/glow_00000": {
+                  "width": 180,
+                  "height": 180
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "cyan": {
+            "slots": {
+              "glow": {
+                "color": [
+                  {
+                    "color": "00cfffff"
+                  }
+                ]
+              },
+              "glow2": {
+                "color": [
+                  {
+                    "color": "00cfffff"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "rotate": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.2333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 0.4667
+                  }
+                ]
+              }
+            }
+          },
+          "gold": {
+            "slots": {
+              "glow": {
+                "color": [
+                  {
+                    "color": "ffc600ff"
+                  }
+                ]
+              },
+              "glow2": {
+                "color": [
+                  {
+                    "color": "ffc600ff"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "rotate": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.2333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 0.4667
+                  }
+                ]
+              }
+            }
+          },
+          "green": {
+            "slots": {
+              "glow": {
+                "color": [
+                  {
+                    "color": "00ff22b7"
+                  }
+                ]
+              },
+              "glow2": {
+                "color": [
+                  {
+                    "color": "00ff22b7"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "rotate": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.2333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 0.4667
+                  }
+                ]
+              }
+            }
+          },
+          "pink": {
+            "slots": {
+              "glow": {
+                "color": [
+                  {
+                    "color": "ff7a7aff"
+                  }
+                ]
+              },
+              "glow2": {
+                "color": [
+                  {
+                    "color": "ff7a7aff"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "rotate": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.2333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 0.4667
+                  }
+                ]
+              }
+            }
+          },
+          "purple": {
+            "slots": {
+              "glow": {
+                "color": [
+                  {
+                    "color": "8900ffff"
+                  }
+                ]
+              },
+              "glow2": {
+                "color": [
+                  {
+                    "color": "8900ffff"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "rotate": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.2333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 0.4667
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]
