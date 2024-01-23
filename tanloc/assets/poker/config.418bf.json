@@ -787,6 +787,16 @@
         "maingame"
     ],
     "packs": {
+        "0237d328c": [
+            "bd+QCHcGpBwo3UWMxP3hIT",
+            "ebrOFFz71EBYtHfwysvWkL"
+        ],
+        "0e554072a": [
+            "1855083c3",
+            "19d74d3e1",
+            "1d27df134",
+            "50RXrIyrdNlYEAH5Rp4vm9"
+        ],
         "04c49cb76": [
             "01vX9le2tHJJPc1yblC8c/",
             "02UQc1uydOD76O2n47dWYB",
@@ -870,16 +880,6 @@
             "f23VRoUSpK/rrNxz6iOMtd",
             "fa3Pwq8eZNtoEqKtpQ7mpf",
             "fepIvJdG5HK7tmr3wUXwlg"
-        ],
-        "0237d328c": [
-            "bd+QCHcGpBwo3UWMxP3hIT",
-            "ebrOFFz71EBYtHfwysvWkL"
-        ],
-        "0e554072a": [
-            "1855083c3",
-            "19d74d3e1",
-            "1d27df134",
-            "50RXrIyrdNlYEAH5Rp4vm9"
         ]
     },
     "name": "poker",
