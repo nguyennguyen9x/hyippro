@@ -1,0 +1,265 @@
+
+item-wildbig-zoro.png
+size: 2018,1038
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GLITTER-S
+  rotate: false
+  xy: 1866, 256
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+Layer 27
+  rotate: true
+  xy: 1207, 15
+  size: 57, 128
+  orig: 59, 130
+  offset: 1, 1
+  index: -1
+Layer 28
+  rotate: false
+  xy: 1818, 408
+  size: 192, 244
+  orig: 194, 246
+  offset: 1, 1
+  index: -1
+Layer 29
+  rotate: false
+  xy: 1008, 2
+  size: 96, 70
+  orig: 98, 72
+  offset: 1, 1
+  index: -1
+Layer 37
+  rotate: false
+  xy: 1064, 598
+  size: 378, 438
+  orig: 378, 491
+  offset: 0, 0
+  index: -1
+Layer 38
+  rotate: false
+  xy: 1818, 654
+  size: 197, 382
+  orig: 373, 392
+  offset: 97, 6
+  index: -1
+Layer 38-
+  rotate: false
+  xy: 1444, 644
+  size: 372, 392
+  orig: 373, 392
+  offset: 1, 0
+  index: -1
+Layer 39
+  rotate: true
+  xy: 1337, 10
+  size: 82, 186
+  orig: 84, 188
+  offset: 1, 1
+  index: -1
+Layer 40
+  rotate: true
+  xy: 1584, 269
+  size: 172, 214
+  orig: 175, 216
+  offset: 1, 1
+  index: -1
+Layer 41
+  rotate: false
+  xy: 2, 275
+  size: 220, 761
+  orig: 220, 761
+  offset: 0, 0
+  index: -1
+Layer 43
+  rotate: false
+  xy: 726, 578
+  size: 336, 458
+  orig: 500, 721
+  offset: 82, 131
+  index: -1
+Layer 43 copy-
+  rotate: false
+  xy: 224, 315
+  size: 500, 721
+  orig: 500, 721
+  offset: 0, 0
+  index: -1
+aura-sword
+  rotate: false
+  xy: 1444, 598
+  size: 232, 44
+  orig: 236, 49
+  offset: 2, 4
+  index: -1
+bg
+  rotate: false
+  xy: 1525, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+hilo-flare
+  rotate: true
+  xy: 1800, 306
+  size: 100, 50
+  orig: 100, 50
+  offset: 0, 0
+  index: -1
+lightning/lightning_00000
+  rotate: false
+  xy: 432, 7
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00001
+  rotate: false
+  xy: 576, 7
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00002
+  rotate: false
+  xy: 720, 7
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00003
+  rotate: false
+  xy: 864, 18
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+lightning/lightning_00004
+  rotate: false
+  xy: 288, 7
+  size: 142, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+smoke/smoke_00024
+  rotate: true
+  xy: 2, 23
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00025
+  rotate: true
+  xy: 145, 23
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00026
+  rotate: true
+  xy: 726, 326
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00027
+  rotate: true
+  xy: 869, 326
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00028
+  rotate: true
+  xy: 1008, 74
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00029
+  rotate: true
+  xy: 1012, 326
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00030
+  rotate: true
+  xy: 1151, 74
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00031
+  rotate: true
+  xy: 1155, 346
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00032
+  rotate: true
+  xy: 1294, 94
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00033
+  rotate: true
+  xy: 1298, 346
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00034
+  rotate: true
+  xy: 1437, 94
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00035
+  rotate: true
+  xy: 1441, 346
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00036
+  rotate: true
+  xy: 1580, 17
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00037
+  rotate: true
+  xy: 1723, 17
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+smoke/smoke_00038
+  rotate: true
+  xy: 1866, 4
+  size: 250, 141
+  orig: 250, 141
+  offset: 0, 0
+  index: -1
+sword-light
+  rotate: true
+  xy: 1584, 443
+  size: 153, 226
+  orig: 200, 265
+  offset: 23, 19
+  index: -1
+wild
+  rotate: false
+  xy: 1106, 7
+  size: 99, 65
+  orig: 101, 68
+  offset: 1, 2
+  index: -1
