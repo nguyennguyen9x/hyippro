@@ -183,6 +183,10 @@ window.__require = function e(t, n, r) {
           this.itemsWild = "";
           this.ratio = 0;
           this.awardsDetail = "";
+          this.selectedAllAwardsDetail = "";
+          this.listSuggestionAction = "";
+          this.freeSpinOption = [];
+          this.itemsWin = "";
           this.ref = this.getLong();
           this.result = this.getByte();
           this.matrix = this.getString();
@@ -195,6 +199,10 @@ window.__require = function e(t, n, r) {
           this.itemsWild = this.getString();
           this.ratio = this.getByte();
           this.awardsDetail = JSON.parse(this.getString() || "{}");
+          this.selectedAllAwardsDetail = JSON.parse(this.getString() || "{}");
+          let listSuggestionAction = this.getString();
+          this.freeSpinOption = this.getCharArray();
+          this.itemsWin = this.getString();
         }
       }
       cmd_1.ReceiveResult = ReceiveResult;
@@ -209,9 +217,6 @@ window.__require = function e(t, n, r) {
           this.items = "";
           this.awards = "";
           this.linesConfig = "";
-          this.listBet = [];
-          this.lastBet = 0;
-          this.rooms = null;
           this.dateX2 = this.getString();
           this.remain = this.getByte();
           this.currentMoney = this.getLong();
@@ -220,9 +225,6 @@ window.__require = function e(t, n, r) {
           this.items = this.getString();
           this.awards = this.getString();
           this.linesConfig = this.getString();
-          this.listBet = this.getCharArray();
-          this.lastBet = this.getLong();
-          this.rooms = this.getString();
         }
       }
       cmd_1.ReceiveSubcribe = ReceiveSubcribe;
@@ -256,7 +258,116 @@ window.__require = function e(t, n, r) {
     });
     exports.SlotCayKheControllerOffline = void 0;
     const {ccclass: ccclass, property: property} = cc._decorator;
+    var ITEM = [ {
+      value: "WILD",
+      id: "0",
+      itemType: "WILD",
+      name: "Wild",
+      replaceableItems: "[WILD]",
+      special: "true",
+      wild: "true"
+    }, {
+      value: "SCATTER",
+      id: "1",
+      itemType: "SCATTER",
+      name: "Scatter",
+      replaceableItems: "[WILD]",
+      special: "true",
+      wild: "false"
+    }, {
+      value: "JACKPOT",
+      id: "2",
+      itemType: "JACKPOT",
+      name: "Jackpot",
+      replaceableItems: "[WILD]",
+      special: "true",
+      wild: "false"
+    }, {
+      value: "NGUOI_EM",
+      id: "3",
+      itemType: "MULTIPLE",
+      name: "NguoiEm",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "VO_NGUOI_EM",
+      id: "4",
+      itemType: "MULTIPLE",
+      name: "VoNguoiEm",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "NGUOI_ANH",
+      id: "5",
+      itemType: "MULTIPLE",
+      name: "NguoiAnh",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "VO_NGUOI_ANH",
+      id: "6",
+      itemType: "MULTIPLE",
+      name: "VoNguoiAnh",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "CAY_KHE",
+      id: "7",
+      itemType: "MULTIPLE",
+      name: "CayKhe",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "TUI_VANG",
+      id: "8",
+      itemType: "MULTIPLE",
+      name: "TuiVang",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "MANH_DAT",
+      id: "9",
+      itemType: "MULTIPLE",
+      name: "ManhDat",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "NHA_TRANH",
+      id: "10",
+      itemType: "MULTIPLE",
+      name: "NhaTranh",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "GIENG",
+      id: "11",
+      itemType: "MULTIPLE",
+      name: "Gieng",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    }, {
+      value: "CAY_TRE",
+      id: "12",
+      itemType: "MULTIPLE",
+      name: "CayTre",
+      replaceableItems: "[WILD]",
+      special: "false",
+      wild: "false"
+    } ];
     let SlotCayKheControllerOffline = SlotCayKheControllerOffline_1 = class SlotCayKheControllerOffline {
+      constructor() {
+        this.freeSpinLeft = 0;
+        this.miniGame = -1;
+      }
       static getSubcribe() {}
       static getLines() {
         if (SlotCayKheControllerOffline_1.lines.length <= 0) for (let index = 1; index <= 25; index++) SlotCayKheControllerOffline_1.lines.push({
@@ -317,37 +428,107 @@ window.__require = function e(t, n, r) {
         let icons = SlotCayKheControllerOffline_1.getIcons();
         for (let i = 0; i < 5; i++) {
           let col = [];
-          for (let j = 0; j < 3; j++) col.push(icons[Math.floor(Math.random() * icons.length)]);
+          for (let j = 0; j < 3; j++) col.push(-1);
           randomIcons.push(col);
         }
-        let award = [];
-        cc.log(randomIcons);
-        for (let index_row = 0; index_row < 3; index_row++) {
-          let countIconWin = 0;
-          let type = "WILL";
-          let iconCheck = [];
-          for (let index_coll = 0; index_coll < 5; index_coll++) {
-            let icon = randomIcons[index_coll][index_row];
-            "WILL" != type && icon.name != type && "WILL" != icon.name || countIconWin++;
-            "WILL" == type && (type = icon.name);
+        let rateWin = {
+          jackpot: .2,
+          mini_game: 1,
+          bonus: .2,
+          win: .3,
+          lose: .1
+        };
+        let typeWin = "";
+        Math.random() < rateWin.jackpot ? typeWin = "jackpot" : Math.random() < rateWin.mini_game ? typeWin = "mini_game" : Math.random() < rateWin.bonus ? typeWin = "bonus" : Math.random() < rateWin.win && (typeWin = "win");
+        let item_normal_id = ITEM.filter(item => "false" == item.special).map(item => item.id);
+        let item_scatter_id = ITEM.find(item => "SCATTER" == item.itemType).id;
+        let item_jackpot_id = ITEM.find(item => "JACKPOT" == item.itemType).id;
+        let item_wild_id = ITEM.find(item => "WILD" == item.itemType).id;
+        let items_id = item_normal_id.slice();
+        switch (typeWin) {
+         case "jackpot":
+          {
+            let jackpot = [ 1, 1, 1, 1, 1 ].map(cell => parseInt(item_jackpot_id));
+            let random = {
+              1: [ -1, -1, -1 ].map(cell => items_id[Math.floor(Math.random() * items_id.length)]),
+              0: [ -1, -1, -1 ].map(cell => items_id[Math.floor(Math.random() * items_id.length)])
+            };
+            cc.log("jackpot ", jackpot);
+            cc.log("random ", random);
+            for (let i = 0; i < 5; i++) for (let j = 0; j < 3; j++) {
+              cc.log("randomIcons[" + i + "][" + j + "]");
+              if (-1 != jackpot[i]) if (j < 2) if (Math.random() > .6) {
+                randomIcons[i][j] = jackpot[i];
+                jackpot[i] = -1;
+                cc.log(randomIcons[i][j]);
+              } else {
+                let id = -1;
+                if (i < 2) id = random[i][j]; else if (2 == i) {
+                  let items_random = items_id.filter(item => -1 == random[0].indexOf(item) || -1 == random[1].indexOf(item));
+                  id = items_random[Math.floor(Math.random() * items_random.length)];
+                } else id = items_id[Math.floor(Math.random() * items_id.length)];
+                cc.log("id");
+                randomIcons[i][j] = id;
+                cc.log(randomIcons[i][j]);
+              } else {
+                randomIcons[i][j] = jackpot[i];
+                jackpot[i] = -1;
+                cc.log(randomIcons[i][j]);
+              } else {
+                let id = -1;
+                if (i < 2) id = random[i][j]; else if (2 == i) {
+                  let items_random = items_id.filter(item => -1 == random[0].indexOf(item) || -1 == random[1].indexOf(item));
+                  id = items_random[Math.floor(Math.random() * items_random.length)];
+                } else id = items_id[Math.floor(Math.random() * items_id.length)];
+                randomIcons[i][j] = id;
+                cc.log(randomIcons[i][j]);
+              }
+            }
           }
-          if ("WILL" != type) {
-            icons.find(icon => icon.name);
-            cc.log(icons.find(a => a.name = type));
-            countIconWin >= icons.find(a => a.name = type).duplicate && award.push({
-              index: icons.find(a => a.name = type).index,
-              typeWin: type,
-              countWin: countIconWin
-            });
+          break;
+
+         case "mini_game":
+          {
+            let mini_game = [ 0, 1, 1, 1, 0 ].map(cell => 0 == cell ? items_id[Math.floor(Math.random() * items_id.length)] : parseInt(item_scatter_id));
+            let random = {
+              1: [ -1, -1, -1 ].map(cell => items_id[Math.floor(Math.random() * items_id.length)]),
+              0: [ -1, -1, -1 ].map(cell => items_id[Math.floor(Math.random() * items_id.length)])
+            };
+            cc.log("mini_game ", mini_game);
+            cc.log("random ", random);
+            for (let i = 0; i < 5; i++) for (let j = 0; j < 3; j++) {
+              cc.log("randomIcons[" + i + "][" + j + "]");
+              if (-1 != mini_game[i]) if (j < 2) if (Math.random() > .6) {
+                randomIcons[i][j] = mini_game[i];
+                mini_game[i] = -1;
+                cc.log(randomIcons[i][j]);
+              } else {
+                let id = -1;
+                if (i < 2) id = random[i][j]; else if (2 == i) {
+                  let items_random = items_id.filter(item => -1 == random[0].indexOf(item) || -1 == random[1].indexOf(item));
+                  id = items_random[Math.floor(Math.random() * items_random.length)];
+                } else id = items_id[Math.floor(Math.random() * items_id.length)];
+                cc.log("id");
+                randomIcons[i][j] = id;
+                cc.log(randomIcons[i][j]);
+              } else {
+                randomIcons[i][j] = mini_game[i];
+                mini_game[i] = -1;
+                cc.log(randomIcons[i][j]);
+              } else {
+                let id = -1;
+                if (i < 2) id = random[i][j]; else if (2 == i) {
+                  let items_random = items_id.filter(item => -1 == random[0].indexOf(item) || -1 == random[1].indexOf(item));
+                  id = items_random[Math.floor(Math.random() * items_random.length)];
+                } else id = items_id[Math.floor(Math.random() * items_id.length)];
+                randomIcons[i][j] = id;
+                cc.log(randomIcons[i][j]);
+              }
+            }
           }
         }
-        randomIcons.forEach((coll, index_coll) => {
-          coll.forEach((row, index_row) => {});
-        });
-        return {
-          awards: award,
-          icons: randomIcons
-        };
+        let award = [];
+        return randomIcons.map(a => a.map(b => b).join(",")).join("\n");
       }
       static getGuid() {
         return [ [ {
@@ -659,7 +840,6 @@ window.__require = function e(t, n, r) {
             {
               let resultSpinTime = new Date().getTime();
               let deltaTime = resultSpinTime - this.startSpinTime;
-              cc.log("Spin delta time: " + deltaTime + "ms");
               deltaTime > 2e3 && ErrorLogger_1.ErrorLogger.sendLogError("Slow Response", Configs_1.default.App.BUNDLE_NAME.SIEUANHHUNG, deltaTime + "ms");
               let res = new SlotCayKhe_Cmd_1.default.ReceiveResult(data);
               cc.log(res);
@@ -668,22 +848,22 @@ window.__require = function e(t, n, r) {
           }
         }, this);
         SlotNetworkClient_1.default.getInstance().send(new SlotCayKhe_Cmd_1.default.sendInfo());
-        SlotNetworkClient_1.default.getInstance().send(new SlotCayKhe_Cmd_1.default.SendSubcribe(this.betIdx));
       }
       initBet(res) {
         if (!JSON.parse(res.rooms) || !JSON.parse(res.rooms).object) return ErrorLogger_1.ErrorLogger.sendLogError("Game config error", "Slot CAY_KHE", "data " + JSON.stringify(res));
         this.list_bet = JSON.parse(res.rooms).object;
         let suggest_bet = 0;
-        this.list_bet.forEach((vl, idx) => {
+        this.list_bet.forEach(vl => {
           let item = cc.instantiate(this.item_bet);
           item.active = true;
           item.name = JSON.stringify(vl);
           item.getComponentInChildren(cc.Label).string = Utils_1.default.formatMoneyChip(vl.betValue);
-          Configs_1.default.Login.Coin > 100 * vl.betValue && (suggest_bet = idx);
+          Configs_1.default.Login.Coin > 100 * vl.betValue && (suggest_bet = vl.roomId);
           this.page_bet.addPage(item);
         });
         cc.log(suggest_bet);
         this.pageBet.scrollToPage(suggest_bet, .2);
+        SlotNetworkClient_1.default.getInstance().send(new SlotCayKhe_Cmd_1.default.SendSubcribe(suggest_bet));
       }
       evtChangeBet() {
         cc.log(this.page_bet.getPages()[this.page_bet.getCurrentPageIndex()].name);
@@ -877,6 +1057,9 @@ window.__require = function e(t, n, r) {
             })).active = false;
           }, 2.2);
         });
+      }
+      onSpinResultOff() {
+        cc.log(SlotCayKhe_ControllerOffline_1.default.getResultSpin());
       }
       onSpinResult(result) {
         var _a, _b;

@@ -583,8 +583,8 @@
         "21PYcc5IlPpbpJCXrL0ika",
         "36DqOQzFhBY7fBeSps3++s",
         "c4Q5CAlmRKDqJuLscjytDR",
-        "1bedeb8d9",
         "1ef48809d",
+        "1bedeb8d9",
         "5fhURfqilJLIYzVtBKmQ1o"
     ],
     "scenes": {
@@ -649,15 +649,6 @@
         "maingame"
     ],
     "packs": {
-        "0203a5834": [
-            "4dcrIrN2BMsotSnFQXDH8c",
-            "68XE4cDp1F1IBjJmR5Rr2A"
-        ],
-        "0af38685e": [
-            "1bedeb8d9",
-            "1ef48809d",
-            "5fhURfqilJLIYzVtBKmQ1o"
-        ],
         "0e4850c2a": [
             "016jQRJLVGOplE6gW0YAJh",
             "08WHD+EgdJV6svuOPYHScP",
@@ -739,6 +730,15 @@
             "f8dR0jvG5AWrwt/RSpQ2su",
             "fbrnkMOsJP9bpKBq3m5mTc",
             "fe6NX9f3NO7opKk1gsVd8v"
+        ],
+        "0203a5834": [
+            "4dcrIrN2BMsotSnFQXDH8c",
+            "68XE4cDp1F1IBjJmR5Rr2A"
+        ],
+        "0af38685e": [
+            "1bedeb8d9",
+            "1ef48809d",
+            "5fhURfqilJLIYzVtBKmQ1o"
         ]
     },
     "name": "baicao",
