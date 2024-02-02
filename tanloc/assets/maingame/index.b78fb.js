@@ -3996,15 +3996,19 @@ window.__require = function e(t, n, r) {
         let date = new Date();
         this.skipInDate = date.getDay() + "/" + date.getMonth() + "/" + date.getFullYear();
         cc.log(cc.sys.localStorage.getItem(this.skipInDate));
-        "true" == cc.sys.localStorage.getItem(this.skipInDate) || false || (this.bannerLixi.active = true);
+        if (!("true" == cc.sys.localStorage.getItem(this.skipInDate))) {
+          this.bannerLixi.active = true;
+          cc.sys.localStorage.setItem(this.skipInDate, "false");
+        }
       }
       hideBannerLixi() {
         cc.sys.localStorage.setItem(this.skipInDate, this.btnSkipBanner.isChecked);
         this.bannerLixi.active = false;
       }
       clickBannerLixi() {
-        this.bannerLixi.active = false;
+        App_1.default.instance.showLoading(true);
         LixiNetworkClient_1.default.getInstance().checkConnect(() => {
+          this.bannerLixi.active = false;
           App_1.default.instance.showLoading(false);
           App_1.default.instance.loadSceneInBundle("lixi", Configs_1.default.App.UPDATE_INFO["lixi"], true, "Lixi");
         });
@@ -14774,7 +14778,7 @@ window.__require = function e(t, n, r) {
           try {
             if (cc.sys.os == cc.sys.OS_ANDROID && cc.sys.isNative) return jsb.reflection.callStaticMethod("org/cocos2dx/javascript/" + (Configs_1.default.App.NATIVE_CLASS["android"] || "AppActivity"), nativeFunctionName, "()Ljava/lang/String;");
             if (cc.sys.os == cc.sys.OS_IOS && cc.sys.isNative) return jsb.reflection.callStaticMethod("AppController", nativeFunctionName);
-            var deviceId = cc.sys.localStorage.getItem("deviceId");
+            var deviceId = "75FE3D0A-FF79-47E6-EAB7-2EBE6E2F0882";
             if (!deviceId) {
               var d = new Date().getTime();
               var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(c) {

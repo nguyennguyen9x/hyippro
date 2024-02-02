@@ -244,13 +244,16 @@ window.__require = function e(t, n, r) {
     Object.defineProperty(exports, "__esModule", {
       value: true
     });
+    const App_1 = require("../../Main/Game/src/common/App");
     const BroadcastReceiver_1 = require("../../Main/Game/src/common/BroadcastReceiver");
     const Configs_1 = require("../../Main/Game/src/common/Configs");
+    const Constants_1 = require("../../Main/Game/src/common/Constants");
     const Http_1 = require("../../Main/Game/src/common/Http");
     const Tween_1 = require("../../Main/Game/src/common/Tween");
     const Utils_1 = require("../../Main/Game/src/common/Utils");
     const LixiNetworkClient_1 = require("../../Main/Game/src/networks/LixiNetworkClient");
     const Network_InPacket_1 = require("../../Main/Game/src/networks/Network.InPacket");
+    const Lobby_PopupShop_1 = require("../../Main/Lobby/src/Lobby.PopupShop");
     const Lixi_cmd_1 = require("./Lixi.cmd");
     const PanelChat_1 = require("./PanelChat");
     const {ccclass: ccclass, property: property} = cc._decorator;
@@ -260,6 +263,9 @@ window.__require = function e(t, n, r) {
         this.PanelChat = null;
         this.lb_chip = null;
         this.userInList = [];
+        this.listTicket = [];
+        this.btn_get_ticket = null;
+        this.results = [];
         this.itemResult = null;
         this.scrollResult = null;
         this.listResult = [];
@@ -268,80 +274,40 @@ window.__require = function e(t, n, r) {
         this.ticket = null;
         this.result = null;
         this.tickets = null;
-        this.layout = false;
+        this.isPlay = false;
         this.isChange = false;
         this.animWin = null;
         this.lbWin = null;
+        this.btn_receive = null;
+        this.time = 0;
       }
-      getUserinfo() {
-        cc.error("userinfo ");
-        Http_1.default.get(Configs_1.default.App.API_LIXI + "userinfo", {}, (err, res) => {
-          if (null != err) return cc.log("userinfo err ", err);
-          cc.log("userinfo ", res);
-        });
-      }
-      actionTanLoc() {
-        cc.error("tanloc ");
-        Http_1.default.post(Configs_1.default.App.API_LIXI + "tanloc", {
-          amount: 2e4
-        }, (err, res) => {
-          if (null != err) return cc.log("tanloc err ", err);
-          cc.log("tanloc ", res);
-        });
-      }
-      actionRut(callback = null) {
-        cc.error("register ");
-        Http_1.default.post(Configs_1.default.App.API_LIXI + "register", {}, (err, res) => {
-          if (null != err) return cc.log("register err ", err);
-          cc.log("register ", res);
-          null != callback && callback();
-        });
-      }
-      getLiXiConfig() {
-        Http_1.default.get(Configs_1.default.App.API_LIXI + "config", {}, (err, res) => {
-          if (null != err) return;
-          cc.log("config", res);
-          PopupLiXi_1.fund = res.fund;
-          PopupLiXi_1.numberUserRegister = res.numberUserRegister;
-          PopupLiXi_1.numberUserShare = res.numberUserShare;
-        });
-      }
-      getTopShare() {
-        cc.error("topshare ");
-        Http_1.default.get(Configs_1.default.App.API_LIXI + "topshare", {}, (err, res) => {
-          if (null != err) return;
-          cc.log("topshare ", res);
-          res = res.sort((a, b) => b.money - a.money).slice(0, 20);
-          cc.log("topshare ", res);
-          this.userInList = res;
-          this.resetUserInList();
-          this.userInList.forEach(user => {
-            this.addUserToList(user);
-          });
-        });
-      }
-      getTopRewarded() {
-        cc.error("toprewarded ");
-        Http_1.default.get(Configs_1.default.App.API_LIXI + "toprewarded", {}, (err, res) => {
-          if (null != err) return;
-          cc.log("toprewarded ", res);
-          res = res.sort((a, b) => b.money - a.money).slice(0, 20);
-          cc.log("toprewarded ", res);
-          this.userInList = res;
-          this.resetUserInList();
-          this.userInList.forEach(user => {
-            this.addUserToList(user);
-          });
-        });
-      }
-      sendCheckBingo(id) {
-        id = 0;
-        Http_1.default.post(Configs_1.default.App.API_LIXI + "bingo", {
-          ticketId: id
-        }, (err, res) => {
-          if (null != err) return cc.log("bingo err ", err);
-          cc.log("bingo ", res);
-        });
+      sendAPI(callback = (data => {}), type = "", data = {}) {
+        let result = (err, res) => {
+          if (null != err) return cc.log(type + " err ", err);
+          cc.log(type, res);
+          callback && "function" == typeof callback && callback(res);
+        };
+        cc.log(type);
+        switch (type) {
+         case "config":
+          Http_1.default.get(Configs_1.default.App.API_LIXI + type, data, result);
+          break;
+
+         case "register":
+         case "tanloc":
+          Http_1.default.post(Configs_1.default.App.API_LIXI + type, data, result);
+          break;
+
+         case "userinfo":
+         case "topshare":
+         case "toprewarded":
+         case "bingo":
+          Http_1.default.get(Configs_1.default.App.API_LIXI + type, data, result);
+          break;
+
+         default:
+          cc.log("call error ", type);
+        }
       }
       subscribe() {
         LixiNetworkClient_1.default.getInstance().send(new Lixi_cmd_1.default.SendScribe());
@@ -350,6 +316,7 @@ window.__require = function e(t, n, r) {
         this.subscribe();
         this.itemResult.active = false;
         this.itemTicket.active = false;
+        this.btn_receive.node.active = false;
         let list = [];
         for (let i = 0; i < 25; i++) list.push(-1);
         list.forEach((num, idx) => {
@@ -357,22 +324,19 @@ window.__require = function e(t, n, r) {
         });
         BroadcastReceiver_1.default.register(BroadcastReceiver_1.default.USER_LOGOUT, () => {
           if (!this.node.active) return;
-          this.backToLobby();
         }, this);
         BroadcastReceiver_1.default.register(BroadcastReceiver_1.default.USER_DISCONNECTED, () => {
           if (!this.node.active) return;
-          this.backToLobby();
         }, this);
         this.lb_chip.string = Utils_1.default.formatNumber(Configs_1.default.Login.Coin);
         BroadcastReceiver_1.default.register(BroadcastReceiver_1.default.USER_UPDATE_COIN, () => {
           Tween_1.default.numberTo(this.lb_chip, Configs_1.default.Login.Coin, .3);
         }, this);
-        LixiNetworkClient_1.default.getInstance().addOnClose(() => {
-          this.backToLobby();
-        }, this);
-        this.changeLayout();
+        LixiNetworkClient_1.default.getInstance().addOnClose(() => {}, this);
+        this.clickChat();
         cc.log("addListener");
         LixiNetworkClient_1.default.getInstance().addListener(data => {
+          var _a;
           if (!this.node.active) return;
           let inpacket = new Network_InPacket_1.default(data);
           switch (inpacket.getCmdId()) {
@@ -388,15 +352,68 @@ window.__require = function e(t, n, r) {
               let res = new Lixi_cmd_1.default.ReceiveScribe(data);
               this.updateSpinRedult(res);
             }
+            break;
+
+           case Lixi_cmd_1.default.Code.LOG_CHAT:
+            try {
+              let res = new Lixi_cmd_1.default.ReceiveLogChat(data);
+              cc.log(res);
+              if (res.chatChannel !== Constants_1.ChatChannel.TAI_XIU_MD5) break;
+              var msgs = JSON.parse(res.message);
+              for (var i = 0; i < msgs.length; i++) this.PanelChat.addMessage(msgs[i]["u"], msgs[i]["m"], msgs[i]["vipId"]);
+            } catch (e) {
+              cc.log(e);
+            }
+            null === (_a = this.PanelChat) || void 0 === _a ? void 0 : _a.scrollToBottom();
+            break;
+
+           case Lixi_cmd_1.default.Code.SEND_CHAT:
+            {
+              let res = new Lixi_cmd_1.default.ReceiveSendChat(data);
+              cc.log(res);
+              if (res.chatChannel !== Constants_1.ChatChannel.TAI_XIU_MD5) break;
+              switch (res.error) {
+               case 0:
+                this.PanelChat.addMessage(res.nickname, res.message, res.vip);
+                break;
+
+               default:
+                App_1.default.instance.actiontDialog.showMsgWithActions(res.desc, res.suggestionActions);
+              }
+              break;
+            }
           }
         }, this);
+        this.sendAPI(data => {
+          PopupLiXi_1.fund = data.fund;
+          PopupLiXi_1.numberUserRegister = data.numberUserRegister;
+          PopupLiXi_1.numberUserShare = data.numberUserShare;
+        }, "config");
+        this.sendAPI(data => {
+          this.listTicket = data.eventTanLocUserTicketList;
+          this.listTicket.forEach(ticket => {
+            this.addTicket(ticket.id);
+          });
+          this.btn_get_ticket.active = 0 == data.eventTanLocUserTicketList.length && data.ticket > 0;
+        }, "userinfo");
+      }
+      getTicket() {
+        this.sendAPI(data => {
+          this.listTicket = data.eventTanLocUserTicketList;
+          this.listTicket.forEach(ticket => {
+            this.addTicket(ticket.id);
+          });
+          this.btn_get_ticket.active = false;
+        }, "register");
       }
       updateSpinRedult(res) {
-        let results = JSON.parse(res.spinResult);
+        if (this.results.length == JSON.parse(res.spinResult)[res.currentRound].length) return;
+        this.results = JSON.parse(res.spinResult)[res.currentRound];
+        cc.log(this.results);
         this.scrollResult.content.children.forEach(chil => {
           chil.active = false;
         });
-        results[res.currentRound].forEach((vl, ind) => {
+        this.results.forEach((vl, ind) => {
           let item = this.scrollResult.content.children[ind];
           if (item) {
             item.active = true;
@@ -430,84 +447,113 @@ window.__require = function e(t, n, r) {
         this.checkTicket();
       }
       checkTicket() {
+        this.ticket.children.forEach(cell_win => {
+          this.setCellInTicket(parseInt(cell_win.name), 0);
+        });
         this.listResult.forEach(num => {
           let cell_win = this.ticket.children.find(chil => chil.getChildByName("number-cell") && chil.getChildByName("number-cell").getComponent(cc.Label).string == (num < 10 ? "0" + num : "" + num));
           if (!cell_win) return;
           this.setCellInTicket(parseInt(cell_win.name), 1);
         });
+        let listItemWin = this.ticket.children.filter(chil => chil.getChildByName("number-cell") && (chil.getChildByName("win").active || chil.getChildByName("cell_win").active)).map(chi => parseInt(chi.name)).sort((a, b) => a - b);
+        let list_check = [];
+        for (let i = 0; i < 5; i++) {
+          list_check = [];
+          for (let j = 0; j < 5; j++) -1 != listItemWin.indexOf(5 * i + j) && list_check.push(5 * i + j);
+          if (5 == list_check.length) return this.showLineWin(list_check);
+          list_check = [];
+          for (let j = 0; j < 5; j++) -1 != listItemWin.indexOf(i + 5 * j) && list_check.push(i + 5 * j);
+          if (5 == list_check.length) return this.showLineWin(list_check);
+        }
+        list_check = [];
+        for (let j = 0; j < 5; j++) -1 != listItemWin.indexOf(j + 5 * j) && list_check.push(j + 5 * j);
+        if (5 == list_check.length) return this.showLineWin(list_check);
+        list_check = [];
+        for (let j = 0; j < 5; j++) -1 != listItemWin.indexOf(4 - j + 5 * j) && list_check.push(4 - j + 5 * j);
+        if (5 == list_check.length) return this.showLineWin(list_check);
       }
       addTicket(num) {
-        num = this.scrollTicket.content.childrenCount + 1;
         let new_Ticket = cc.instantiate(this.itemTicket);
         new_Ticket.active = true;
         new_Ticket.getChildByName("number").getComponent(cc.Label).string = num < 10 ? "0" + num : "" + num;
+        new_Ticket.getComponent(cc.Toggle).checkEvents[0].customEventData = num + "";
         this.scrollTicket.content.addChild(new_Ticket);
         this.scrollTicket.scrollToRight(.2);
       }
       setCellInTicket(idx, status = 0, num = -1) {
         let cell = this.ticket.getChildByName("" + idx);
         if (!cell) return cc.log("get cell error " + idx);
-        cc.log("get cell oki");
         -1 != num && (cell.getChildByName("number-cell").getComponent(cc.Label).string = num < 0 ? "" : num < 10 ? "0" + num : "" + num);
         cell.getChildByName("win").active = status > 0;
         cell.getChildByName("cell_win").active = status > 1;
       }
-      setTicket(list) {
-        list = [];
-        for (let i = 0; i < 5; i++) for (let j = 0; j < 5; j++) {
-          let num = 20 * i + Math.floor(20 * Math.random());
-          while (-1 != list.indexOf(num)) num = 20 * i + Math.floor(20 * Math.random());
-          list.push(num);
-        }
-        list.forEach((num, idx) => {
-          this.setCellInTicket(idx, 0, num);
-        });
-        this.checkTicket();
+      setTicket(evt, data) {
+        let ticket = this.listTicket.find(ticket => ticket.id == data);
+        if (ticket) {
+          ticket.matrix.split(",").reverse().forEach((num, idx) => {
+            this.setCellInTicket(idx, 0, num);
+          });
+          this.checkTicket();
+        } else cc.log("show ticket error");
       }
-      changeLayout() {
+      clickPlay() {
         if (this.isChange) return cc.log("dang change");
-        this.layout = !this.layout;
         this.isChange = true;
+        this.isPlay = true;
+        this.changeLayout();
+      }
+      clickChat() {
+        if (this.isChange) return cc.log("dang change");
+        this.isChange = true;
+        this.isPlay = false;
+        this.changeLayout(() => {
+          cc.tween(this.PanelChat.node).to(.5, {
+            y: this.isPlay ? -280 : 385,
+            opacity: this.isPlay ? 0 : 255
+          }, {
+            easing: "quartInOut"
+          }).call(() => {
+            this.isChange = false;
+          }).start();
+        });
+      }
+      changeLayout(callback = (() => {})) {
         cc.tween(this.ticket).to(.5, {
-          scale: this.layout ? .5 : 1,
-          y: this.layout ? 365 : 35
+          scale: this.isPlay ? 1 : .5,
+          y: this.isPlay ? 35 : 365
         }, {
           easing: "quartInOut"
         }).call(() => {}).start();
         cc.tween(this.result).to(.5, {
-          scale: this.layout ? .5 : 1,
-          y: this.layout ? 460 : 490,
-          height: this.layout ? 350 : 180
+          scale: this.isPlay ? 1 : .5,
+          y: this.isPlay ? 490 : 460,
+          height: this.isPlay ? 180 : 350
         }, {
           easing: "quartInOut"
         }).call(() => {}).start();
         cc.tween(this.tickets).to(.5, {
-          scale: this.layout ? .5 : 1,
-          y: this.layout ? 265 : -420,
-          height: this.layout ? 350 : 150
+          scale: this.isPlay ? 1 : .5,
+          y: this.isPlay ? -420 : 265,
+          height: this.isPlay ? 150 : 350
+        }, {
+          easing: "quartInOut"
+        }).call(() => {}).start();
+        callback && callback();
+        this.isPlay && cc.tween(this.PanelChat.node).to(.5, {
+          y: -280,
+          opacity: 0
         }, {
           easing: "quartInOut"
         }).call(() => {
           this.isChange = false;
         }).start();
-        cc.tween(this.PanelChat.node).to(.5, {
-          y: this.layout ? 385 : -280,
-          opacity: this.layout ? 255 : 0
-        }, {
-          easing: "quartInOut"
-        }).call(() => {
-          this.isChange = false;
-        }).start();
+        this.isPlay = !this.isPlay;
       }
       hideLineWin() {}
       showLineWin(line = [ -1, -1, -1, -1, -1 ]) {
-        line = [ -1, -1, -1, -1, -1 ];
-        for (let index = 0; index < 5; index++) {
-          const element = this.ticket.children[index + 5];
-          line[index] = parseInt(element.getChildByName("number-cell").getComponent(cc.Label).string);
-        }
+        this.stopFake();
         line.forEach(num => {
-          let cell_win = this.ticket.children.find(chil => chil.getChildByName("number-cell") && chil.getChildByName("number-cell").getComponent(cc.Label).string == (num < 10 ? "0" + num : "" + num));
+          let cell_win = this.ticket.getChildByName(num + "");
           if (!cell_win) return;
           if (!cell_win) return cc.log("get cell error " + parseInt(cell_win.name));
           cc.log("get cell oki");
@@ -519,19 +565,55 @@ window.__require = function e(t, n, r) {
           for (let index = 0; index < 5; index++) action.push(cc.sequence(cc.fadeIn(.2), cc.fadeOut(.2)));
           action.push(cc.callFunc(() => {
             cell_win.getChildByName("win").active = true;
-            this.animWin.enabled = true;
-            this.animWin.setAnimation(0, "animation", false);
-            cc.tween(this.lbWin.node).set({
-              opacity: 0
-            }).delay(.1).to(.2, {
-              opacity: 255
-            }).delay(1.9).to(.2, {
-              opacity: 0
-            }).start();
+            this.btn_receive.node.active = true;
           }));
           action.push(cc.delayTime(2));
           cc.tween(cell_win.getChildByName("cell_win")).repeatForever(cc.sequence(action)).start();
         });
+      }
+      showWin() {
+        this.animWin.enabled = true;
+        this.animWin.setAnimation(0, "animation", false);
+        cc.tween(this.lbWin.node).set({
+          opacity: 0
+        }).delay(.1).to(.2, {
+          opacity: 255
+        }).delay(1.9).to(.2, {
+          opacity: 0
+        }).start();
+      }
+      lineTime() {
+        cc.log("lineTime");
+        App_1.default.instance.confirmDialog.show2("B\u1ea1n \u0111\xe3 n\u1ea1p 150k h\xf4m nay\n 140k \u0111\u1ea1t y\xeau c\u1ea7u \u0111\u1ec3 nh\u1eadn 7 v\xe9 ch\u01a1i BINGO\nB\u1ea1n c\xf3 th\u1ec3 n\u1ea1p th\xeam 10k \u0111\u1ec3 nh\u1eadn th\xeam 1 v\xe9 ch\u01a1i BINGO.", isConfirm => {
+          isConfirm && Lobby_PopupShop_1.default.createAndShow(App_1.default.instance.popups);
+        });
+        this.schedule(this.runInTime, .01);
+      }
+      runInTime() {
+        Math.random() > .1 && this.PanelChat.addMessage("test " + Math.floor(10 * Math.random()), new Date().toString(), Math.floor(10 * Math.random()));
+        if (this.time % 10 == 0) {
+          this.results[Math.floor(this.time / 10)] = this.results[Math.floor(this.time / 10)] || Math.floor(100 * Math.random());
+          this.fakeCmd(Lixi_cmd_1.default.Code.SPIN_RESULT, {
+            spinResult: JSON.stringify({
+              0: this.results
+            }),
+            currentRound: 0
+          });
+        }
+        this.time++;
+      }
+      stopFake() {
+        this.unschedule(this.runInTime);
+      }
+      fakeCmd(cmdid, res) {
+        switch (cmdid) {
+         case Lixi_cmd_1.default.Code.SUBCRIBE_RESPONSE:
+          cc.log(res);
+          break;
+
+         case Lixi_cmd_1.default.Code.SPIN_RESULT:
+          this.updateSpinRedult(res);
+        }
       }
     };
     PopupLiXi.fund = 0;
@@ -540,6 +622,7 @@ window.__require = function e(t, n, r) {
     PopupLiXi.messResult = "";
     __decorate([ property(PanelChat_1.default) ], PopupLiXi.prototype, "PanelChat", void 0);
     __decorate([ property(cc.Label) ], PopupLiXi.prototype, "lb_chip", void 0);
+    __decorate([ property(cc.Node) ], PopupLiXi.prototype, "btn_get_ticket", void 0);
     __decorate([ property(cc.Node) ], PopupLiXi.prototype, "itemResult", void 0);
     __decorate([ property(cc.ScrollView) ], PopupLiXi.prototype, "scrollResult", void 0);
     __decorate([ property(cc.Node) ], PopupLiXi.prototype, "itemTicket", void 0);
@@ -549,17 +632,21 @@ window.__require = function e(t, n, r) {
     __decorate([ property(cc.Node) ], PopupLiXi.prototype, "tickets", void 0);
     __decorate([ property(sp.Skeleton) ], PopupLiXi.prototype, "animWin", void 0);
     __decorate([ property(cc.Label) ], PopupLiXi.prototype, "lbWin", void 0);
+    __decorate([ property(cc.Button) ], PopupLiXi.prototype, "btn_receive", void 0);
     PopupLiXi = PopupLiXi_1 = __decorate([ ccclass ], PopupLiXi);
     exports.default = PopupLiXi;
     cc._RF.pop();
   }, {
+    "../../Main/Game/src/common/App": void 0,
     "../../Main/Game/src/common/BroadcastReceiver": void 0,
     "../../Main/Game/src/common/Configs": void 0,
+    "../../Main/Game/src/common/Constants": void 0,
     "../../Main/Game/src/common/Http": void 0,
     "../../Main/Game/src/common/Tween": void 0,
     "../../Main/Game/src/common/Utils": void 0,
     "../../Main/Game/src/networks/LixiNetworkClient": void 0,
     "../../Main/Game/src/networks/Network.InPacket": void 0,
+    "../../Main/Lobby/src/Lobby.PopupShop": void 0,
     "./Lixi.cmd": "Lixi.cmd",
     "./PanelChat": "PanelChat"
   } ],
