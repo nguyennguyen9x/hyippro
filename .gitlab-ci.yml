@@ -14,6 +14,6 @@ deploy:
   script:
     - pip install awscli
     - aws s3 rm s3://$S3_BUCKET --recursive
-    - aws s3 cp ./ s3://$S3_BUCKET --recursive --exclude "*"  --include "*.json" --include "*.jsc" --include "*.js" --include "*.png" --include "*.jpg" --include "*.html" --include "*.css" --include "*.webp" --include "*.atlas" --include "*.mp3" --include "*.ttf" --include "*.ogg" --include "*.ico" --include "*.apk" --include "*.gif"
+    - aws s3 cp ./ s3://$S3_BUCKET --recursive --exclude "*"  --include "*.json" --include "*.jsc" --include "*.js" --include "*.png" --include "*.jpg" --include "*.html" --include "*.css" --include "*.webp" --include "*.atlas" --include "*.mp3" --include "*.ttf" --include "*.ogg" --include "*.ico" --include "*.apk" --include "*.gif" --include "*.webmanifest"
   only:
     - main
