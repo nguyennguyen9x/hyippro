@@ -126,7 +126,9 @@ if (window.jsb) {
         require('../v231/src/settings.cb2fe.js');
         require('../v231/src/cocos2d-runtime.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
-            require('../v231/adapter/engine/index.js');
+            require('../v231/src/physics.js');
+        }
+        require('../v231/jsb-adapter/engine/index.js');
     }
     else {
         require('../v231/src/settings.cb2fe.js');
