@@ -1,0 +1,279 @@
+
+DICE-KETQUA-GA.png
+size: 943,575
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XOAY/xoay0000
+  rotate: false
+  xy: 493, 6
+  size: 97, 98
+  orig: 152, 154
+  offset: 29, 30
+  index: -1
+XOAY/xoay0001
+  rotate: true
+  xy: 436, 306
+  size: 126, 125
+  orig: 152, 154
+  offset: 17, 16
+  index: -1
+XOAY/xoay0002
+  rotate: false
+  xy: 144, 430
+  size: 144, 144
+  orig: 152, 154
+  offset: 7, 5
+  index: -1
+XOAY/xoay0003
+  rotate: true
+  xy: 289, 432
+  size: 142, 146
+  orig: 152, 154
+  offset: 7, 2
+  index: -1
+XOAY/xoay0004
+  rotate: true
+  xy: 691, 323
+  size: 118, 125
+  orig: 152, 154
+  offset: 17, 12
+  index: -1
+XOAY/xoay0005
+  rotate: true
+  xy: 688, 200
+  size: 122, 124
+  orig: 152, 154
+  offset: 13, 13
+  index: -1
+XOAY/xoay0006
+  rotate: false
+  xy: 708, 442
+  size: 132, 132
+  orig: 152, 154
+  offset: 11, 13
+  index: -1
+XOAY/xoay0007
+  rotate: false
+  xy: 1, 131
+  size: 128, 139
+  orig: 152, 154
+  offset: 15, 10
+  index: -1
+XOAY/xoay0008
+  rotate: false
+  xy: 1, 1
+  size: 105, 129
+  orig: 152, 154
+  offset: 24, 14
+  index: -1
+XOAY/xoay0009
+  rotate: true
+  xy: 562, 454
+  size: 120, 145
+  orig: 152, 154
+  offset: 16, 5
+  index: -1
+XOAY/xoay0010
+  rotate: false
+  xy: 1, 424
+  size: 142, 150
+  orig: 152, 154
+  offset: 5, 1
+  index: -1
+XOAY/xoay0013
+  rotate: false
+  xy: 1, 271
+  size: 137, 152
+  orig: 152, 154
+  offset: 7, 1
+  index: -1
+XOAY/xoay0014
+  rotate: false
+  xy: 436, 433
+  size: 125, 141
+  orig: 152, 154
+  offset: 13, 5
+  index: -1
+XOAY/xoay0015
+  rotate: false
+  xy: 817, 320
+  size: 113, 121
+  orig: 152, 154
+  offset: 21, 14
+  index: -1
+kq-ga/kq-ga0000
+  rotate: true
+  xy: 562, 224
+  size: 116, 125
+  orig: 122, 130
+  offset: 1, 1
+  index: -1
+kq-ga/kq-ga0001
+  rotate: false
+  xy: 107, 2
+  size: 114, 128
+  orig: 122, 130
+  offset: 3, 1
+  index: -1
+kq-ga/kq-ga0002
+  rotate: false
+  xy: 265, 310
+  size: 98, 119
+  orig: 122, 130
+  offset: 11, 6
+  index: -1
+kq-ga/kq-ga0003
+  rotate: false
+  xy: 245, 202
+  size: 116, 107
+  orig: 122, 130
+  offset: 1, 12
+  index: -1
+kq-ga/kq-ga0004
+  rotate: true
+  xy: 841, 454
+  size: 120, 101
+  orig: 122, 130
+  offset: 1, 14
+  index: -1
+kq-ga/kq-ga0005
+  rotate: false
+  xy: 224, 89
+  size: 115, 112
+  orig: 122, 130
+  offset: 6, 6
+  index: -1
+kq-ga/kq-ga0006
+  rotate: true
+  xy: 362, 206
+  size: 99, 113
+  orig: 122, 130
+  offset: 15, 8
+  index: -1
+kq-ga/kq-ga0007
+  rotate: true
+  xy: 139, 231
+  size: 89, 105
+  orig: 122, 130
+  offset: 18, 14
+  index: -1
+kq-ga/kq-ga0008
+  rotate: false
+  xy: 340, 96
+  size: 103, 105
+  orig: 122, 130
+  offset: 10, 13
+  index: -1
+kq-ga/kq-ga0009
+  rotate: false
+  xy: 813, 196
+  size: 111, 123
+  orig: 122, 130
+  offset: 6, 1
+  index: -1
+kq-ga/kq-ga0010
+  rotate: true
+  xy: 562, 341
+  size: 112, 128
+  orig: 122, 130
+  offset: 5, 1
+  index: -1
+kq-ga/kq-ga0011
+  rotate: true
+  xy: 144, 321
+  size: 108, 120
+  orig: 122, 130
+  offset: 7, 7
+  index: -1
+kq-ga/kq-ga0012
+  rotate: false
+  xy: 444, 105
+  size: 98, 100
+  orig: 122, 130
+  offset: 11, 18
+  index: -1
+kq-ga/kq-ga0013
+  rotate: false
+  xy: 543, 128
+  size: 88, 89
+  orig: 122, 130
+  offset: 15, 23
+  index: -1
+kq-ga/kq-ga0014
+  rotate: false
+  xy: 678, 113
+  size: 86, 86
+  orig: 122, 130
+  offset: 20, 20
+  index: -1
+kq-ga/kq-ga0015
+  rotate: false
+  xy: 130, 131
+  size: 93, 92
+  orig: 122, 130
+  offset: 16, 16
+  index: -1
+kq-ga/kq-ga0016
+  rotate: false
+  xy: 222, 1
+  size: 91, 87
+  orig: 122, 130
+  offset: 18, 19
+  index: -1
+kq-ga/kq-ga0017
+  rotate: true
+  xy: 476, 218
+  size: 87, 85
+  orig: 122, 130
+  offset: 20, 22
+  index: -1
+kq-ga/kq-ga0018
+  rotate: false
+  xy: 765, 109
+  size: 86, 86
+  orig: 122, 130
+  offset: 18, 24
+  index: -1
+kq-ga/kq-ga0019
+  rotate: true
+  xy: 314, 1
+  size: 87, 91
+  orig: 122, 130
+  offset: 15, 21
+  index: -1
+kq-ga/kq-ga0020
+  rotate: false
+  xy: 406, 5
+  size: 86, 90
+  orig: 122, 130
+  offset: 16, 22
+  index: -1
+kq-ga/kq-ga0021
+  rotate: false
+  xy: 591, 39
+  size: 86, 88
+  orig: 122, 130
+  offset: 17, 23
+  index: -1
+kq-ga/kq-ga0022
+  rotate: false
+  xy: 765, 22
+  size: 86, 86
+  orig: 122, 130
+  offset: 17, 24
+  index: -1
+kq-ga/kq-ga0023
+  rotate: false
+  xy: 852, 109
+  size: 86, 86
+  orig: 122, 130
+  offset: 17, 23
+  index: -1
+kq-ga/kq-ga0024
+  rotate: false
+  xy: 678, 27
+  size: 86, 85
+  orig: 122, 130
+  offset: 18, 22
+  index: -1

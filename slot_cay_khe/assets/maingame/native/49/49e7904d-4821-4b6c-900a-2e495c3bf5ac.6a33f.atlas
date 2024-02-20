@@ -1,0 +1,153 @@
+
+ic-taixiu.png
+size: 1041,1041
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: true
+  xy: 537, 114
+  size: 169, 69
+  orig: 169, 69
+  offset: 0, 0
+  index: -1
+Group 2
+  rotate: true
+  xy: 360, 357
+  size: 165, 523
+  orig: 165, 523
+  offset: 0, 0
+  index: -1
+Rectangle 4 copy
+  rotate: false
+  xy: 360, 524
+  size: 338, 515
+  orig: 338, 515
+  offset: 0, 0
+  index: -1
+Shape 10
+  rotate: true
+  xy: 207, 244
+  size: 189, 126
+  orig: 189, 126
+  offset: 0, 0
+  index: -1
+Shape 6
+  rotate: false
+  xy: 335, 285
+  size: 324, 70
+  orig: 324, 70
+  offset: 0, 0
+  index: -1
+Shape 6 copy
+  rotate: false
+  xy: 2, 435
+  size: 338, 70
+  orig: 338, 70
+  offset: 0, 0
+  index: -1
+Shape 9
+  rotate: true
+  xy: 608, 112
+  size: 171, 31
+  orig: 171, 31
+  offset: 0, 0
+  index: -1
+Shape 9 copy
+  rotate: false
+  xy: 885, 339
+  size: 151, 31
+  orig: 151, 31
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 700, 524
+  size: 338, 515
+  orig: 338, 515
+  offset: 0, 0
+  index: -1
+bg-glow
+  rotate: false
+  xy: 2, 507
+  size: 356, 532
+  orig: 356, 532
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 335, 84
+  size: 200, 199
+  orig: 200, 199
+  offset: 0, 0
+  index: -1
+circle-2
+  rotate: false
+  xy: 2, 33
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+circle-3
+  rotate: false
+  xy: 885, 372
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+circle-4
+  rotate: false
+  xy: 641, 12
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+dice-1
+  rotate: false
+  xy: 2, 235
+  size: 203, 198
+  orig: 203, 198
+  offset: 0, 0
+  index: -1
+dice-2
+  rotate: false
+  xy: 661, 164
+  size: 209, 191
+  orig: 209, 191
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 1004, 302
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 793, 12
+  size: 150, 149
+  orig: 150, 149
+  offset: 0, 0
+  index: -1
+trangtri
+  rotate: false
+  xy: 944, 96
+  size: 47, 92
+  orig: 47, 92
+  offset: 0, 0
+  index: -1
+tài
+  rotate: false
+  xy: 872, 190
+  size: 116, 69
+  orig: 116, 69
+  offset: 0, 0
+  index: -1
+xỉu
+  rotate: false
+  xy: 872, 261
+  size: 130, 76
+  orig: 130, 76
+  offset: 0, 0
+  index: -1
