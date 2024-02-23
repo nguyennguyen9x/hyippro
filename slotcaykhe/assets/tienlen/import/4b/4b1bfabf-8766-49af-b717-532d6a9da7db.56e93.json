@@ -1,0 +1,688 @@
+[
+  1,
+  [
+    "8fZQD4Ev5EuLXNHef54mWj"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "ket3bich",
+      "\r\nket3bich.png\r\nsize: 823,208\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nGroup 1\r\n  rotate: false\r\n  xy: 225, 20\r\n  size: 229, 186\r\n  orig: 235, 191\r\n  offset: 3, 2\r\n  index: -1\r\nGroup 2\r\n  rotate: false\r\n  xy: 2, 5\r\n  size: 221, 201\r\n  orig: 225, 204\r\n  offset: 2, 2\r\n  index: -1\r\naura\r\n  rotate: false\r\n  xy: 654, 2\r\n  size: 92, 93\r\n  orig: 94, 95\r\n  offset: 1, 1\r\n  index: -1\r\nket3\r\n  rotate: true\r\n  xy: 766, 88\r\n  size: 118, 55\r\n  orig: 120, 58\r\n  offset: 1, 1\r\n  index: -1\r\nlight-burst\r\n  rotate: true\r\n  xy: 456, 6\r\n  size: 200, 196\r\n  orig: 200, 196\r\n  offset: 0, 0\r\n  index: -1\r\nspade\r\n  rotate: false\r\n  xy: 654, 97\r\n  size: 110, 109\r\n  orig: 117, 116\r\n  offset: 4, 3\r\n  index: -1\r\n",
+      [
+        "ket3bich.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "b+Qvb3HXM7LkN8/VmY2IkZjb1Oc",
+          "spine": "3.8.98",
+          "x": -141.73,
+          "y": -142.65,
+          "width": 283.45,
+          "height": 286.47,
+          "images": "../INGAME/tuquy/",
+          "audio": "D:/Design/spine/game/WIN365/INGAME/./tuquy"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "triangle",
+            "parent": "root",
+            "x": 1.18,
+            "y": -4.5
+          },
+          {
+            "name": "CARDS",
+            "parent": "root",
+            "x": 0.38,
+            "y": -25.54
+          },
+          {
+            "name": "tuquy",
+            "parent": "triangle",
+            "x": -0.99,
+            "y": -9.54
+          },
+          {
+            "name": "Group 3",
+            "parent": "triangle",
+            "x": -1.18,
+            "y": 4.5
+          },
+          {
+            "name": "light-burst",
+            "parent": "root",
+            "scaleX": 0.7,
+            "scaleY": 0.7
+          },
+          {
+            "name": "aura",
+            "parent": "root",
+            "scaleX": 1.1603,
+            "scaleY": 1.1603
+          },
+          {
+            "name": "tuquy3",
+            "parent": "triangle",
+            "x": -1.74,
+            "y": 42.04
+          }
+        ],
+        "slots": [
+          {
+            "name": "light-burst",
+            "bone": "light-burst",
+            "attachment": "light-burst",
+            "blend": "additive"
+          },
+          {
+            "name": "Group 2",
+            "bone": "triangle",
+            "attachment": "Group 2"
+          },
+          {
+            "name": "Group 1",
+            "bone": "triangle",
+            "attachment": "Group 1",
+            "blend": "additive"
+          },
+          {
+            "name": "tuquy",
+            "bone": "tuquy",
+            "attachment": "ket3"
+          },
+          {
+            "name": "tuquy2",
+            "bone": "triangle",
+            "attachment": "spade",
+            "blend": "screen"
+          },
+          {
+            "name": "tuquy3",
+            "bone": "tuquy3",
+            "attachment": "spade",
+            "blend": "screen"
+          },
+          {
+            "name": "aura",
+            "bone": "aura",
+            "color": "a800ff00",
+            "attachment": "aura",
+            "blend": "additive"
+          },
+          {
+            "name": "Group 3",
+            "bone": "Group 3",
+            "color": "ffffff00",
+            "attachment": "Group 2",
+            "blend": "additive"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "Group 1": {
+                "Group 1": {
+                  "x": -0.25,
+                  "y": 17.64,
+                  "width": 235,
+                  "height": 191
+                }
+              },
+              "Group 2": {
+                "Group 2": {
+                  "x": -0.25,
+                  "y": 20.14,
+                  "width": 225,
+                  "height": 204
+                }
+              },
+              "Group 3": {
+                "Group 2": {
+                  "x": 0.94,
+                  "y": 15.65,
+                  "width": 225,
+                  "height": 204
+                }
+              },
+              "aura": {
+                "aura": {
+                  "y": 0.5,
+                  "scaleX": 2.5988,
+                  "scaleY": 2.5988,
+                  "width": 94,
+                  "height": 95
+                }
+              },
+              "light-burst": {
+                "light-burst": {
+                  "width": 200,
+                  "height": 196
+                }
+              },
+              "tuquy": {
+                "ket3": {
+                  "x": -1.81,
+                  "y": -12.93,
+                  "width": 120,
+                  "height": 58
+                }
+              },
+              "tuquy2": {
+                "spade": {
+                  "x": -1.6,
+                  "y": 45.51,
+                  "scaleX": 0.8,
+                  "scaleY": 0.8,
+                  "width": 117,
+                  "height": 116
+                }
+              },
+              "tuquy3": {
+                "spade": {
+                  "x": 0.14,
+                  "y": 3.47,
+                  "scaleX": 0.8,
+                  "scaleY": 0.8,
+                  "width": 117,
+                  "height": 116
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "Group 1": {
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "Group 2": {
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "Group 3": {
+                "color": [
+                  {
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 0.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "aura": {
+                "color": [
+                  {
+                    "color": "a800ff00"
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "a700ffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.8333,
+                    "color": "a700ffff"
+                  },
+                  {
+                    "time": 2.0333,
+                    "color": "a700ff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "light-burst": {
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "tuquy": {
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "tuquy2": {
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              },
+              "tuquy3": {
+                "color": [
+                  {
+                    "time": 0.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 2,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 2.2667,
+                    "name": null
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "triangle": {
+                "scale": [
+                  {
+                    "x": 1.588,
+                    "y": 1.588,
+                    "curve": 0.369,
+                    "c4": 0.4
+                  },
+                  {
+                    "time": 0.1667,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.0333
+                  },
+                  {
+                    "time": 2.1333,
+                    "x": 1.108,
+                    "y": 1.108
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 0.166,
+                    "y": 0.166
+                  }
+                ]
+              },
+              "Group 3": {
+                "scale": [
+                  {
+                    "time": 0.1667,
+                    "curve": 0,
+                    "c2": 0.33,
+                    "c3": 0.356,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 1.557,
+                    "y": 1.557,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "curve": 0,
+                    "c2": 0.33,
+                    "c3": 0.356,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 1,
+                    "x": 1.557,
+                    "y": 1.557,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.1667,
+                    "curve": 0,
+                    "c2": 0.33,
+                    "c3": 0.356,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 1.5,
+                    "x": 1.557,
+                    "y": 1.557,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.6667,
+                    "curve": 0,
+                    "c2": 0.33,
+                    "c3": 0.356,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 2,
+                    "x": 1.557,
+                    "y": 1.557
+                  }
+                ]
+              },
+              "CARDS": {
+                "scale": [
+                  {
+                    "time": 2.0333
+                  },
+                  {
+                    "time": 2.1333,
+                    "x": 1.108,
+                    "y": 1.108
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 0.166,
+                    "y": 0.166
+                  }
+                ]
+              },
+              "light-burst": {
+                "rotate": [
+                  {
+                    "curve": 0,
+                    "c2": 0.19,
+                    "c3": 0.712,
+                    "c4": 0.97
+                  },
+                  {
+                    "time": 2.2667,
+                    "angle": 180
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": 0,
+                    "c2": 0.19,
+                    "c3": 0.712,
+                    "c4": 0.97
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 2.592,
+                    "y": 2.592,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2.0333,
+                    "x": 2.592,
+                    "y": 2.592
+                  },
+                  {
+                    "time": 2.1333,
+                    "x": 2.871,
+                    "y": 2.871
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 0.431,
+                    "y": 0.431
+                  }
+                ]
+              },
+              "aura": {
+                "scale": [
+                  {
+                    "time": 2.0333
+                  },
+                  {
+                    "time": 2.1333,
+                    "x": 1.108,
+                    "y": 1.108
+                  },
+                  {
+                    "time": 2.2667,
+                    "x": 0.166,
+                    "y": 0.166
+                  }
+                ]
+              },
+              "tuquy": {
+                "scale": [
+                  {
+                    "x": 0.874,
+                    "y": 0.874,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.1667,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 0.3,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 0.4333,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 0.5667,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 0.7,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 0.9667,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 1.1,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 1.2333,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 1.3667,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 1.5,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 1.6333,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 1.7667,
+                    "x": 0.874,
+                    "y": 0.874
+                  },
+                  {
+                    "time": 1.9,
+                    "x": 1.087,
+                    "y": 1.087
+                  },
+                  {
+                    "time": 2.0333,
+                    "x": 0.874,
+                    "y": 0.874
+                  }
+                ]
+              },
+              "tuquy3": {
+                "scale": [
+                  {
+                    "time": 0.1667
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 1.791,
+                    "y": 1.791,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667
+                  },
+                  {
+                    "time": 1,
+                    "x": 1.791,
+                    "y": 1.791,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.1667
+                  },
+                  {
+                    "time": 1.5,
+                    "x": 1.791,
+                    "y": 1.791,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.6667
+                  },
+                  {
+                    "time": 2,
+                    "x": 1.791,
+                    "y": 1.791
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

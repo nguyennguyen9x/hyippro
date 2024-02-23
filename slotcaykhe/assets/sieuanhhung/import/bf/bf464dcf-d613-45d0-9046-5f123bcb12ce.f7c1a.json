@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1f58ace1b"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-nami",
+      "rect": [
+        1437,
+        3,
+        1137,
+        545
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        1141,
+        550
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

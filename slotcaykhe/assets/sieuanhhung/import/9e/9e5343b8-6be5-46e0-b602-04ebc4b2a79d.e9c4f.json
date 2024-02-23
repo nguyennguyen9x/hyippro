@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1b16c181c"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "screen-jackpot-roger--",
+      "rect": [
+        3,
+        625,
+        1885,
+        1410
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1889,
+        1414
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

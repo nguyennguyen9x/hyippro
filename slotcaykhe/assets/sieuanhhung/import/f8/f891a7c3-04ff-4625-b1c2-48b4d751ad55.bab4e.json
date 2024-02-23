@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1acf9308d"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-sabo",
+      "rect": [
+        1510,
+        1542,
+        405,
+        519
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        409,
+        523
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "183d46785"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-wildbig-whitebeard",
+      "rect": [
+        277,
+        655,
+        1390,
+        1023
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1394,
+        1027
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
