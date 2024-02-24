@@ -1122,8 +1122,8 @@
         "f14caJ6KNE9aBoROrWU7iw",
         "1a6LUk5r9EMpw/yOzqSzA6",
         "96K5HLbt9FhKHpPxwnSS8d",
-        "0c+zeRjB5HQq2EOXUHUV1h",
-        "8dC/8/uPpNAa2T0g07KWGZ"
+        "8dC/8/uPpNAa2T0g07KWGZ",
+        "0c+zeRjB5HQq2EOXUHUV1h"
     ],
     "scenes": {
         "db://assets/subpackages/SlotNuDiepVien/res/scene/SlotNuDiepVien.fire": "bekneoiDVF14yeNsWvQtEN"
@@ -1157,6 +1157,14 @@
         "maingame"
     ],
     "packs": {
+        "0864f7680": [
+            "26pR8CjB1Kd5kG2zTxSTu4",
+            "e6vZoaWLBJYIvWo4bPKKRa"
+        ],
+        "067dd48ac": [
+            "41+bZV95BBwId7szD1Inqu",
+            "7aQ6cSYn5Mn7ru4kOfnTQm"
+        ],
         "02c902186": [
             "02Hl3E6fxL6aj5SiJlJmu8",
             "04FJYuPFVPTp72DxBmeBAD",
@@ -1199,25 +1207,15 @@
             "f9wPQQDNVIfqYdvl/umMLX",
             "fd857JwW5H1b1OXEWb6K5Z"
         ],
-        "0864f7680": [
-            "26pR8CjB1Kd5kG2zTxSTu4",
-            "e6vZoaWLBJYIvWo4bPKKRa"
-        ],
-        "090ddba2f": [
-            "05g8YVnRlCPJcsIiO6vlY3",
-            "065Xt1nEtKl7SLQcTBsKl0",
-            "0cH0XLNqdHU5POytsBqXgm",
-            "23/H6aESRBrIvVsZukC6pR",
-            "31qF+H6rxP9pN6tx59ZzIj",
-            "472FAiq9JOCpaVMtdJ/WZe",
-            "98UeVcNppLHrH6FF00etIs",
-            "ebZx3C/sJIL6VNEQJYMJCV",
-            "edy41OQnpN17/dIlt2/w2q",
-            "fa/N3V26pAj7dpLfkEAanz"
-        ],
-        "067dd48ac": [
-            "41+bZV95BBwId7szD1Inqu",
-            "7aQ6cSYn5Mn7ru4kOfnTQm"
+        "088216100": [
+            "076PQW4XxJRIcX5aNMp/xG",
+            "a5F0TMB7lBbbXEldzgpOJC",
+            "bbyPPTLqBLIogrL1+FAWYy",
+            "bd5y0h4l9PbroSNXPgJQGq",
+            "c0UndNwF9LxYr1Ye0GaVfZ",
+            "d2V00cGdtBuKYSTX1KYSx2",
+            "f3QqjKxbNLrrij+V5QJzRi",
+            "f53UpGu9JIJ408/tNE3afU"
         ],
         "0cea49ae9": [
             "0dGKT2KN9J+6bXAz6m012g",
@@ -1230,15 +1228,17 @@
             "70tDsdX0BCU5mQdJ7lbEAT",
             "a04NTzjIZJAYyKiGjcf9TI"
         ],
-        "088216100": [
-            "076PQW4XxJRIcX5aNMp/xG",
-            "a5F0TMB7lBbbXEldzgpOJC",
-            "bbyPPTLqBLIogrL1+FAWYy",
-            "bd5y0h4l9PbroSNXPgJQGq",
-            "c0UndNwF9LxYr1Ye0GaVfZ",
-            "d2V00cGdtBuKYSTX1KYSx2",
-            "f3QqjKxbNLrrij+V5QJzRi",
-            "f53UpGu9JIJ408/tNE3afU"
+        "090ddba2f": [
+            "05g8YVnRlCPJcsIiO6vlY3",
+            "065Xt1nEtKl7SLQcTBsKl0",
+            "0cH0XLNqdHU5POytsBqXgm",
+            "23/H6aESRBrIvVsZukC6pR",
+            "31qF+H6rxP9pN6tx59ZzIj",
+            "472FAiq9JOCpaVMtdJ/WZe",
+            "98UeVcNppLHrH6FF00etIs",
+            "ebZx3C/sJIL6VNEQJYMJCV",
+            "edy41OQnpN17/dIlt2/w2q",
+            "fa/N3V26pAj7dpLfkEAanz"
         ],
         "0871be8d5": [
             "00g3mrVHJG4YJrZTAGJxBb",

@@ -1110,7 +1110,7 @@ window.__require = function e(t, n, r) {
           let actionRoll = [];
           actionRoll.push(cc.delayTime(.2 * info.col));
           actionRoll.push(cc.moveTo(.2 * speedRoll * (info.row + 1), cc.v2(children.position.x, -75)));
-          for (let index = 0; index < 4; index++) {
+          for (let index = 0; index < 3; index++) {
             actionRoll.push(cc.callFunc(() => {
               children.active = false;
               children.setPosition(cc.v3(children.position.x, 690));
@@ -1186,9 +1186,9 @@ window.__require = function e(t, n, r) {
                 }));
                 break;
               }
+              this.isSpinning = false;
               if (this.spinMode != SpinMode.NORMAL) {
                 action.push(cc.callFunc(() => {
-                  this.isSpinning = false;
                   this.showBigWin(curMoney, () => {
                     this.effSpin();
                     BroadcastReceiver_1.default.send(BroadcastReceiver_1.default.USER_UPDATE_COIN);
@@ -1198,7 +1198,6 @@ window.__require = function e(t, n, r) {
                 break;
               }
               action.push(cc.callFunc(() => {
-                this.isSpinning = false;
                 this.setStateBtnSpin(true);
                 this.showBigWin(curMoney, () => {
                   BroadcastReceiver_1.default.send(BroadcastReceiver_1.default.USER_UPDATE_COIN);
@@ -1278,7 +1277,7 @@ window.__require = function e(t, n, r) {
       }
       showBigWin(money, callback = null) {
         let data = JSON.parse(this.pageBet.getPages()[this.pageBet.getCurrentPageIndex()].name);
-        if (money < 10 * data.betValue) {
+        if (money < 50 * data.betValue) {
           null != callback && callback();
           return;
         }

@@ -17,6 +17,15 @@
             "res/font/SairaSemiCondensed-Regular",
             "cc.TTFFont"
         ],
+        "25T1fLlWZMup7gpU+KACnB": [
+            "res/font/toystoryfontfreespin-export",
+            "cc.BitmapFont"
+        ],
+        "5bXGp8ncVBGY2tKsnqCKvw": [
+            "res/font/toystoryfontfreespin-export",
+            "cc.SpriteFrame",
+            1
+        ],
         "c51wW5rNFDx6enDxLxszyK": [
             "res/prefabs/anim",
             "cc.Prefab"
@@ -356,6 +365,11 @@
         ],
         "a4Yl8X7UlP74kckjADg/Cz": [
             "res/sprites/game/diemjackpot",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8d+SvqrpNCCZzG72jMe78v": [
+            "res/sprites/game/freespin",
             "cc.SpriteFrame",
             1
         ],
@@ -1026,6 +1040,8 @@
         "97PuO7TzVBNJGjs39W2ghY",
         "22Q2QkKMVHBYwQ9YJ30IK7",
         "87i7SKEEFGyojkqLYPDBxf",
+        "25T1fLlWZMup7gpU+KACnB",
+        "5bXGp8ncVBGY2tKsnqCKvw",
         "c51wW5rNFDx6enDxLxszyK",
         "942+gohd1DgLGB09Unl3Le",
         "10R9GA3/FIi7a4LaYOiRix",
@@ -1089,6 +1105,7 @@
         "8aUkRIXX9EnJo12Ooe4ekM",
         "40J3w6XNxJSoe017m8Ph8V",
         "a4Yl8X7UlP74kckjADg/Cz",
+        "8d+SvqrpNCCZzG72jMe78v",
         "ffViyS1ENCLrQn7vfPtwkH",
         "eaJxco499MEIqqWlIY4e4a",
         "d8XWvxyABH/4UvU6653UPc",
@@ -1233,7 +1250,7 @@
         "1f1aab8bb",
         "199792a0a",
         "15476d487",
-        "1738581e0",
+        "17525a8a3",
         "62u+FrodtMW7MOiTBogqzW",
         "468Nq6zdNJIbMEJOywVIvw",
         "937Y11O8JH/YuEvZXKfRwB",
@@ -1253,19 +1270,19 @@
         "e4sZOb43RM25vEn9LdHty4",
         "d0AkWPZypPJoCoSoTsMTu+",
         "c12MOG7sNFgaJQZdWOBoNN",
-        "a320KVgbpFK4e9FAz5eidu",
         "9eilOlwqhHsYpvvo7mrnMQ",
+        "a320KVgbpFK4e9FAz5eidu",
         "d1g6Tw0U1Og4yWW6bHLQY5",
         "106Ya6c5pPhZyQHhDrrjkn",
-        "7bmOw93kJH1rGaZdedKhDR",
         "d3TS3sqlRAj51l2OY4IW9u",
+        "7bmOw93kJH1rGaZdedKhDR",
         "c1VpET4fVOA6CkHak+5ZGn",
+        "a0RVEy3Y1AS5AxUB2gWSMb",
         "8bscoFa8ZN0qby/1oK61jP",
         "aeQzm87iZAs6VrP9v2xUD1",
-        "a0RVEy3Y1AS5AxUB2gWSMb",
         "66ZtK1NzJBC6u+jvf5sN+C",
-        "5aP9HmBb5PIbcW1PTePoc5",
-        "c8bh2KDCRPXbNGnk87E5dQ"
+        "c8bh2KDCRPXbNGnk87E5dQ",
+        "5aP9HmBb5PIbcW1PTePoc5"
     ],
     "scenes": {
         "db://assets/subpackages/SlotCayKhe/res/scene/SlotCayKhe.fire": "79Ny17U+xNO6MHQBcASlUW"
@@ -1295,7 +1312,7 @@
         "maingame"
     ],
     "packs": {
-        "09bb170b9": [
+        "0eeea63fd": [
             "00nTU8FWFHRaYVOBTg44VY",
             "02CRSXm+ZN2ZO/+M0nnj2W",
             "06C9XVTTVClIieEtQJ8f37",
@@ -1325,6 +1342,7 @@
             "79Ny17U+xNO6MHQBcASlUW",
             "7ebUlSgqhOSZdRQbllM8xv",
             "8aUkRIXX9EnJo12Ooe4ekM",
+            "8d+SvqrpNCCZzG72jMe78v",
             "92QtagkKFGrI3BRnKIgJ0x",
             "944NdG5f5IqYQ+00NWsczc",
             "9budLo6WJBzoBDEeoxFOK+",
@@ -1348,6 +1366,10 @@
         "03e2c0af1": [
             "22Q2QkKMVHBYwQ9YJ30IK7",
             "97PuO7TzVBNJGjs39W2ghY"
+        ],
+        "023568a9f": [
+            "25T1fLlWZMup7gpU+KACnB",
+            "5bXGp8ncVBGY2tKsnqCKvw"
         ],
         "0d1c9bca7": [
             "87i7SKEEFGyojkqLYPDBxf",
@@ -1397,12 +1419,12 @@
             "a8VI3GlUNDTpTpBG5Dhsvr",
             "ee1YySn9VFGpNPJzZiq1K4"
         ],
-        "0e09f2ccb": [
+        "09d8a37e1": [
             "0dobLzIvFJO4cT/DcEn56L",
             "106Ya6c5pPhZyQHhDrrjkn",
             "15476d487",
             "1638+kXIRP1bXd4xadGTD2",
-            "1738581e0",
+            "17525a8a3",
             "199792a0a",
             "19a9b1500",
             "1a8a0a608",
@@ -1452,9 +1474,11 @@
             "00/nttZ8hE1I7q7gfWtylu",
             "20590",
             "016a8e14d",
-            "1b491",
+            "7240d",
             "01ylSnxwZM3Kq1lidBixYo",
             "f87c3",
+            "023568a9f",
+            "60807",
             "02hfG1nj9By4D1bLgWqnkm",
             "c010a",
             "0314e28f6",
@@ -1464,23 +1488,23 @@
             "03e2c0af1",
             "89a9b",
             "06ca9c6a4",
-            "c540d",
+            "d6be6",
             "07fef6f33",
-            "b2d81",
-            "09bb170b9",
-            "204a9",
+            "019ad",
+            "09d8a37e1",
+            "cd487",
             "0ao+I6gmpPXYeh3mE7euTf",
             "de874",
             "0cF+Vl0oxFEalbaRVvyB8u",
             "f39e4",
             "0c9f69879",
-            "f8fe2",
+            "a59e6",
             "0d1c9bca7",
             "81a78",
-            "0e09f2ccb",
-            "cd487",
+            "0eeea63fd",
+            "384be",
             "0f423a987",
-            "d818d",
+            "a61c6",
             "10ZBiceAxDyKJDEC5KLwHV",
             "56991",
             "11qMn+WyNIdotMGdtJU/qL",
@@ -1502,7 +1526,7 @@
             "2bLP9qudxGNZplyJMCxAGK",
             "2f8e0",
             "2c4+BpM7FN26gEyZ0HQrsU",
-            "be4a2",
+            "ff868",
             "30o9aT2llG84v9w0cZuLKG",
             "f89c1",
             "36JxFoI9xDhan9cgqNRFcG",
@@ -1596,7 +1620,7 @@
             "8erBmO3w1KJ6a15WXgLTOi",
             "144ef",
             "8e6ng6hTVJNYRe2Zy10Fmg",
-            "9cfa5",
+            "30e4b",
             "91B1UgAa1AH6cN4KK3OMqT",
             "732aa",
             "96z3GLG1hHF4yTgLj8H69x",
@@ -1705,8 +1729,8 @@
             "11eae",
             "1638+kXIRP1bXd4xadGTD2",
             "e1ebf",
-            "1738581e0",
-            "3225d",
+            "17525a8a3",
+            "276f2",
             "199792a0a",
             "d39e9",
             "19a9b1500",
