@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "22u/VIdmxLCrmxschwE8PU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "button-bingo",
+      "rect": [
+        3,
+        3,
+        393,
+        531
+      ],
+      "offset": [
+        -69,
+        0
+      ],
+      "originalSize": [
+        537,
+        537
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
