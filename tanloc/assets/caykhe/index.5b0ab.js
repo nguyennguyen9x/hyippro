@@ -1212,7 +1212,7 @@ window.__require = function e(t, n, r) {
           children.runAction(cc.sequence(actionRoll));
         });
       }
-      showResult(result, isShowUI, freeNumber) {
+      showResult(result, isShowUI, freeNumber = -1) {
         var _a, _b;
         if (isShowUI) {
           let speedRoll = this.spinMode == SpinMode.AUTO_X2 || freeNumber >= 0 ? .5 : 1;
@@ -1300,7 +1300,7 @@ window.__require = function e(t, n, r) {
           } else {
             result.listWinItem.forEach((itemsWin, ind) => {
               action.push(cc.callFunc(() => {
-                this.showLine(mapIcons, itemsWin.id);
+                this.showLine(mapIcons, itemsWin.id, true);
                 this.soundControler.playSounWithID(5);
               }));
               action.push(cc.delayTime((this.animIcon[itemsWin.id].getRuntimeData().animations[0].duration + .2) * speedRoll));
@@ -1365,8 +1365,8 @@ window.__require = function e(t, n, r) {
         popup.getComponent(SlotCayKhe_PopupJackpotGame_1.default).show();
         popup.active = true;
       }
-      showLine(mapIcons = [], typeItemWin = -1) {
-        let speedRoll = this.spinMode == SpinMode.AUTO_X2 ? .5 : 1;
+      showLine(mapIcons = [], typeItemWin = -1, isFreeSpin = false) {
+        let speedRoll = this.spinMode == SpinMode.AUTO_X2 || isFreeSpin ? .5 : 1;
         let itemWild = SlotCayKheController_1.infoItems.find(item => item.wild);
         let mapItemWin = [];
         let itemInColWin = [];
