@@ -1,0 +1,516 @@
+[
+  1,
+  [
+    "27lOf0CY9POahP/wK8Ikbi"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "item-pad",
+      "\r\nitem-pad.png\r\nsize: 526,187\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nLayer 2\r\n  rotate: false\r\n  xy: 385, 46\r\n  size: 140, 140\r\n  orig: 196, 201\r\n  offset: 28, 30\r\n  index: -1\r\nLayer 3\r\n  rotate: false\r\n  xy: 222, 24\r\n  size: 162, 162\r\n  orig: 164, 164\r\n  offset: 1, 1\r\n  index: -1\r\nitem-pad\r\n  rotate: false\r\n  xy: 1, 1\r\n  size: 220, 185\r\n  orig: 220, 185\r\n  offset: 0, 0\r\n  index: -1\r\n",
+      [
+        "item-pad.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "SJyvfCpninTYbtfOMveloaF+g00",
+          "spine": "3.8.85",
+          "x": -70.65,
+          "y": -55.61,
+          "width": 140,
+          "height": 117.57,
+          "images": "../SLOT/TRANSFORMER/item-pad/",
+          "audio": "D:/Design/spine/game/WIN365/SLOT/TRANSFORMER"
+        },
+        "bones": [
+          {
+            "name": "root",
+            "scaleX": 0.5005,
+            "scaleY": 0.5005
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "x": -1.42,
+            "y": 5.77,
+            "scaleX": 1.191,
+            "scaleY": 1.191,
+            "shearY": -11.14
+          },
+          {
+            "name": "circle",
+            "parent": "bone"
+          },
+          {
+            "name": "circle2",
+            "parent": "bone"
+          },
+          {
+            "name": "circle3",
+            "parent": "bone"
+          },
+          {
+            "name": "item-pad",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "item-pad",
+            "bone": "item-pad",
+            "attachment": "item-pad"
+          },
+          {
+            "name": "circle",
+            "bone": "circle",
+            "color": "ffe80000",
+            "attachment": "Layer 3",
+            "blend": "additive"
+          },
+          {
+            "name": "circle3",
+            "bone": "circle3",
+            "color": "fff37700",
+            "attachment": "Layer 3",
+            "blend": "additive"
+          },
+          {
+            "name": "circle2",
+            "bone": "circle2",
+            "color": "fff37700",
+            "attachment": "Layer 2",
+            "blend": "additive"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "circle": {
+                "Layer 3": {
+                  "width": 164,
+                  "height": 164
+                }
+              },
+              "circle2": {
+                "Layer 2": {
+                  "y": 0.5,
+                  "width": 196,
+                  "height": 201
+                }
+              },
+              "circle3": {
+                "Layer 3": {
+                  "width": 164,
+                  "height": 164
+                }
+              },
+              "item-pad": {
+                "item-pad": {
+                  "x": 0.5,
+                  "width": 220,
+                  "height": 185
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "circle": {
+                "color": [
+                  {
+                    "color": "ffe80000"
+                  },
+                  {
+                    "time": 0.1667,
+                    "color": "ffe600ff"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "00ffcfff"
+                  },
+                  {
+                    "time": 0.8333,
+                    "color": "00ffcf00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffe80000"
+                  },
+                  {
+                    "time": 1.1667,
+                    "color": "ffe600ff"
+                  },
+                  {
+                    "time": 1.5,
+                    "color": "00ffcfff"
+                  },
+                  {
+                    "time": 1.8333,
+                    "color": "00ffcf00"
+                  }
+                ]
+              },
+              "circle2": {
+                "color": [
+                  {
+                    "time": 0.8333,
+                    "color": "ffe80000"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffe600ff"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "00ffcfff"
+                  },
+                  {
+                    "time": 1.6667,
+                    "color": "00ffcf00"
+                  }
+                ]
+              },
+              "circle3": {
+                "color": [
+                  {
+                    "time": 0.5,
+                    "color": "ffe80000"
+                  },
+                  {
+                    "time": 0.6667,
+                    "color": "ffe600ff"
+                  },
+                  {
+                    "time": 1,
+                    "color": "00ffcfff"
+                  },
+                  {
+                    "time": 1.3333,
+                    "color": "00ffcf00"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "circle": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 0.8333,
+                    "angle": 180,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1
+                  },
+                  {
+                    "time": 1.8333,
+                    "angle": 180
+                  }
+                ],
+                "translate": [
+                  {},
+                  {
+                    "time": 0.8333,
+                    "x": -27.22,
+                    "y": 26.61,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1
+                  },
+                  {
+                    "time": 1.8333,
+                    "x": -27.22,
+                    "y": 26.61
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.513,
+                    "y": 0.513
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": 1.5,
+                    "y": 1.5,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1,
+                    "x": 0.513,
+                    "y": 0.513
+                  },
+                  {
+                    "time": 1.8333,
+                    "x": 1.3,
+                    "y": 1.3
+                  }
+                ]
+              },
+              "circle2": {
+                "translate": [
+                  {
+                    "time": 0.8333
+                  },
+                  {
+                    "time": 1.7,
+                    "x": -25.56,
+                    "y": 20.86
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.8333,
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  {
+                    "time": 1.7,
+                    "x": 1.3,
+                    "y": 1.3
+                  }
+                ]
+              },
+              "circle3": {
+                "rotate": [
+                  {
+                    "time": 0.5
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 180
+                  }
+                ],
+                "translate": [
+                  {
+                    "time": 0.5
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -27.22,
+                    "y": 26.61
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.5,
+                    "x": 0.513,
+                    "y": 0.513
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 1.4,
+                    "y": 1.4
+                  }
+                ]
+              },
+              "item-pad": {
+                "scale": [
+                  {},
+                  {
+                    "time": 0.1667,
+                    "x": 1.232,
+                    "y": 1.232
+                  },
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 1.232,
+                    "y": 1.232
+                  },
+                  {
+                    "time": 0.6667
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": 1.232,
+                    "y": 1.232
+                  },
+                  {
+                    "time": 1
+                  },
+                  {
+                    "time": 1.1667,
+                    "x": 1.232,
+                    "y": 1.232
+                  },
+                  {
+                    "time": 1.3333
+                  },
+                  {
+                    "time": 1.5,
+                    "x": 1.232,
+                    "y": 1.232
+                  },
+                  {
+                    "time": 1.6667
+                  },
+                  {
+                    "time": 1.8333,
+                    "x": 1.232,
+                    "y": 1.232
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "bone": {
+                "translate": [
+                  {
+                    "x": -8.8,
+                    "y": -2.93
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 1.189,
+                    "y": 1.189
+                  }
+                ]
+              }
+            }
+          },
+          "normal": {
+            "slots": {
+              "circle2": {
+                "color": [
+                  {
+                    "color": "fff27700"
+                  },
+                  {
+                    "time": 0.3667,
+                    "color": "fff277ff"
+                  },
+                  {
+                    "time": 1.2333,
+                    "color": "fff27700"
+                  }
+                ]
+              },
+              "circle3": {
+                "color": [
+                  {
+                    "color": "fff27700",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "fff27700"
+                  },
+                  {
+                    "time": 0.8667,
+                    "color": "fff277ff"
+                  },
+                  {
+                    "time": 1.7333,
+                    "color": "fff27700"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "circle2": {
+                "translate": [
+                  {
+                    "x": -7.5,
+                    "y": 18.23,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": -7.5,
+                    "y": 18.23
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.511,
+                    "y": 0.511
+                  },
+                  {
+                    "time": 1.2333,
+                    "x": 1.068,
+                    "y": 1.068
+                  }
+                ]
+              },
+              "circle3": {
+                "translate": [
+                  {
+                    "x": -7.5,
+                    "y": 18.23
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0.511,
+                    "y": 0.511,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 0.511,
+                    "y": 0.511
+                  },
+                  {
+                    "time": 1.7333,
+                    "x": 1.068,
+                    "y": 1.068
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

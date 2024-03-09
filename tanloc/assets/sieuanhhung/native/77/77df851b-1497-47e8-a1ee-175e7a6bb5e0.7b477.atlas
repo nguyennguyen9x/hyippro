@@ -1,0 +1,146 @@
+
+win-glitter.png
+size: 1802,362
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win-glitter/win-glitter_00000
+  rotate: false
+  xy: 2, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00001
+  rotate: false
+  xy: 2, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00002
+  rotate: false
+  xy: 182, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00003
+  rotate: false
+  xy: 182, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00004
+  rotate: false
+  xy: 362, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00005
+  rotate: false
+  xy: 362, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00006
+  rotate: false
+  xy: 542, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00007
+  rotate: false
+  xy: 542, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00008
+  rotate: false
+  xy: 722, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00009
+  rotate: false
+  xy: 722, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00010
+  rotate: false
+  xy: 902, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00011
+  rotate: false
+  xy: 902, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00012
+  rotate: false
+  xy: 1082, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00013
+  rotate: false
+  xy: 1082, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00014
+  rotate: false
+  xy: 1262, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00015
+  rotate: false
+  xy: 1262, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00016
+  rotate: false
+  xy: 1442, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00017
+  rotate: false
+  xy: 1442, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00018
+  rotate: false
+  xy: 1622, 182
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+win-glitter/win-glitter_00019
+  rotate: false
+  xy: 1622, 2
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
