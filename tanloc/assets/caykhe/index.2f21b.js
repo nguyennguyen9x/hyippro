@@ -36,7 +36,6 @@ window.__require = function e(t, n, r) {
     exports.cmd = void 0;
     const Network_OutPacket_1 = require("../../Main/Game/src/networks/Network.OutPacket");
     const Network_InPacket_1 = require("../../Main/Game/src/networks/Network.InPacket");
-    const Configs_1 = require("../../Main/Game/src/common/Configs");
     const {ccclass: ccclass} = cc._decorator;
     var cmd;
     (function(cmd_1) {
@@ -145,7 +144,6 @@ window.__require = function e(t, n, r) {
           this.setControllerId(1);
           this.setCmdId(Code.FREE_GAME);
           this.packHeader();
-          this.putByte(Configs_1.default.Login.Nickname);
           this.putByte(id);
           this.updateSize();
         }
@@ -169,17 +167,11 @@ window.__require = function e(t, n, r) {
         constructor(data) {
           super(data);
           this.jackpot = 0;
-          this.maxi = 0;
-          this.major = 0;
-          this.mini = 0;
-          this.minior = 0;
+          this.jackpots = null;
           this.x2 = 0;
           this.jackpot = this.getLong();
           this.x2 = this.getByte();
-          this.maxi = this.getLong();
-          this.major = this.getLong();
-          this.minior = this.getLong();
-          this.mini = this.getLong();
+          this.jackpots = JSON.parse(this.getString() || "{}");
         }
       }
       cmd_1.ReceiveUpdatePot = ReceiveUpdatePot;
@@ -268,7 +260,6 @@ window.__require = function e(t, n, r) {
     exports.default = cmd;
     cc._RF.pop();
   }, {
-    "../../Main/Game/src/common/Configs": void 0,
     "../../Main/Game/src/networks/Network.InPacket": void 0,
     "../../Main/Game/src/networks/Network.OutPacket": void 0
   } ],
@@ -860,10 +851,7 @@ window.__require = function e(t, n, r) {
            case SlotCayKhe_Cmd_1.default.Code.UPDATE_POT:
             {
               let res = new SlotCayKhe_Cmd_1.default.ReceiveUpdatePot(data);
-              Tween_1.default.numberTo(this.lbMajor, res.major, .3);
-              Tween_1.default.numberTo(this.lbMaxi, res.maxi, .3);
-              Tween_1.default.numberTo(this.lbMini, res.mini, .3);
-              Tween_1.default.numberTo(this.lbMinior, res.minior, .3);
+              cc.log(res);
             }
             break;
 
