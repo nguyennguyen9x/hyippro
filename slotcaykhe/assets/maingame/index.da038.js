@@ -4140,7 +4140,7 @@ window.__require = function e(t, n, r) {
               this.unschedule(this.scheduleBonusTime);
               this.getTanLocConfig();
             }
-          }, 1);
+          }, 60);
         });
       }
       setCountDown(countDown) {

@@ -50,6 +50,10 @@
             "res/prefabs/popup_guide",
             "cc.Prefab"
         ],
+        "ddYQr7P4RO3It3cXrPdADH": [
+            "res/prefabs/popup_history",
+            "cc.Prefab"
+        ],
         "fa+QrxPEROM4QTEYV7Asx/": [
             "res/sounds/bigwin",
             "cc.AudioClip"
@@ -1107,6 +1111,7 @@
         "e2roWDTehMnYLHMD5WQv4M",
         "85pmaeOA5CO6h8cn1SIHG+",
         "25DcT0bAlIObYHsNpprE/n",
+        "ddYQr7P4RO3It3cXrPdADH",
         "fa+QrxPEROM4QTEYV7Asx/",
         "11kdAUuXRIxZigXdqibpZg",
         "0ay1BwpJlL669OjJzb9uXv",
@@ -1311,6 +1316,7 @@
         "e97GVMl6JHh5Ml5qEDdSGa",
         "29FYIk+N1GYaeWH/q1NxQO",
         "c9+lH/PwFGAY+AMl0bEdq3",
+        "36DqOQzFhBY7fBeSps3++s",
         "18370457b",
         "1bfe75a84",
         "1a8a0a608",
@@ -1338,16 +1344,16 @@
         "e4sZOb43RM25vEn9LdHty4",
         "d0AkWPZypPJoCoSoTsMTu+",
         "a320KVgbpFK4e9FAz5eidu",
+        "c12MOG7sNFgaJQZdWOBoNN",
         "9eilOlwqhHsYpvvo7mrnMQ",
         "d1g6Tw0U1Og4yWW6bHLQY5",
-        "c12MOG7sNFgaJQZdWOBoNN",
         "106Ya6c5pPhZyQHhDrrjkn",
-        "7bmOw93kJH1rGaZdedKhDR",
         "d3TS3sqlRAj51l2OY4IW9u",
+        "7bmOw93kJH1rGaZdedKhDR",
         "c1VpET4fVOA6CkHak+5ZGn",
         "8bscoFa8ZN0qby/1oK61jP",
-        "aeQzm87iZAs6VrP9v2xUD1",
         "a0RVEy3Y1AS5AxUB2gWSMb",
+        "aeQzm87iZAs6VrP9v2xUD1",
         "66ZtK1NzJBC6u+jvf5sN+C",
         "5aP9HmBb5PIbcW1PTePoc5",
         "c8bh2KDCRPXbNGnk87E5dQ"
@@ -1369,6 +1375,8 @@
         "29FYIk+N1GYaeWH/q1NxQO",
         1,
         "c9+lH/PwFGAY+AMl0bEdq3",
+        1,
+        "36DqOQzFhBY7fBeSps3++s",
         1
     ],
     "deps": [
@@ -1451,16 +1459,15 @@
             "87i7SKEEFGyojkqLYPDBxf",
             "942+gohd1DgLGB09Unl3Le"
         ],
-        "0f423a987": [
-            "10R9GA3/FIi7a4LaYOiRix",
-            "72YRpCeOBNI5eetCuUpVjB",
-            "a8uT7az7BCn7ifnwzBkDqN",
-            "d1Sz7sox5L07IYbfn5eht3",
-            "d76sNFkqRI+K94gSGln2ZT"
-        ],
         "016a8e14d": [
             "6bS9LYVoBN5KBMZrlS5aK9",
             "e2roWDTehMnYLHMD5WQv4M"
+        ],
+        "0eaa13b1b": [
+            "10R9GA3/FIi7a4LaYOiRix",
+            "72YRpCeOBNI5eetCuUpVjB",
+            "d1Sz7sox5L07IYbfn5eht3",
+            "d76sNFkqRI+K94gSGln2ZT"
         ],
         "07fef6f33": [
             "15AZ/tNCFDvZ7aAFzK7oy6",
@@ -1482,6 +1489,12 @@
         "0314e28f6": [
             "25DcT0bAlIObYHsNpprE/n",
             "45GtlSFkhNF5hoyuns0A/P"
+        ],
+        "0fcbf8278": [
+            "0ay1BwpJlL669OjJzb9uXv",
+            "30o9aT2llG84v9w0cZuLKG",
+            "51RINtIC1FEKtcD/9qFqaA",
+            "ddYQr7P4RO3It3cXrPdADH"
         ],
         "0454094ca": [
             "0dobLzIvFJO4cT/DcEn56L",
@@ -1559,21 +1572,21 @@
             "074B1/cFJKDJxdLmbWXg0V",
             "7bfaa",
             "07fef6f33",
-            "df0b8",
+            "b5f37",
             "0ao+I6gmpPXYeh3mE7euTf",
             "51b3e",
-            "0ay1BwpJlL669OjJzb9uXv",
-            "7239e",
             "0b33e05eb",
-            "ac499",
+            "41547",
             "0cF+Vl0oxFEalbaRVvyB8u",
             "f39e4",
             "0c9f69879",
             "b6e2e",
             "0d1c9bca7",
             "81a78",
-            "0f423a987",
-            "9960b",
+            "0eaa13b1b",
+            "def06",
+            "0fcbf8278",
+            "af516",
             "10PMhOcl5DO4V31r0hKTdo",
             "4b69e",
             "10ZBiceAxDyKJDEC5KLwHV",
@@ -1600,8 +1613,6 @@
             "2f8e0",
             "2c4+BpM7FN26gEyZ0HQrsU",
             "f1f2f",
-            "30o9aT2llG84v9w0cZuLKG",
-            "f89c1",
             "36JxFoI9xDhan9cgqNRFcG",
             "8fac9",
             "39FzC7NRpEOqUSFUvIOt5b",
@@ -1628,8 +1639,6 @@
             "f22ff",
             "51HvY2IKtKVqsXah+0AEzQ",
             "15662",
-            "51RINtIC1FEKtcD/9qFqaA",
-            "44495",
             "524Xmr3eJFBrGLr44BSseh",
             "b3d71",
             "53LGwPjKBCz6niv+x5oXzF",
@@ -1732,6 +1741,8 @@
             "ea7cc",
             "a8VI3GlUNDTpTpBG5Dhsvr",
             "86641",
+            "a8uT7az7BCn7ifnwzBkDqN",
+            "d7372",
             "a8xF6C0IRIRa/QaIhKegYh",
             "79848",
             "a9vyLpPYhAeqfAmfD74xIj",

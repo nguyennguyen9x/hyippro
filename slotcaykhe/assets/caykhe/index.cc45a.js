@@ -36,7 +36,6 @@ window.__require = function e(t, n, r) {
     exports.cmd = void 0;
     const Network_OutPacket_1 = require("../../Main/Game/src/networks/Network.OutPacket");
     const Network_InPacket_1 = require("../../Main/Game/src/networks/Network.InPacket");
-    const Configs_1 = require("../../Main/Game/src/common/Configs");
     const {ccclass: ccclass} = cc._decorator;
     var cmd;
     (function(cmd_1) {
@@ -145,7 +144,6 @@ window.__require = function e(t, n, r) {
           this.setControllerId(1);
           this.setCmdId(Code.FREE_GAME);
           this.packHeader();
-          this.putByte(Configs_1.default.Login.Nickname);
           this.putByte(id);
           this.updateSize();
         }
@@ -169,17 +167,11 @@ window.__require = function e(t, n, r) {
         constructor(data) {
           super(data);
           this.jackpot = 0;
-          this.maxi = 0;
-          this.major = 0;
-          this.mini = 0;
-          this.minior = 0;
+          this.jackpots = null;
           this.x2 = 0;
           this.jackpot = this.getLong();
           this.x2 = this.getByte();
-          this.maxi = this.getLong();
-          this.major = this.getLong();
-          this.minior = this.getLong();
-          this.mini = this.getLong();
+          this.jackpots = JSON.parse(this.getString() || "{}");
         }
       }
       cmd_1.ReceiveUpdatePot = ReceiveUpdatePot;
@@ -268,7 +260,6 @@ window.__require = function e(t, n, r) {
     exports.default = cmd;
     cc._RF.pop();
   }, {
-    "../../Main/Game/src/common/Configs": void 0,
     "../../Main/Game/src/networks/Network.InPacket": void 0,
     "../../Main/Game/src/networks/Network.OutPacket": void 0
   } ],
@@ -750,6 +741,7 @@ window.__require = function e(t, n, r) {
     const SlotNetworkClient_1 = require("../../Main/Game/src/networks/SlotNetworkClient");
     const Configs_1 = require("../../Main/Game/src/common/Configs");
     const Utils_1 = require("../../Main/Game/src/common/Utils");
+    const SlotCayKhe_PopupHistory_1 = require("./SlotCayKhe.PopupHistory");
     const BroadcastReceiver_1 = require("../../Main/Game/src/common/BroadcastReceiver");
     const App_1 = require("../../Main/Game/src/common/App");
     const SlotCayKhe_PopupGuide_1 = require("./SlotCayKhe.PopupGuide");
@@ -757,7 +749,6 @@ window.__require = function e(t, n, r) {
     const SlotCayKhe_SoundControler_1 = require("./SlotCayKhe.SoundControler");
     const Network_Cmd_1 = require("../../Main/Game/src/networks/Network.Cmd");
     const ErrorLogger_1 = require("../../Main/Game/src/common/ErrorLogger");
-    const Http_1 = require("../../Main/Game/src/common/Http");
     var SpinMode;
     (function(SpinMode) {
       SpinMode[SpinMode["NORMAL"] = 0] = "NORMAL";
@@ -860,10 +851,13 @@ window.__require = function e(t, n, r) {
            case SlotCayKhe_Cmd_1.default.Code.UPDATE_POT:
             {
               let res = new SlotCayKhe_Cmd_1.default.ReceiveUpdatePot(data);
-              Tween_1.default.numberTo(this.lbMajor, res.major, .3);
-              Tween_1.default.numberTo(this.lbMaxi, res.maxi, .3);
-              Tween_1.default.numberTo(this.lbMini, res.mini, .3);
-              Tween_1.default.numberTo(this.lbMinior, res.minior, .3);
+              cc.log(res);
+              try {
+                Tween_1.default.numberTo(this.lbMajor, res.jackpots.object[1], .3);
+                Tween_1.default.numberTo(this.lbMaxi, res.jackpots.object[0], .3);
+                Tween_1.default.numberTo(this.lbMini, res.jackpots.object[3], .3);
+                Tween_1.default.numberTo(this.lbMinior, res.jackpots.object[2], .3);
+              } catch (error) {}
             }
             break;
 
@@ -1008,7 +1002,7 @@ window.__require = function e(t, n, r) {
       showPopupGuide() {
         let popup = this.popupParent.getComponentInChildren(SlotCayKhe_PopupGuide_1.default);
         if (!popup) {
-          popup = cc.instantiate(this.popupShow).getComponent(SlotCayKhe_PopupGuide_1.default);
+          popup = cc.instantiate(this.popupGuide).getComponent(SlotCayKhe_PopupGuide_1.default);
           this.popupParent.addChild(popup.node);
           let data = {
             info: [],
@@ -1084,14 +1078,6 @@ window.__require = function e(t, n, r) {
         }
       }
       clickSetting(fixState = true) {
-        Http_1.default.get(Configs_1.default.App.API, {
-          c: 137,
-          p: 0,
-          un: Configs_1.default.Login.Nickname,
-          gn: "caykhe"
-        }, (err, res) => {
-          cc.log("history", res);
-        });
         let state = this.nodeSetting.getChildByName("Background").active;
         this.nodeSetting.getChildByName("setting").scale = !state && fixState ? 1 : 0;
         cc.tween(this.nodeSetting.getChildByName("setting")).call(() => {
@@ -1224,7 +1210,7 @@ window.__require = function e(t, n, r) {
           children.runAction(cc.sequence(actionRoll));
         });
       }
-      showResult(result, isShowUI, freeNumber) {
+      showResult(result, isShowUI, freeNumber = -1) {
         var _a, _b;
         if (isShowUI) {
           let speedRoll = this.spinMode == SpinMode.AUTO_X2 || freeNumber >= 0 ? .5 : 1;
@@ -1239,7 +1225,6 @@ window.__require = function e(t, n, r) {
           if (freeNumber < 0) {
             let curMoney = result.currentMoney - Configs_1.default.Login.Coin;
             Configs_1.default.Login.Coin = result.currentMoney;
-            this.resultFreeSpin.coinWin = curMoney;
             for (let i = 0; i < 10; i++) {
               if (1 == i) {
                 if (3 == result.freeSpinOption.length) {
@@ -1312,7 +1297,7 @@ window.__require = function e(t, n, r) {
           } else {
             result.listWinItem.forEach((itemsWin, ind) => {
               action.push(cc.callFunc(() => {
-                this.showLine(mapIcons, itemsWin.id);
+                this.showLine(mapIcons, itemsWin.id, true);
                 this.soundControler.playSounWithID(5);
               }));
               action.push(cc.delayTime((this.animIcon[itemsWin.id].getRuntimeData().animations[0].duration + .2) * speedRoll));
@@ -1321,23 +1306,27 @@ window.__require = function e(t, n, r) {
               cc.log(this.resultFreeSpin);
               this.resultFreeSpin.isSpin = true;
               this.isSpinning = false;
+              this.resultFreeSpin.coinWin = 0;
+              this.resultFreeSpin.object.forEach(element => {
+                this.resultFreeSpin.coinWin += element.price;
+              });
+              this.spinMode == SpinMode.NORMAL ? action.push(cc.callFunc(() => {
+                this.setStateBtnSpin(true);
+                this.showBigWin(this.resultFreeSpin.coinWin, () => {
+                  BroadcastReceiver_1.default.send(BroadcastReceiver_1.default.USER_UPDATE_COIN);
+                });
+                this.canChangeBet = true;
+              })) : action.push(cc.callFunc(() => {
+                this.showBigWin(this.resultFreeSpin.coinWin, () => {
+                  this.effSpin();
+                  BroadcastReceiver_1.default.send(BroadcastReceiver_1.default.USER_UPDATE_COIN);
+                });
+              }));
               this.resultFreeSpin = {
                 object: [],
                 coinWin: 0,
                 isSpin: true
               };
-              this.spinMode == SpinMode.NORMAL ? action.push(cc.callFunc(() => {
-                this.setStateBtnSpin(true);
-                this.showBigWin(result.coinWin, () => {
-                  BroadcastReceiver_1.default.send(BroadcastReceiver_1.default.USER_UPDATE_COIN);
-                });
-                this.canChangeBet = true;
-              })) : action.push(cc.callFunc(() => {
-                this.showBigWin(result.coinWin, () => {
-                  this.effSpin();
-                  BroadcastReceiver_1.default.send(BroadcastReceiver_1.default.USER_UPDATE_COIN);
-                });
-              }));
             } else action.push(cc.callFunc(() => {
               this.onSpinResult(this.resultFreeSpin.object[freeNumber - 1], freeNumber - 1);
             }));
@@ -1377,8 +1366,8 @@ window.__require = function e(t, n, r) {
         popup.getComponent(SlotCayKhe_PopupJackpotGame_1.default).show();
         popup.active = true;
       }
-      showLine(mapIcons = [], typeItemWin = -1) {
-        let speedRoll = this.spinMode == SpinMode.AUTO_X2 ? .5 : 1;
+      showLine(mapIcons = [], typeItemWin = -1, isFreeSpin = false) {
+        let speedRoll = this.spinMode == SpinMode.AUTO_X2 || isFreeSpin ? .5 : 1;
         let itemWild = SlotCayKheController_1.infoItems.find(item => item.wild);
         let mapItemWin = [];
         let itemInColWin = [];
@@ -1469,6 +1458,15 @@ window.__require = function e(t, n, r) {
             this.onSpinResult(this.resultFreeSpin.object[freeNumber - 1], freeNumber - 1);
           } else this.resultFreeSpin.isSpin = false;
         }).start();
+      }
+      showHistory() {
+        let popup = this.popupParent.getComponentInChildren(SlotCayKhe_PopupHistory_1.default);
+        if (!popup) {
+          popup = cc.instantiate(this.popupShow).getComponent(SlotCayKhe_PopupHistory_1.default);
+          this.popupParent.addChild(popup.node);
+        }
+        popup.show();
+        this.clickSetting(true);
       }
       showPopup(callback = (() => {})) {
         "function" != typeof callback && (callback = () => {});
@@ -1566,7 +1564,6 @@ window.__require = function e(t, n, r) {
     "../../Main/Game/src/common/BroadcastReceiver": void 0,
     "../../Main/Game/src/common/Configs": void 0,
     "../../Main/Game/src/common/ErrorLogger": void 0,
-    "../../Main/Game/src/common/Http": void 0,
     "../../Main/Game/src/common/Tween": void 0,
     "../../Main/Game/src/common/Utils": void 0,
     "../../Main/Game/src/networks/Network.Cmd": void 0,
@@ -1574,6 +1571,7 @@ window.__require = function e(t, n, r) {
     "../../Main/Game/src/networks/SlotNetworkClient": void 0,
     "./SlotCayKhe.Cmd": "SlotCayKhe.Cmd",
     "./SlotCayKhe.PopupGuide": "SlotCayKhe.PopupGuide",
+    "./SlotCayKhe.PopupHistory": "SlotCayKhe.PopupHistory",
     "./SlotCayKhe.PopupJackpotGame": "SlotCayKhe.PopupJackpotGame",
     "./SlotCayKhe.SoundControler": "SlotCayKhe.SoundControler"
   } ],
@@ -1870,6 +1868,7 @@ window.__require = function e(t, n, r) {
     const Configs_1 = require("../../Main/Game/src/common/Configs");
     const Http_1 = require("../../Main/Game/src/common/Http");
     const Utils_1 = require("../../Main/Game/src/common/Utils");
+    const BroadcastReceiver_1 = require("../../Main/Game/src/common/BroadcastReceiver");
     const {ccclass: ccclass, property: property} = cc._decorator;
     let PopupHistory = class PopupHistory extends Dialog_1.default {
       constructor() {
@@ -1885,13 +1884,13 @@ window.__require = function e(t, n, r) {
       show() {
         this.canPlaySound() && cc.audioEngine.play(this.soundClick, false, 1);
         super.show();
+        BroadcastReceiver_1.default.send("SHOW_POPUP_SLOT_CAY_KHE");
         for (let i = 0; i < this.items.length; i++) this.items[i].active = false;
         null != this.itemTemplate && (this.itemTemplate.active = false);
       }
       dismiss() {
-        this.canPlaySound() && cc.audioEngine.play(this.soundClick, false, 1);
-        for (let i = 0; i < this.items.length; i++) this.items[i].active = false;
-        this.node.active = false;
+        BroadcastReceiver_1.default.send("HIDE_POPUP_SLOT_CAY_KHE");
+        super.dismiss();
       }
       _onShowed() {
         super._onShowed();
@@ -1922,7 +1921,7 @@ window.__require = function e(t, n, r) {
           c: 137,
           p: this.page,
           un: Configs_1.default.Login.Nickname,
-          gn: "SieuAnhHung"
+          gn: "AnKheTraVang"
         }, (err, res) => {
           App_1.default.instance.showLoading(false);
           if (null != err) return;
@@ -1942,13 +1941,9 @@ window.__require = function e(t, n, r) {
             let item = this.items[i];
             if (i < res["results"].length) {
               let itemData = res["results"][i];
-              item.getChildByName("bg").opacity = i % 2 == 0 ? 10 : 0;
-              item.getChildByName("Session").getComponent(cc.Label).string = itemData["rf"];
-              item.getChildByName("Time").getComponent(cc.Label).string = itemData["ts"];
-              item.getChildByName("Bet").getComponent(cc.Label).string = Utils_1.default.formatNumber(itemData["bv"]);
-              item.getChildByName("LineBet").getComponent(cc.Label).string = "" === itemData["lb"] ? 0 : itemData["lb"].split(",").length;
-              item.getChildByName("LineWin").getComponent(cc.Label).string = "" === itemData["lw"] ? 0 : itemData["lw"].split(",").length;
-              item.getChildByName("Win").getComponent(cc.Label).string = Utils_1.default.formatNumber(itemData["pz"]);
+              item.getChildByName("Session-Time").getComponent(cc.Label).string = "#" + itemData["rf"] + "            " + itemData["ts"].replace("T", "  ");
+              item.getChildByName("Bet").getComponent(cc.Label).string = "Bet " + Utils_1.default.formatNumber(itemData["bv"]);
+              item.getChildByName("Win").getComponent(cc.Label).string = "Win " + Utils_1.default.formatNumber(itemData["pz"]);
               item.active = true;
             } else item.active = false;
           }
@@ -1971,6 +1966,7 @@ window.__require = function e(t, n, r) {
     cc._RF.pop();
   }, {
     "../../Main/Game/src/common/App": void 0,
+    "../../Main/Game/src/common/BroadcastReceiver": void 0,
     "../../Main/Game/src/common/Configs": void 0,
     "../../Main/Game/src/common/Dialog": void 0,
     "../../Main/Game/src/common/Http": void 0,

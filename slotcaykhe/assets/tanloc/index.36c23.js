@@ -44,6 +44,8 @@ window.__require = function e(t, n, r) {
       Code.SUBSCRIBE = 2e3;
       Code.SUBCRIBE_RESPONSE = 2002;
       Code.SPIN_RESULT = 2003;
+      Code.INFO_ROUND = 2004;
+      Code.NEW_USER_WIN = 2005;
       Code.LOG_CHAT = 18003;
       Code.SEND_CHAT = 18e3;
       Code.SUBSCRIBE_CHAT = 18001;
@@ -109,6 +111,17 @@ window.__require = function e(t, n, r) {
         }
       }
       TanLocCmd.SendChat = SendChat;
+      class SendInfoRound extends Network_OutPacket_1.default {
+        constructor() {
+          super();
+          this.initData(100);
+          this.setControllerId(1);
+          this.setCmdId(Code.INFO_ROUND);
+          this.packHeader();
+          this.updateSize();
+        }
+      }
+      TanLocCmd.SendInfoRound = SendInfoRound;
       class ReceiveSubscribe extends Network_InPacket_1.default {
         constructor(data) {
           super(data);
@@ -122,8 +135,10 @@ window.__require = function e(t, n, r) {
           super(data);
           this.spinResult = "";
           this.currentRound = 0;
+          this.stepGame = null;
           this.spinResult = this.getString();
           this.currentRound = this.getByte();
+          this.stepGame = this.getString();
         }
       }
       TanLocCmd.ReceiveSpinResult = ReceiveSpinResult;
@@ -179,6 +194,22 @@ window.__require = function e(t, n, r) {
         }
       }
       TanLocCmd.ReceivedUpdateUserMoney = ReceivedUpdateUserMoney;
+      class ReceivedInfoRound extends Network_InPacket_1.default {
+        constructor(data) {
+          super(data);
+          this.prizes = this.getString();
+        }
+      }
+      TanLocCmd.ReceivedInfoRound = ReceivedInfoRound;
+      class ReceivedNewUserWin extends Network_InPacket_1.default {
+        constructor(data) {
+          super(data);
+          this.coin_win = 0;
+          this.name = this.getString();
+          this.coin_win = this.getLong();
+        }
+      }
+      TanLocCmd.ReceivedNewUserWin = ReceivedNewUserWin;
     })(TanLocCmd = exports.TanLocCmd || (exports.TanLocCmd = {}));
     exports.default = TanLocCmd;
     cc._RF.pop();
@@ -256,10 +287,17 @@ window.__require = function e(t, n, r) {
         this.popupHistory = null;
         this.wantingNode = null;
         this.lbTimeWanting = null;
+        this.lbInfoWanting = null;
+        this.lbSuggestionWanting = null;
         this.lbProcessWanting = null;
         this.processWanting = null;
+        this.dataInfo = {
+          todayRecharge: null,
+          rangeValues: null
+        };
         this.listResult = [];
         this.currentResults = [];
+        this.stepGame = "";
         this.isClickBack = false;
         this.scheduleBonusTime = null;
       }
@@ -298,6 +336,7 @@ window.__require = function e(t, n, r) {
         TanLoc_NetworkClient_1.default.getInstance().addListener(data => {
           if (!this.node.active) return;
           let inpacket = new Network_InPacket_1.default(data);
+          cc.warn(inpacket.getCmdId());
           switch (inpacket.getCmdId()) {
            case Network_Cmd_1.default.Code.LOGIN:
             App_1.default.instance.showLoading(false);
@@ -309,17 +348,33 @@ window.__require = function e(t, n, r) {
            case TanLoc_Cmd_1.default.Code.SUBCRIBE_RESPONSE:
             {
               let res = new TanLoc_Cmd_1.default.ReceiveSubscribe(data);
-              cc.log(res);
+              cc.log("SUBCRIBE_RESPONSE", res);
             }
             break;
 
            case TanLoc_Cmd_1.default.Code.SPIN_RESULT:
             {
               let res = new TanLoc_Cmd_1.default.ReceiveSpinResult(data);
+              cc.log("SPIN_RESULT", res);
               this.updateSpinRedult(res);
+            }
+            break;
+
+           case TanLoc_Cmd_1.default.Code.INFO_ROUND:
+            {
+              let res = new TanLoc_Cmd_1.default.ReceivedInfoRound(data);
+              cc.log("INFO_ROUND", res);
+            }
+            break;
+
+           case TanLoc_Cmd_1.default.Code.NEW_USER_WIN:
+            {
+              let res = new TanLoc_Cmd_1.default.ReceivedNewUserWin(data);
+              cc.log("NEW_USER_WIN", res);
             }
           }
         }, this);
+        TanLoc_NetworkClient_1.default.getInstance().send(new TanLoc_Cmd_1.default.SendInfoRound());
         MiniGameNetworkClient_1.default.getInstance().addListener(data => {
           let inPacket = new Network_InPacket_1.default(data);
           switch (inPacket.getCmdId()) {
@@ -334,7 +389,7 @@ window.__require = function e(t, n, r) {
         }, this);
         this.schedule(() => {
           TanLoc_NetworkClient_1.default.getInstance().send(new TanLoc_Cmd_1.default.SendPing());
-        }, 20);
+        }, 10);
       }
       resizePlayView() {
         const distanceResizeHeight = (this.safeArea.height - 100 - 1180) / 2;
@@ -347,19 +402,24 @@ window.__require = function e(t, n, r) {
         TanLoc_NetworkClient_1.default.getInstance().send(new TanLoc_Cmd_1.default.SendSubscribe());
       }
       requestConfig() {
+        this.lbSuggestionWanting.getComponent(cc.Label).string = "";
         Http_1.default.get(Configs_1.default.App.API_TAN_LOC + "config", {}, (err, res) => {
           if (null != err) return;
           cc.log(res);
-          let countDown = res.countDown;
+          let countDown = Math.floor((1749945757825 - new Date().getTime()) / 1e3);
           this.setCountDown(countDown);
           if (countDown > 0) {
+            this.actionChat();
             let max = 0;
             for (const key in res.configRechargeMoneyTicket.rangeValues) max = Math.max(parseInt(key), max);
             cc.log(max);
+            this.lbInfoWanting.string = "Hi\u1ec7n c\xf3 " + res.numberUserRegister + " ng\u01b0\u1eddi \u0111\u0103ng k\xfd.\nR\xfat l\u1ed9c t\u1eeb qu\u1ef9 " + Utils_1.default.formatNumber(res.fund) + " chip.\n\u0110\xe3 c\xf3 " + res.numberUserShare + " user \u1ee7ng h\u1ed9 qu\u1ef9.";
             this.processWanting.fillRange = res.configRechargeMoneyTicket.defaultValue / max;
+            this.dataInfo.rangeValues = res.configRechargeMoneyTicket.rangeValues;
             for (const key in res.configRechargeMoneyTicket.rangeValues) if (Object.prototype.hasOwnProperty.call(res.configRechargeMoneyTicket.rangeValues, key)) {
               const element = res.configRechargeMoneyTicket.rangeValues[key];
-              if (element > 0) {
+              if (parseInt(key) > 0 && element > 0) {
+                this.dataInfo.todayRecharge && this.dataInfo.todayRecharge < parseInt(key) && "" == this.lbSuggestionWanting.getComponent(cc.Label).string && (this.lbSuggestionWanting.getComponent(cc.Label).string = "B\u1ea1n c\u1ea7n n\u1ea1p " + Utils_1.default.formatMoney(parseInt(key) - this.dataInfo.todayRecharge) + " th\xeam \u0111\u1ec3 nh\u1eadn \u0111\u01b0\u1ee3c " + res.configRechargeMoneyTicket.rangeValues[key] + " ticket.");
                 let lbProcess = cc.instantiate(this.lbProcessWanting).getComponent(cc.Label);
                 lbProcess.string = element + "\n\n\n" + Utils_1.default.formatMoneyChip(key);
                 this.processWanting.node.addChild(lbProcess.node);
@@ -370,7 +430,7 @@ window.__require = function e(t, n, r) {
                 }).start();
               }
             }
-          }
+          } else this.dismissChat();
           this.schedule(this.scheduleBonusTime = () => {
             countDown--;
             if (countDown >= 0) this.setCountDown(countDown); else {
@@ -386,12 +446,28 @@ window.__require = function e(t, n, r) {
         let seconds = Math.floor(countDown - 60 * hours * 60 - 60 * minutes);
         this.lbTime.string = [ hours < 10 ? "0" + hours : hours, minutes < 10 ? "0" + minutes : minutes, seconds < 10 ? "0" + seconds : seconds ].join(":");
         this.lbTime.node.color = countDown > 10 ? cc.Color.CYAN : cc.Color.RED;
+        let wantingTime = 0;
+        countDown == wantingTime && this.dismissChat();
+        this.lbTime.node.active = countDown <= wantingTime;
+        this.tickets.active = countDown <= wantingTime;
+        this.scrollResult.node.active = countDown <= wantingTime;
+        this.scrollMyTicket.node.active = countDown <= wantingTime;
+        this.wantingNode.active = countDown > wantingTime;
+        countDown > wantingTime && (this.lbTimeWanting.string = [ hours < 10 ? "0" + hours : hours, minutes < 10 ? "0" + minutes : minutes, seconds < 10 ? "0" + seconds : seconds ].join(":"));
       }
       requestUserInfo() {
+        this.lbProcessWanting.getComponent(cc.Label).string = "";
+        this.lbSuggestionWanting.getComponent(cc.Label).string = "";
         Http_1.default.get(Configs_1.default.App.API_TAN_LOC + "userinfo", {}, (err, res) => {
           if (null != err) return;
           cc.log(res);
           this.generateMyTicket(Ticket.toTickets(res.eventTanLocUserTicketList));
+          this.dataInfo.todayRecharge = res.todayRecharge;
+          if (this.dataInfo.rangeValues) for (const key in this.dataInfo.rangeValues) if (Object.prototype.hasOwnProperty.call(this.dataInfo.rangeValues, key)) {
+            const element = this.dataInfo.rangeValues[key];
+            parseInt(key) > 0 && element > 0 && this.dataInfo.todayRecharge < parseInt(key) && "" == this.lbSuggestionWanting.getComponent(cc.Label).string && (this.lbSuggestionWanting.getComponent(cc.Label).string = "B\u1ea1n c\u1ea7n n\u1ea1p th\xeam " + Utils_1.default.formatMoney(parseInt(key) - this.dataInfo.todayRecharge) + " \u0111\u1ec3 nh\u1eadn \u0111\u01b0\u1ee3c t\u1eb7ng " + this.dataInfo.rangeValues[key] + " ticket.");
+          }
+          this.lbProcessWanting.getComponent(cc.Label).string = Utils_1.default.formatMoney(res.todayRecharge);
         });
       }
       backToLobby() {
@@ -508,6 +584,7 @@ window.__require = function e(t, n, r) {
       }
       updateSpinRedult(res) {
         if (this.currentResults.length == JSON.parse(res.spinResult)[res.currentRound].length) return;
+        this.stepGame = res.stepGame;
         this.currentResults = JSON.parse(res.spinResult)[res.currentRound];
         1 == this.currentResults.length && this.scrollResult.content.removeAllChildren();
         cc.log(this.currentResults);
@@ -672,6 +749,8 @@ window.__require = function e(t, n, r) {
     __decorate([ property(TanLoc_PopupHistory_1.default) ], TanLocController.prototype, "popupHistory", void 0);
     __decorate([ property(cc.Node) ], TanLocController.prototype, "wantingNode", void 0);
     __decorate([ property(cc.Label) ], TanLocController.prototype, "lbTimeWanting", void 0);
+    __decorate([ property(cc.Label) ], TanLocController.prototype, "lbInfoWanting", void 0);
+    __decorate([ property(cc.Label) ], TanLocController.prototype, "lbSuggestionWanting", void 0);
     __decorate([ property(cc.Node) ], TanLocController.prototype, "lbProcessWanting", void 0);
     __decorate([ property(cc.Sprite) ], TanLocController.prototype, "processWanting", void 0);
     TanLocController = TanLocController_1 = __decorate([ ccclass ], TanLocController);
@@ -792,6 +871,7 @@ window.__require = function e(t, n, r) {
         this.listeners.push(new Network_NetworkListener_1.default(target, callback));
       }
       send(packet) {
+        cc.log("send ", packet);
         for (var b = new Int8Array(packet._length), c = 0; c < packet._length; c++) b[c] = packet._data[c];
         null != this.ws && this.isConnected() && this.ws.send(b.buffer);
       }
@@ -1006,6 +1086,7 @@ window.__require = function e(t, n, r) {
               status: "NORMAL_LOSE",
               uuid: "229e5773-2249-4996-99f4-bc0055e10a4f"
             };
+            if (!history["matrix"]) continue;
             history["matrix"].split(",").forEach((num, ind) => {
               historyItem.getChildByName("ticket").getChildByName("" + ind).getComponentInChildren(cc.Label).string = (num < 10 ? "0" : "") + num;
             });
