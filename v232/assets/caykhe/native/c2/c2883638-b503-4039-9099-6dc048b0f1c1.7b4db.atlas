@@ -1,0 +1,125 @@
+
+item-patato.png
+size: 174,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 182
+  rotate: true
+  xy: 1, 210
+  size: 53, 135
+  orig: 53, 135
+  offset: 0, 0
+  index: -1
+Layer 183
+  rotate: true
+  xy: 1, 148
+  size: 61, 109
+  orig: 61, 109
+  offset: 0, 0
+  index: -1
+Layer 184
+  rotate: false
+  xy: 1, 99
+  size: 89, 48
+  orig: 89, 48
+  offset: 0, 0
+  index: -1
+Layer 185
+  rotate: true
+  xy: 110, 25
+  size: 75, 52
+  orig: 75, 52
+  offset: 0, 0
+  index: -1
+Layer 186
+  rotate: true
+  xy: 110, 101
+  size: 42, 63
+  orig: 44, 65
+  offset: 1, 1
+  index: -1
+Layer 187
+  rotate: true
+  xy: 111, 144
+  size: 45, 60
+  orig: 47, 62
+  offset: 1, 1
+  index: -1
+Layer 188
+  rotate: false
+  xy: 1, 44
+  size: 86, 54
+  orig: 86, 54
+  offset: 0, 0
+  index: -1
+Layer 189
+  rotate: true
+  xy: 1, 2
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+Layer 191
+  rotate: false
+  xy: 111, 190
+  size: 17, 19
+  orig: 19, 21
+  offset: 1, 1
+  index: -1
+Layer 192
+  rotate: true
+  xy: 88, 57
+  size: 17, 20
+  orig: 19, 22
+  offset: 1, 1
+  index: -1
+Layer 193
+  rotate: true
+  xy: 137, 190
+  size: 73, 36
+  orig: 76, 36
+  offset: 1, 0
+  index: -1
+Layer 194
+  rotate: true
+  xy: 91, 90
+  size: 57, 18
+  orig: 58, 19
+  offset: 0, 1
+  index: -1
+Layer 195
+  rotate: false
+  xy: 138, 9
+  size: 27, 15
+  orig: 29, 17
+  offset: 1, 1
+  index: -1
+Layer 196
+  rotate: false
+  xy: 106, 1
+  size: 31, 23
+  orig: 33, 25
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 1, 264
+  size: 169, 257
+  orig: 169, 257
+  offset: 0, 0
+  index: -1
+eye-lid-1
+  rotate: true
+  xy: 54, 2
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+eyelash
+  rotate: false
+  xy: 88, 75
+  size: 21, 14
+  orig: 23, 16
+  offset: 1, 1
+  index: -1
