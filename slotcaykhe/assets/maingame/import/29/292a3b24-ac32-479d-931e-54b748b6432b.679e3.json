@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6cZhkHt5pPQbjObd2u+HbE"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lieng",
+      "rect": [
+        1,
+        1,
+        1233,
+        312
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        1236,
+        314
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

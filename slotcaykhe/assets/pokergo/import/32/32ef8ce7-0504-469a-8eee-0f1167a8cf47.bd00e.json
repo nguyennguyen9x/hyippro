@@ -1,0 +1,201 @@
+[
+  1,
+  [
+    "bdnj5IdQ5I3pcZVZQjgZ0h"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "lb-spin",
+      "\r\nlb-spin.png\r\nsize: 1920,529\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nEllipse 1 copy\r\n  rotate: false\r\n  xy: 1039, 2\r\n  size: 220, 220\r\n  orig: 222, 222\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 11\r\n  rotate: true\r\n  xy: 1636, 259\r\n  size: 269, 268\r\n  orig: 271, 270\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 15\r\n  rotate: false\r\n  xy: 1, 136\r\n  size: 392, 392\r\n  orig: 395, 395\r\n  offset: 1, 2\r\n  index: -1\r\nEllipse 1 copy 2\r\n  rotate: true\r\n  xy: 760, 4\r\n  size: 204, 210\r\n  orig: 206, 212\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 3\r\n  rotate: true\r\n  xy: 1260, 12\r\n  size: 210, 209\r\n  orig: 212, 211\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 4\r\n  rotate: false\r\n  xy: 1470, 27\r\n  size: 209, 210\r\n  orig: 211, 212\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 6\r\n  rotate: false\r\n  xy: 1345, 238\r\n  size: 290, 290\r\n  orig: 292, 292\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 7\r\n  rotate: false\r\n  xy: 1039, 223\r\n  size: 305, 305\r\n  orig: 307, 307\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 8\r\n  rotate: false\r\n  xy: 719, 209\r\n  size: 319, 319\r\n  orig: 321, 321\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 1 copy 9\r\n  rotate: false\r\n  xy: 394, 204\r\n  size: 324, 324\r\n  orig: 326, 326\r\n  offset: 1, 1\r\n  index: -1\r\nEllipse 2 copy 4\r\n  rotate: false\r\n  xy: 342, 9\r\n  size: 25, 25\r\n  orig: 28, 28\r\n  offset: 2, 2\r\n  index: -1\r\nGroup 2\r\n  rotate: false\r\n  xy: 1680, 19\r\n  size: 239, 239\r\n  orig: 241, 241\r\n  offset: 1, 1\r\n  index: -1\r\nShape 1\r\n  rotate: false\r\n  xy: 971, 70\r\n  size: 60, 138\r\n  orig: 62, 140\r\n  offset: 1, 1\r\n  index: -1\r\nShape 2\r\n  rotate: true\r\n  xy: 184, 14\r\n  size: 121, 72\r\n  orig: 123, 74\r\n  offset: 1, 1\r\n  index: -1\r\nShape 3\r\n  rotate: true\r\n  xy: 394, 138\r\n  size: 65, 73\r\n  orig: 67, 76\r\n  offset: 1, 2\r\n  index: -1\r\nShape 4\r\n  rotate: false\r\n  xy: 397, 1\r\n  size: 49, 136\r\n  orig: 51, 138\r\n  offset: 1, 1\r\n  index: -1\r\nShape 5\r\n  rotate: true\r\n  xy: 1, 11\r\n  size: 124, 95\r\n  orig: 127, 98\r\n  offset: 2, 1\r\n  index: -1\r\nShape 6\r\n  rotate: false\r\n  xy: 97, 14\r\n  size: 86, 121\r\n  orig: 88, 123\r\n  offset: 1, 1\r\n  index: -1\r\nShape 7\r\n  rotate: true\r\n  xy: 342, 35\r\n  size: 100, 54\r\n  orig: 103, 56\r\n  offset: 1, 1\r\n  index: -1\r\nShape 8\r\n  rotate: false\r\n  xy: 257, 20\r\n  size: 84, 115\r\n  orig: 87, 118\r\n  offset: 1, 1\r\n  index: -1\r\ntext-1\r\n  rotate: true\r\n  xy: 687, 25\r\n  size: 178, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\ntext-2\r\n  rotate: true\r\n  xy: 468, 19\r\n  size: 184, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\ntext-3\r\n  rotate: true\r\n  xy: 541, 22\r\n  size: 181, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\ntext-4\r\n  rotate: true\r\n  xy: 614, 23\r\n  size: 180, 72\r\n  orig: 208, 102\r\n  offset: 15, 15\r\n  index: -1\r\n",
+      [
+        "lb-spin.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "VECYK0eSrTwxd9dqIwr+WGbH6Bg",
+          "spine": "3.8.98",
+          "x": -200.63,
+          "y": -201.65,
+          "width": 398.52,
+          "height": 399.55,
+          "images": "../MINIGAMES/mario/bt-spin/",
+          "audio": "D:/Design/spine/game/WIN365/MINIGAMES/mario/./bt-spin"
+        },
+        "bones": [
+          {
+            "name": "root",
+            "scaleX": 0.9655,
+            "scaleY": 0.9655
+          },
+          {
+            "name": "text-1",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "text-1",
+            "bone": "text-1",
+            "attachment": "text-1"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "text-1": {
+                "text-1": {
+                  "width": 208,
+                  "height": 102
+                },
+                "text-2": {
+                  "width": 208,
+                  "height": 102
+                },
+                "text-3": {
+                  "width": 208,
+                  "height": 102
+                },
+                "text-4": {
+                  "width": 208,
+                  "height": 102
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "text-1": {
+                "attachment": [
+                  {
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": "text-4"
+                  },
+                  {
+                    "time": 0.4,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 0.4667,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 0.6333,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 0.7333,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 0.8,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 5.4667,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 5.6,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 5.6667,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 5.7333,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 5.8,
+                    "name": "text-4"
+                  },
+                  {
+                    "time": 5.8667,
+                    "name": "text-3"
+                  },
+                  {
+                    "time": 5.9333,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 6.1,
+                    "name": "text-1"
+                  },
+                  {
+                    "time": 6.2,
+                    "name": "text-2"
+                  },
+                  {
+                    "time": 6.2667,
+                    "name": "text-1"
+                  }
+                ]
+              }
+            },
+            "bones": {}
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

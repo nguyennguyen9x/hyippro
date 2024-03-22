@@ -1,0 +1,292 @@
+[
+  1,
+  [
+    "1fecfbe9e",
+    "1cb33fcd8",
+    "89H/Ew24lIrbtzMGoDOQ75",
+    "54Moj6LoBOyZpt98ppYAup",
+    "f9S6MkAeZLz7RXI1kGQ55n",
+    "8bALJBvdlHw47OnT9Mrn8s",
+    "d9dbOitapFx6g1WLdmpJuj"
+  ],
+  [
+    "_textureSetter",
+    "flashLight0",
+    "flashLight1",
+    "flashLight2",
+    "flashLight3",
+    "flashLight4"
+  ],
+  [
+    "cc.SpriteFrame",
+    [
+      "cc.SpriteAtlas",
+      [
+        "_name",
+        "_spriteFrames"
+      ],
+      2,
+      11
+    ]
+  ],
+  [
+    [
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  [
+    [
+      [
+        {
+          "name": "flashLight1",
+          "rect": [
+            1934,
+            852,
+            512,
+            102
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            512,
+            102
+          ],
+          "rotated": 1,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          "flashLight.plist",
+          [
+            {},
+            "flashLight0",
+            6,
+            0,
+            "flashLight1",
+            6,
+            1,
+            "flashLight2",
+            6,
+            2,
+            "flashLight3",
+            6,
+            3,
+            "flashLight4",
+            6,
+            4
+          ]
+        ]
+      ],
+      0,
+      0,
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    [
+      [
+        {
+          "name": "flashLight0",
+          "rect": [
+            677,
+            1937,
+            512,
+            102
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            512,
+            102
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        {
+          "name": "flashLight3",
+          "rect": [
+            3,
+            1943,
+            512,
+            102
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            512,
+            102
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "flashLight4",
+          "rect": [
+            181,
+            1418,
+            512,
+            102
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            512,
+            102
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "flashLight2",
+          "rect": [
+            193,
+            1037,
+            512,
+            102
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            512,
+            102
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  ]
+]

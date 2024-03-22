@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c1VpET4fVOA6CkHak+5ZGn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "screen-wild-jessi-1",
+      "rect": [
+        1,
+        2,
+        1972,
+        232
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        1974,
+        235
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

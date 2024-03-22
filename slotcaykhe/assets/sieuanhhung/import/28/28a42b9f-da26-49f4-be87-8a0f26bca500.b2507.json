@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1eda7ed12"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-robin",
+      "rect": [
+        915,
+        1043,
+        957,
+        524
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        961,
+        528
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

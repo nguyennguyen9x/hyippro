@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1185c93e7"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-bottle",
+      "rect": [
+        3,
+        1293,
+        740,
+        181
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        742,
+        183
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

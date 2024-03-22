@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "08biNSDm9FN6FGdFBWgwpA"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "screen-levelup-bg",
+      "rect": [
+        1,
+        1,
+        366,
+        225
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        368,
+        227
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

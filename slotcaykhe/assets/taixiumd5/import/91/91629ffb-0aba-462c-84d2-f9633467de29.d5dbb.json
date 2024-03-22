@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "08Nt7cFgxLL4hY6acNbj64"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "muccuoc",
+      "rect": [
+        0,
+        1,
+        68,
+        30
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        68,
+        31
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
