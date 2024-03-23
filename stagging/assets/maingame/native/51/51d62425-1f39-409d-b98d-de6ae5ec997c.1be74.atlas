@@ -1,0 +1,167 @@
+
+capVip.png
+size: 2031,437
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11-bg
+  rotate: true
+  xy: 1, 167
+  size: 269, 234
+  orig: 269, 236
+  offset: 0, 1
+  index: -1
+;
+  rotate: false
+  xy: 1, 1
+  size: 173, 165
+  orig: 177, 168
+  offset: 2, 2
+  index: -1
+;k
+  rotate: true
+  xy: 1695, 264
+  size: 172, 170
+  orig: 177, 173
+  offset: 3, 2
+  index: -1
+;m
+  rotate: true
+  xy: 407, 214
+  size: 222, 182
+  orig: 224, 184
+  offset: 1, 1
+  index: -1
+Group 20
+  rotate: true
+  xy: 1157, 229
+  size: 207, 187
+  orig: 209, 188
+  offset: 1, 1
+  index: -1
+Polygon 1 copy 5
+  rotate: true
+  xy: 556, 5
+  size: 208, 188
+  orig: 208, 188
+  offset: 0, 0
+  index: -1
+eth
+  rotate: true
+  xy: 1866, 264
+  size: 172, 164
+  orig: 177, 167
+  offset: 3, 2
+  index: -1
+gsd
+  rotate: true
+  xy: 590, 228
+  size: 208, 187
+  orig: 208, 188
+  offset: 0, 1
+  index: -1
+gvg
+  rotate: false
+  xy: 348, 11
+  size: 207, 190
+  orig: 209, 191
+  offset: 1, 1
+  index: -1
+gw
+  rotate: true
+  xy: 966, 229
+  size: 207, 190
+  orig: 209, 190
+  offset: 1, 0
+  index: -1
+ij
+  rotate: true
+  xy: 1121, 21
+  size: 207, 190
+  orig: 208, 190
+  offset: 0, 0
+  index: -1
+jo
+  rotate: true
+  xy: 1312, 21
+  size: 207, 187
+  orig: 208, 188
+  offset: 0, 1
+  index: -1
+juyuky
+  rotate: true
+  xy: 1524, 253
+  size: 183, 170
+  orig: 189, 173
+  offset: 3, 2
+  index: -1
+kh
+  rotate: true
+  xy: 1345, 252
+  size: 184, 178
+  orig: 189, 181
+  offset: 2, 2
+  index: -1
+ko
+  rotate: true
+  xy: 1671, 79
+  size: 173, 170
+  orig: 179, 173
+  offset: 3, 2
+  index: -1
+light-sweep-soft
+  rotate: true
+  xy: 236, 171
+  size: 30, 49
+  orig: 30, 49
+  offset: 0, 0
+  index: -1
+lk
+  rotate: true
+  xy: 236, 202
+  size: 234, 170
+  orig: 238, 173
+  offset: 2, 2
+  index: -1
+lm
+  rotate: true
+  xy: 745, 19
+  size: 208, 187
+  orig: 208, 188
+  offset: 0, 1
+  index: -1
+m;,;
+  rotate: false
+  xy: 175, 1
+  size: 172, 165
+  orig: 177, 168
+  offset: 3, 2
+  index: -1
+mpj
+  rotate: false
+  xy: 1842, 93
+  size: 172, 170
+  orig: 177, 173
+  offset: 3, 2
+  index: -1
+n
+  rotate: true
+  xy: 778, 228
+  size: 208, 187
+  orig: 208, 188
+  offset: 0, 1
+  index: -1
+qcc
+  rotate: true
+  xy: 933, 19
+  size: 208, 187
+  orig: 208, 188
+  offset: 0, 1
+  index: -1
+yhfc
+  rotate: true
+  xy: 1500, 67
+  size: 184, 170
+  orig: 189, 173
+  offset: 2, 2
+  index: -1

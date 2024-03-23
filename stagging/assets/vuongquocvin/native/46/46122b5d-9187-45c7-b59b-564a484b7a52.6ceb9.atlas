@@ -1,0 +1,118 @@
+
+item-bonus.png
+size: 1266,503
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+39/lightning_00000
+  rotate: false
+  xy: 1, 252
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00001
+  rotate: false
+  xy: 1, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00002
+  rotate: false
+  xy: 252, 252
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00003
+  rotate: false
+  xy: 252, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00004
+  rotate: false
+  xy: 503, 252
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00005
+  rotate: false
+  xy: 503, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00006
+  rotate: false
+  xy: 754, 252
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00007
+  rotate: false
+  xy: 754, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+39/lightning_00008
+  rotate: false
+  xy: 1005, 252
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Layer 3 copy
+  rotate: false
+  xy: 1145, 117
+  size: 120, 134
+  orig: 122, 136
+  offset: 1, 1
+  index: -1
+text-1
+  rotate: true
+  xy: 1183, 80
+  size: 36, 37
+  orig: 38, 39
+  offset: 1, 1
+  index: -1
+text-2
+  rotate: true
+  xy: 1221, 47
+  size: 33, 37
+  orig: 35, 39
+  offset: 1, 1
+  index: -1
+text-3
+  rotate: true
+  xy: 1221, 81
+  size: 35, 37
+  orig: 37, 39
+  offset: 1, 1
+  index: -1
+text-4
+  rotate: true
+  xy: 1183, 47
+  size: 32, 37
+  orig: 34, 39
+  offset: 1, 1
+  index: -1
+text-5
+  rotate: false
+  xy: 1145, 79
+  size: 37, 37
+  orig: 39, 39
+  offset: 1, 1
+  index: -1
+uichsi.
+  rotate: false
+  xy: 1005, 107
+  size: 139, 144
+  orig: 151, 154
+  offset: 5, 5
+  index: -1

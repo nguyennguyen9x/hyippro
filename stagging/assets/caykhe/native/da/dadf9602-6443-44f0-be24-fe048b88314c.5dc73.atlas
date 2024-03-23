@@ -1,0 +1,153 @@
+
+screen-wild-jessi-2.png
+size: 948,189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 17
+  rotate: false
+  xy: 1, 2
+  size: 210, 186
+  orig: 210, 186
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: true
+  xy: 900, 90
+  size: 98, 47
+  orig: 98, 47
+  offset: 0, 0
+  index: -1
+Layer 19
+  rotate: true
+  xy: 621, 98
+  size: 90, 154
+  orig: 90, 154
+  offset: 0, 0
+  index: -1
+Layer 49
+  rotate: false
+  xy: 470, 31
+  size: 96, 51
+  orig: 96, 51
+  offset: 0, 0
+  index: -1
+Layer 50
+  rotate: false
+  xy: 212, 81
+  size: 224, 107
+  orig: 224, 111
+  offset: 0, 0
+  index: -1
+Layer 51
+  rotate: true
+  xy: 567, 2
+  size: 80, 58
+  orig: 97, 58
+  offset: 17, 0
+  index: -1
+Layer 52
+  rotate: false
+  xy: 322, 15
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+Layer 53
+  rotate: false
+  xy: 770, 38
+  size: 83, 39
+  orig: 83, 39
+  offset: 0, 0
+  index: -1
+Layer 54-
+  rotate: true
+  xy: 212, 30
+  size: 50, 109
+  orig: 50, 109
+  offset: 0, 0
+  index: -1
+Layer 55
+  rotate: true
+  xy: 437, 83
+  size: 105, 183
+  orig: 105, 183
+  offset: 0, 0
+  index: -1
+Layer 58
+  rotate: false
+  xy: 776, 78
+  size: 123, 110
+  orig: 123, 110
+  offset: 0, 0
+  index: -1
+Layer 59
+  rotate: true
+  xy: 900, 7
+  size: 82, 45
+  orig: 85, 48
+  offset: 2, 2
+  index: -1
+Layer 61
+  rotate: true
+  xy: 227, 15
+  size: 14, 13
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+Layer 62
+  rotate: true
+  xy: 212, 14
+  size: 15, 14
+  orig: 17, 16
+  offset: 1, 1
+  index: -1
+arm-3
+  rotate: false
+  xy: 403, 2
+  size: 66, 78
+  orig: 66, 78
+  offset: 0, 0
+  index: -1
+arm-5
+  rotate: false
+  xy: 626, 5
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+hand-2
+  rotate: false
+  xy: 854, 40
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 725, 4
+  size: 93, 44
+  orig: 95, 46
+  offset: 1, 1
+  index: -1
+lid-1
+  rotate: true
+  xy: 854, 3
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+lid-2
+  rotate: true
+  xy: 770, 1
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 803, 1
+  size: 36, 30
+  orig: 37, 30
+  offset: 1, 0
+  index: -1

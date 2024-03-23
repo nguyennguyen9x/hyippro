@@ -1,0 +1,321 @@
+
+item-jessi.png
+size: 377,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GLITTER-1
+  rotate: false
+  xy: 243, 428
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+Layer 49
+  rotate: false
+  xy: 239, 9
+  size: 96, 51
+  orig: 96, 51
+  offset: 0, 0
+  index: -1
+Layer 50
+  rotate: true
+  xy: 1, 184
+  size: 224, 107
+  orig: 224, 111
+  offset: 0, 0
+  index: -1
+Layer 51
+  rotate: false
+  xy: 1, 4
+  size: 80, 58
+  orig: 97, 58
+  offset: 17, 0
+  index: -1
+Layer 52
+  rotate: true
+  xy: 311, 951
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+Layer 53
+  rotate: true
+  xy: 335, 491
+  size: 83, 39
+  orig: 83, 39
+  offset: 0, 0
+  index: -1
+Layer 54-
+  rotate: false
+  xy: 260, 922
+  size: 50, 109
+  orig: 50, 109
+  offset: 0, 0
+  index: -1
+Layer 55
+  rotate: true
+  xy: 109, 303
+  size: 105, 183
+  orig: 105, 183
+  offset: 0, 0
+  index: -1
+Layer 58
+  rotate: false
+  xy: 109, 192
+  size: 123, 110
+  orig: 123, 110
+  offset: 0, 0
+  index: -1
+Layer 59
+  rotate: false
+  xy: 294, 430
+  size: 82, 45
+  orig: 85, 48
+  offset: 2, 2
+  index: -1
+Layer 61
+  rotate: true
+  xy: 361, 6
+  size: 14, 13
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+Layer 62
+  rotate: true
+  xy: 107, 5
+  size: 15, 14
+  orig: 17, 16
+  offset: 1, 1
+  index: -1
+arm-3
+  rotate: true
+  xy: 122, 4
+  size: 66, 78
+  orig: 66, 78
+  offset: 0, 0
+  index: -1
+arm-33
+  rotate: true
+  xy: 338, 346
+  size: 83, 33
+  orig: 83, 33
+  offset: 0, 0
+  index: -1
+arm-5
+  rotate: true
+  xy: 243, 476
+  size: 98, 91
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+aura
+  rotate: false
+  xy: 243, 575
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+hand-2
+  rotate: true
+  xy: 201, 31
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 293, 334
+  size: 93, 44
+  orig: 95, 46
+  offset: 1, 1
+  index: -1
+mouth
+  rotate: false
+  xy: 293, 303
+  size: 35, 30
+  orig: 37, 30
+  offset: 2, 0
+  index: -1
+text-1
+  rotate: true
+  xy: 243, 409
+  size: 18, 24
+  orig: 20, 26
+  offset: 1, 1
+  index: -1
+text-1 copy
+  rotate: false
+  xy: 336, 627
+  size: 35, 41
+  orig: 38, 43
+  offset: 1, 1
+  index: -1
+text-2
+  rotate: true
+  xy: 201, 10
+  size: 20, 25
+  orig: 22, 27
+  offset: 1, 1
+  index: -1
+text-2 copy
+  rotate: false
+  xy: 82, 21
+  size: 37, 41
+  orig: 40, 44
+  offset: 1, 2
+  index: -1
+text-3
+  rotate: true
+  xy: 82, 1
+  size: 19, 24
+  orig: 21, 26
+  offset: 1, 1
+  index: -1
+text-3 copy
+  rotate: false
+  xy: 336, 21
+  size: 37, 39
+  orig: 39, 43
+  offset: 1, 2
+  index: -1
+text-4
+  rotate: true
+  xy: 336, 1
+  size: 19, 24
+  orig: 21, 26
+  offset: 1, 1
+  index: -1
+text-4 copy
+  rotate: true
+  xy: 311, 914
+  size: 36, 40
+  orig: 38, 44
+  offset: 1, 2
+  index: -1
+text-5
+  rotate: false
+  xy: 352, 925
+  size: 18, 25
+  orig: 20, 27
+  offset: 1, 1
+  index: -1
+text-5 copy
+  rotate: false
+  xy: 338, 304
+  size: 34, 41
+  orig: 38, 44
+  offset: 2, 2
+  index: -1
+tornado/tornado_00000
+  rotate: false
+  xy: 1, 772
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00001
+  rotate: false
+  xy: 1, 651
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00002
+  rotate: false
+  xy: 1, 530
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00003
+  rotate: false
+  xy: 1, 409
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00004
+  rotate: false
+  xy: 1, 63
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00005
+  rotate: false
+  xy: 122, 71
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00006
+  rotate: false
+  xy: 243, 182
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00007
+  rotate: false
+  xy: 243, 61
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00008
+  rotate: false
+  xy: 122, 772
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00009
+  rotate: false
+  xy: 139, 911
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00010
+  rotate: false
+  xy: 122, 651
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00011
+  rotate: false
+  xy: 122, 530
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00012
+  rotate: false
+  xy: 122, 409
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00013
+  rotate: false
+  xy: 243, 790
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+tornado/tornado_00014
+  rotate: false
+  xy: 243, 669
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+trangtri
+  rotate: false
+  xy: 1, 893
+  size: 137, 138
+  orig: 143, 146
+  offset: 4, 4
+  index: -1

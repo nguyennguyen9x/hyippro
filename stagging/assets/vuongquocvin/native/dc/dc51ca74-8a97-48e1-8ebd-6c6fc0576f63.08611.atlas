@@ -1,0 +1,139 @@
+
+item-laptop.png
+size: 173,484
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001101
+  rotate: true
+  xy: 145, 408
+  size: 29, 27
+  orig: 31, 29
+  offset: 1, 1
+  index: -1
+001101 copy
+  rotate: true
+  xy: 145, 408
+  size: 29, 27
+  orig: 31, 29
+  offset: 1, 1
+  index: -1
+001101 copy 2
+  rotate: true
+  xy: 145, 408
+  size: 29, 27
+  orig: 31, 29
+  offset: 1, 1
+  index: -1
+001101 copy 3
+  rotate: true
+  xy: 145, 408
+  size: 29, 27
+  orig: 31, 29
+  offset: 1, 1
+  index: -1
+00110100
+  rotate: false
+  xy: 120, 292
+  size: 40, 33
+  orig: 42, 35
+  offset: 1, 1
+  index: -1
+Ellipse 3
+  rotate: false
+  xy: 88, 5
+  size: 84, 87
+  orig: 86, 89
+  offset: 1, 1
+  index: -1
+Ellipse 3 copy
+  rotate: false
+  xy: 1, 1
+  size: 86, 91
+  orig: 86, 91
+  offset: 0, 0
+  index: -1
+Ellipse 3 copy 2
+  rotate: true
+  xy: 1, 93
+  size: 86, 92
+  orig: 86, 92
+  offset: 0, 0
+  index: -1
+Group 8
+  rotate: false
+  xy: 1, 279
+  size: 118, 109
+  orig: 120, 111
+  offset: 1, 1
+  index: -1
+Group 9
+  rotate: true
+  xy: 120, 326
+  size: 62, 37
+  orig: 64, 39
+  offset: 1, 1
+  index: -1
+Shape 38
+  rotate: false
+  xy: 1, 389
+  size: 143, 94
+  orig: 145, 97
+  offset: 1, 1
+  index: -1
+Shape 39
+  rotate: true
+  xy: 145, 438
+  size: 45, 26
+  orig: 47, 28
+  offset: 1, 1
+  index: -1
+Shape 40
+  rotate: true
+  xy: 145, 402
+  size: 5, 11
+  orig: 7, 13
+  offset: 1, 1
+  index: -1
+Shape 40 copy
+  rotate: true
+  xy: 145, 402
+  size: 5, 11
+  orig: 7, 13
+  offset: 1, 1
+  index: -1
+Shape 40 copy 2
+  rotate: true
+  xy: 157, 402
+  size: 5, 10
+  orig: 7, 12
+  offset: 1, 1
+  index: -1
+Shape 40 copy 3
+  rotate: true
+  xy: 157, 402
+  size: 5, 10
+  orig: 7, 12
+  offset: 1, 1
+  index: -1
+Shape 43
+  rotate: false
+  xy: 94, 104
+  size: 75, 75
+  orig: 77, 78
+  offset: 1, 2
+  index: -1
+Shape 44
+  rotate: false
+  xy: 102, 218
+  size: 61, 60
+  orig: 63, 62
+  offset: 1, 1
+  index: -1
+light-burst-1
+  rotate: false
+  xy: 1, 180
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
