@@ -32,6 +32,7 @@
         authSubscribe((user) => {
             console.log("User", user);
             window.postMessage(user);
+            window.parent.postMessage(user);
             document.location = 'testkey://a=1&b=2';
         });
 
