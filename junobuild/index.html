@@ -31,7 +31,7 @@
 
         authSubscribe((user) => {
             console.log("User", user);
-            window.postMessage(user);
+            window.postMessage(user, null, "*");
         });
 
         /**
