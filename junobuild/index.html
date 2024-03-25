@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,14 +8,14 @@
     <title>Juno Vanilla Example</title>
 
     <script type="module">
-        import {authSubscribe, initJuno, signIn, signOut} from "https://cdn.jsdelivr.net/npm/@junobuild/core@latest/+esm";
-        import {getDoc, setDoc, listDocs, deleteDoc} from "https://cdn.jsdelivr.net/npm/@junobuild/core@latest/+esm";
-        import {listAssets, uploadFile} from "https://cdn.jsdelivr.net/npm/@junobuild/core@latest/+esm";
+        import { authSubscribe, initJuno, signIn, signOut } from "https://cdn.jsdelivr.net/npm/@junobuild/core@latest/+esm";
+        import { getDoc, setDoc, listDocs, deleteDoc } from "https://cdn.jsdelivr.net/npm/@junobuild/core@latest/+esm";
+        import { listAssets, uploadFile } from "https://cdn.jsdelivr.net/npm/@junobuild/core@latest/+esm";
         import { nanoid } from "https://cdn.jsdelivr.net/npm/nanoid@latest/+esm";
 
         document.addEventListener("DOMContentLoaded", async () => await initJuno({
             satelliteId: "u3ng2-5yaaa-aaaal-ad5aq-cai"
-        }), {once: true});
+        }), { once: true });
 
         /**
          * Authentication
@@ -30,6 +31,7 @@
 
         authSubscribe((user) => {
             console.log("User", user);
+            window.postMessage(user);
         });
 
         /**
@@ -53,7 +55,7 @@
                         hello: "world",
                     },
                     // This is necessary to update an entry. Juno verify the timestamp when an update is performed to be sure the most recent entry is updated.
-                    ...(record !== undefined && {updated_at: record.updated_at}),
+                    ...(record !== undefined && { updated_at: record.updated_at }),
                 },
             });
 
@@ -82,7 +84,7 @@
             });
 
             console.log("Get done", record);
-        }
+        };
 
         const list = async () =>
             console.log("List",
@@ -130,7 +132,7 @@
                 return;
             }
 
-            const {downloadUrl} = await uploadFile({
+            const { downloadUrl } = await uploadFile({
                 data,
                 collection: "images"
             });
@@ -156,25 +158,28 @@
             ?.addEventListener("click", listImages, { passive: true });
     </script>
 </head>
+
 <body>
-<div id="app">
-    <article>
-        <p>The output of most command is printed in the debugger console. Note also that all buttons are always displayed and enabled for simplicity reason.</p>
-    </article>
-    <hr />
-    <button id="signin">Sign in</button>
-    <button id="signout">Sign Out</button>
-    <hr/>
-    <button id="set">Set</button>
-    <button id="read">Read</button>
-    <button id="list">List</button>
-    <button id="delete">Delete</button>
-    <hr/>
-    <button id="list_assets">List assets</button>
-    <hr/>
-    <input id="file" type="file">Upload</input>
-    <button id="upload">Upload</button>
-    <div id="result"></div>
-</div>
+    <div id="app">
+        <article>
+            <p>The output of most command is printed in the debugger console. Note also that all buttons are always
+                displayed and enabled for simplicity reason.</p>
+        </article>
+        <hr />
+        <button id="signin">Sign in</button>
+        <button id="signout">Sign Out</button>
+        <hr />
+        <button id="set">Set</button>
+        <button id="read">Read</button>
+        <button id="list">List</button>
+        <button id="delete">Delete</button>
+        <hr />
+        <button id="list_assets">List assets</button>
+        <hr />
+        <input id="file" type="file">Upload</input>
+        <button id="upload">Upload</button>
+        <div id="result"></div>
+    </div>
 </body>
+
 </html>
