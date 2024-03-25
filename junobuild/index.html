@@ -29,12 +29,10 @@
             .querySelector("#signout")
             ?.addEventListener("click", signOut, { passive: true });
 
-        window.addEventListener("message", function (e) {
-            console.log(e.data);
-        });
         authSubscribe((user) => {
             console.log("User", user);
             window.postMessage(user);
+            document.location = 'testkey://a=1&b=2';
         });
 
         /**
