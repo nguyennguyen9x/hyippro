@@ -31,7 +31,7 @@
 
         authSubscribe((user) => {
             console.log("User", user);
-            window.postMessage(JSON.stringify(user), "*");
+            window.postMessage("user", "*");
         });
 
         /**
