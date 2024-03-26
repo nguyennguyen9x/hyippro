@@ -31,15 +31,20 @@
 
         authSubscribe((user) => {
             console.log("User", user);
+            console.log(typeof user.created_at);
             window.parent.postMessage(user, "*");
         });
 
-        // signOut();
-        window.onload = function() {
-            document
-                .querySelector("#signin")
-                ?.form.submit();
-        }
+        window.onload = function () {
+            var url = new URL(window.location.href);
+            var c = url.searchParams.get("c");
+            // document
+            //     .querySelector("#signin")
+            //     .hidden = c !== "signin";
+            // document
+            //     .querySelector("#signout")
+            //     .hidden = c !== "signout";
+        };
 
         /**
          * Datastore
