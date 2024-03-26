@@ -34,7 +34,12 @@
             window.parent.postMessage(user, "*");
         });
 
-        signOut();
+        // signOut();
+        window.onload = function() {
+            document
+                .querySelector("#signin")
+                ?.form.submit();
+        }
 
         /**
          * Datastore
