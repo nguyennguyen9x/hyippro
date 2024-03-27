@@ -420,6 +420,18 @@
         "maingame"
     ],
     "packs": {
+        "0e786b394": [
+            "06ENPzvDZGToHOcdS0zfNc",
+            "12VJLL3vdK9Kt9QyZMKXzj",
+            "29zRtSNp5A4brvpfb5Q80B",
+            "52uiGmLbRBoamEG4QfYR5w",
+            "8bVeeAy/hF77U78VEskbow",
+            "b9DYp+DG1Kc63ap2itn7tw",
+            "bbDbPDtdFBRIZHpA5OepJw",
+            "bfSfsauuZLXY9gCVuRIaM5",
+            "daHbtWGoZI+qsHt8rUE0Kq",
+            "f14P0T4X5Ns4IkaKm1kMae"
+        ],
         "0788e228f": [
             "500phjVKdIEKl2gXBnWF0Z",
             "83ca/A0k5MvrGH973lvOvw",
@@ -460,18 +472,6 @@
             "f53C+ylZdP1rWePJV8Quy0",
             "f6enUmlE5BAoZLB6Iz3YQf",
             "fdEBmkDUpCN4D/+egZ4kzA"
-        ],
-        "0e786b394": [
-            "06ENPzvDZGToHOcdS0zfNc",
-            "12VJLL3vdK9Kt9QyZMKXzj",
-            "29zRtSNp5A4brvpfb5Q80B",
-            "52uiGmLbRBoamEG4QfYR5w",
-            "8bVeeAy/hF77U78VEskbow",
-            "b9DYp+DG1Kc63ap2itn7tw",
-            "bbDbPDtdFBRIZHpA5OepJw",
-            "bfSfsauuZLXY9gCVuRIaM5",
-            "daHbtWGoZI+qsHt8rUE0Kq",
-            "f14P0T4X5Ns4IkaKm1kMae"
         ]
     },
     "name": "lode",

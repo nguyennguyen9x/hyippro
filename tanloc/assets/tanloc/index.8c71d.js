@@ -161,7 +161,11 @@ window.__require = function e(t, n, r) {
           this.spinResult = {};
           this.currentRound = 0;
           this.stepGame = null;
-          this.spinResult = JSON.parse(this.getString() || "{}");
+          this.spinResult = JSON.parse(this.getString() || JSON.stringify({
+            0: [],
+            1: [],
+            2: []
+          }));
           this.currentRound = this.getByte();
           this.stepGame = this.getString();
         }
@@ -346,6 +350,7 @@ window.__require = function e(t, n, r) {
         this.stepGame = "WAIT";
         this.isClickBack = false;
         this.scheduleBonusTime = null;
+        this.lbUserWin = null;
       }
       static getInstance() {
         return this.instance;
@@ -405,7 +410,7 @@ window.__require = function e(t, n, r) {
               cc.log("SUBCRIBE_RESPONSE", res);
               this.stepGame = res.step;
               let timeView = 0;
-              this.scheduleOnce(() => {
+              "SPIN" != res.step && this.scheduleOnce(() => {
                 this.setCountDown(res.countDown - timeView);
               }, timeView);
             }
@@ -422,8 +427,7 @@ window.__require = function e(t, n, r) {
             {
               let res = new TanLoc_Cmd_1.default.ReceivedInfoRound(data);
               cc.log("CHANGE_ROUND", res);
-              this.stepGame = "WAIT";
-              let timeView = 5;
+              let timeView = 0;
               this.scheduleOnce(() => {
                 this.setCountDown(res.countDown - timeView);
               }, timeView);
@@ -443,7 +447,7 @@ window.__require = function e(t, n, r) {
               cc.log("CHANGE_STEP", res);
               this.stepGame = res.stepGame;
               let timeView = 0;
-              this.scheduleOnce(() => {
+              "FINISH" != res.stepGame && this.scheduleOnce(() => {
                 this.setCountDown(res.countDown - timeView);
               }, timeView);
             }
@@ -472,6 +476,21 @@ window.__require = function e(t, n, r) {
         this.schedule(() => {
           TanLoc_NetworkClient_1.default.getInstance().send(new TanLoc_Cmd_1.default.SendPing());
         }, 10);
+      }
+      playerWin(data) {
+        let lb = (this.lbUserWin.parent.children.find(chil => !chil.active) || cc.instantiate(this.lbUserWin)).getComponent(cc.Label);
+        cc.log(this.lbUserWin.parent.children.length);
+        lb.node.parent = this.lbUserWin.parent;
+        lb.string = "Ch\xfac m\u1eebng " + data.name + " \u0111\xe3 tr\xfang " + Utils_1.default.formatNumber(data.coin);
+        cc.Tween.stopAllByTarget(lb.node);
+        cc.tween(lb.node).set({
+          x: cc.winSize.width / 2,
+          active: true
+        }).to(5, {
+          x: -cc.winSize.width / 2 - lb.node.width
+        }).set({
+          active: false
+        }).start();
       }
       resizePlayView() {
         const distanceResizeHeight = (this.safeArea.height - 100 - 1180) / 2;
@@ -538,11 +557,12 @@ window.__require = function e(t, n, r) {
         }
         this.lbTimeWanting.string = "SPIN" == this.stepGame ? "" : [ hours < 10 ? "0" + hours : hours, minutes < 10 ? "0" + minutes : minutes, seconds < 10 ? "0" + seconds : seconds ].join(":");
         countDown--;
+        this.unschedule(this.scheduleBonusTime);
         if (countDown >= 0) this.scheduleOnce(this.scheduleBonusTime = () => {
           this.setCountDown(countDown);
         }, 1); else {
-          this.unschedule(this.scheduleBonusTime);
           this.scheduleBonusTime = null;
+          this.subscribe();
         }
       }
       requestUserInfo() {
@@ -674,7 +694,7 @@ window.__require = function e(t, n, r) {
         });
       }
       updateSpinRedult(res) {
-        if (this.currentResults.length == res.spinResult[res.currentRound].length) return;
+        if (res.currentRound < 0 || this.currentResults.length == res.spinResult[res.currentRound].length) return;
         "WAIT" != res.stepGame && "WAIT" == this.stepGame && this.dismissChat();
         this.stepGame = res.stepGame;
         "SPIN" == this.stepGame && (this.lbTimeWanting.string = "");
@@ -690,6 +710,9 @@ window.__require = function e(t, n, r) {
         this.scrollResult.content.children.forEach(chil => {
           chil.active = false;
         });
+        this.tickets.active = true;
+        this.scrollResult.node.active = true;
+        this.scrollMyTicket.node.active = true;
         this.currentResults.forEach((vl, ind) => {
           let item = this.scrollResult.content.children[ind];
           if (item) {
@@ -857,6 +880,7 @@ window.__require = function e(t, n, r) {
     __decorate([ property(cc.Label) ], TanLocController.prototype, "lbSuggestionWanting", void 0);
     __decorate([ property(cc.Node) ], TanLocController.prototype, "lbProcessWanting", void 0);
     __decorate([ property(cc.Sprite) ], TanLocController.prototype, "processWanting", void 0);
+    __decorate([ property(cc.Node) ], TanLocController.prototype, "lbUserWin", void 0);
     TanLocController = TanLocController_1 = __decorate([ ccclass ], TanLocController);
     exports.default = TanLocController;
     cc._RF.pop();
