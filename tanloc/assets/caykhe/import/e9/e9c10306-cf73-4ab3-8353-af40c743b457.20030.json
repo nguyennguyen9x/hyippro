@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "12ab903fc"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "item-t_rex",
+      "rect": [
+        3,
+        673,
+        348,
+        358
+      ],
+      "offset": [
+        -6,
+        0
+      ],
+      "originalSize": [
+        364,
+        364
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
