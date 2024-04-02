@@ -30,6 +30,17 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  /* The image used */
+  background-image: url("./btchoingay.png");
+  
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
