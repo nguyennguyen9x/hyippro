@@ -1,0 +1,111 @@
+
+item-bopeep.png
+size: 379,379
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 15
+  rotate: true
+  xy: 236, 277
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1
+Layer 16
+  rotate: true
+  xy: 218, 7
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+Layer 17
+  rotate: true
+  xy: 79, 179
+  size: 198, 155
+  orig: 198, 155
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: false
+  xy: 218, 54
+  size: 103, 123
+  orig: 103, 123
+  offset: 0, 0
+  index: -1
+Layer 19
+  rotate: true
+  xy: 79, 3
+  size: 37, 73
+  orig: 37, 73
+  offset: 0, 0
+  index: -1
+Layer 20
+  rotate: true
+  xy: 154, 2
+  size: 38, 57
+  orig: 38, 57
+  offset: 0, 0
+  index: -1
+Layer 21
+  rotate: false
+  xy: 267, 12
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+Layer 22
+  rotate: false
+  xy: 311, 16
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+Layer 23
+  rotate: false
+  xy: 318, 197
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Layer 23 copy
+  rotate: false
+  xy: 326, 361
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Layer 24
+  rotate: false
+  xy: 318, 215
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+Layer 24 copy
+  rotate: true
+  xy: 318, 241
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+Layer 24 copy 2
+  rotate: false
+  xy: 2, 17
+  size: 75, 360
+  orig: 75, 360
+  offset: 0, 0
+  index: -1
+Layer 26
+  rotate: true
+  xy: 236, 197
+  size: 78, 80
+  orig: 78, 80
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 79, 42
+  size: 135, 137
+  orig: 135, 137
+  offset: 0, 0
+  index: -1
