@@ -1,0 +1,160 @@
+
+item-woody.png
+size: 363,363
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 36
+  rotate: true
+  xy: 213, 186
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+Layer 37
+  rotate: false
+  xy: 280, 49
+  size: 78, 135
+  orig: 78, 135
+  offset: 0, 0
+  index: -1
+Layer 38
+  rotate: false
+  xy: 2, 159
+  size: 114, 202
+  orig: 114, 202
+  offset: 0, 0
+  index: -1
+Layer 39
+  rotate: true
+  xy: 196, 14
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+Layer 40
+  rotate: false
+  xy: 141, 46
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+Layer 41
+  rotate: true
+  xy: 317, 193
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+Layer 43
+  rotate: true
+  xy: 141, 88
+  size: 87, 137
+  orig: 87, 137
+  offset: 0, 0
+  index: -1
+Layer 44
+  rotate: false
+  xy: 118, 271
+  size: 161, 90
+  orig: 161, 90
+  offset: 0, 0
+  index: -1
+Layer 45
+  rotate: false
+  xy: 323, 292
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+Layer 45 copy
+  rotate: true
+  xy: 237, 23
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+aura
+  rotate: true
+  xy: 118, 177
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 118, 162
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+text-1
+  rotate: true
+  xy: 237, 54
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+text-1 copy
+  rotate: true
+  xy: 317, 241
+  size: 49, 43
+  orig: 49, 43
+  offset: 0, 0
+  index: -1
+text-2
+  rotate: false
+  xy: 186, 18
+  size: 8, 26
+  orig: 8, 26
+  offset: 0, 0
+  index: -1
+text-2 copy
+  rotate: true
+  xy: 141, 19
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+text-3
+  rotate: true
+  xy: 281, 272
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1
+text-3 copy
+  rotate: false
+  xy: 201, 43
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+text-4
+  rotate: true
+  xy: 263, 27
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+text-4 copy
+  rotate: false
+  xy: 323, 318
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+trangtri
+  rotate: true
+  xy: 2, 22
+  size: 135, 137
+  orig: 135, 137
+  offset: 0, 0
+  index: -1
+white
+  rotate: true
+  xy: 281, 292
+  size: 69, 40
+  orig: 69, 40
+  offset: 0, 0
+  index: -1
