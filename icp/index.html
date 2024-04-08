@@ -22,7 +22,7 @@
          */
 
         document
-            .querySelector("signin")
+            .querySelector("signout")
             ?.addEventListener("click", signIn, { passive: true });
 
         document
@@ -37,8 +37,8 @@
         window.onload = function () {
             var url = new URL(window.location.href);
             var type = url.searchParams.get("type");
-            if (type === "signout")
-                signOut();
+            // if (type === "signout")
+            //     signOut();
             // document
             //     .querySelector("#signin")
             //     .hidden = type !== "signin";
