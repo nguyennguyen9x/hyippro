@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.cocos2d.demo",
+    "sha256_cert_fingerprints":
+    ["44:7E:4D:41:0B:E3:21:7A:29:DA:F9:23:CA:D1:02:B9:9E:43:F6:97:E3:5E:80:25:7C:1A:CD:C9:35:07:5B:83"]
+  }
+}]
