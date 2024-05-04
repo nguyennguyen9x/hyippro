@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "fbeP1As4JOnpjgAe7RJcY/"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ic-taixiu",
+      "rect": [
+        3,
+        12,
+        1036,
+        1026
+      ],
+      "offset": [
+        0.5,
+        -4.5
+      ],
+      "originalSize": [
+        1041,
+        1041
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,321 @@
+
+screen-bigwin-white-beard.png
+size: 1682,1541
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DEAD OR ALIVE
+  rotate: true
+  xy: 1599, 1186
+  size: 117, 19
+  orig: 119, 21
+  offset: 1, 1
+  index: -1
+Layer 24
+  rotate: true
+  xy: 652, 528
+  size: 178, 353
+  orig: 179, 353
+  offset: 1, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 955, 2
+  size: 149, 131
+  orig: 152, 135
+  offset: 2, 2
+  index: -1
+Layer 33
+  rotate: false
+  xy: 405, 84
+  size: 186, 109
+  orig: 188, 111
+  offset: 1, 1
+  index: -1
+Layer 34
+  rotate: false
+  xy: 593, 36
+  size: 360, 115
+  orig: 362, 117
+  offset: 1, 1
+  index: -1
+Layer 35
+  rotate: true
+  xy: 230, 93
+  size: 364, 173
+  orig: 366, 175
+  offset: 1, 1
+  index: -1
+Layer 35-
+  rotate: false
+  xy: 604, 153
+  size: 366, 174
+  orig: 366, 175
+  offset: 0, 0
+  index: -1
+Layer 36
+  rotate: true
+  xy: 1315, 1057
+  size: 231, 116
+  orig: 231, 116
+  offset: 0, 0
+  index: -1
+Layer 38
+  rotate: false
+  xy: 1360, 1419
+  size: 310, 120
+  orig: 310, 121
+  offset: 0, 0
+  index: -1
+Layer 39
+  rotate: true
+  xy: 1586, 200
+  size: 99, 79
+  orig: 101, 81
+  offset: 1, 1
+  index: -1
+Layer 40
+  rotate: false
+  xy: 1004, 740
+  size: 150, 165
+  orig: 152, 167
+  offset: 1, 1
+  index: -1
+Layer 41
+  rotate: false
+  xy: 2, 459
+  size: 384, 561
+  orig: 392, 561
+  offset: 8, 0
+  index: -1
+Layer 44 copy 2
+  rotate: false
+  xy: 2, 1022
+  size: 723, 517
+  orig: 723, 517
+  offset: 0, 0
+  index: -1
+Shape 3 copy
+  rotate: true
+  xy: 388, 547
+  size: 473, 262
+  orig: 476, 265
+  offset: 2, 1
+  index: -1
+adsfsvfdg
+  rotate: false
+  xy: 727, 1005
+  size: 578, 65
+  orig: 580, 67
+  offset: 1, 1
+  index: -1
+attack2/attack2_00000
+  rotate: false
+  xy: 1007, 498
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00001
+  rotate: true
+  xy: 956, 332
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00002
+  rotate: true
+  xy: 972, 166
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00003
+  rotate: false
+  xy: 1156, 763
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00004
+  rotate: false
+  xy: 1173, 521
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00005
+  rotate: true
+  xy: 1198, 355
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00006
+  rotate: true
+  xy: 1214, 189
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00007
+  rotate: true
+  xy: 1214, 23
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00008
+  rotate: false
+  xy: 1433, 1063
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00009
+  rotate: false
+  xy: 1322, 815
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00010
+  rotate: true
+  xy: 1339, 571
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+attack2/attack2_00011
+  rotate: true
+  xy: 1440, 372
+  size: 164, 240
+  orig: 164, 240
+  offset: 0, 0
+  index: -1
+aura
+  rotate: false
+  xy: 1552, 76
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 1456, 171
+  size: 128, 128
+  orig: 150, 150
+  offset: 11, 11
+  index: -1
+bglass-1
+  rotate: false
+  xy: 1456, 20
+  size: 94, 149
+  orig: 94, 149
+  offset: 0, 0
+  index: -1
+bigwin
+  rotate: false
+  xy: 209, 30
+  size: 173, 61
+  orig: 175, 63
+  offset: 1, 1
+  index: -1
+bigwin copy
+  rotate: false
+  xy: 2, 34
+  size: 205, 91
+  orig: 209, 96
+  offset: 2, 2
+  index: -1
+body-1
+  rotate: false
+  xy: 2, 127
+  size: 226, 330
+  orig: 269, 342
+  offset: 39, 1
+  index: -1
+dasdad
+  rotate: false
+  xy: 652, 907
+  size: 486, 96
+  orig: 489, 99
+  offset: 2, 1
+  index: -1
+glass
+  rotate: true
+  xy: 1360, 1305
+  size: 25, 261
+  orig: 25, 261
+  offset: 0, 0
+  index: -1
+gradient
+  rotate: false
+  xy: 1456, 301
+  size: 189, 69
+  orig: 189, 76
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1088, 54
+  size: 90, 110
+  orig: 92, 112
+  offset: 1, 1
+  index: -1
+leg-1
+  rotate: true
+  xy: 727, 1072
+  size: 216, 586
+  orig: 217, 588
+  offset: 1, 2
+  index: -1
+leg-2
+  rotate: true
+  xy: 727, 1290
+  size: 249, 631
+  orig: 250, 632
+  offset: 0, 0
+  index: -1
+roronoa zoro
+  rotate: false
+  xy: 1339, 538
+  size: 242, 31
+  orig: 242, 31
+  offset: 0, 0
+  index: -1
+speed/speed_00000
+  rotate: false
+  xy: 652, 708
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+speed/speed_00001
+  rotate: true
+  xy: 405, 195
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+speed/speed_00002
+  rotate: false
+  xy: 604, 329
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+wanted
+  rotate: false
+  xy: 1360, 1332
+  size: 291, 85
+  orig: 293, 87
+  offset: 1, 1
+  index: -1
+wanted copy
+  rotate: true
+  xy: 1488, 737
+  size: 324, 121
+  orig: 328, 125
+  offset: 2, 2
+  index: -1

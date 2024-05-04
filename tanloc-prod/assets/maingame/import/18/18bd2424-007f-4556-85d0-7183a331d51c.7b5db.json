@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "82f7l9pVxN0Je5Ex1dFEqO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "xizach",
+      "rect": [
+        1,
+        1,
+        382,
+        943
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        384,
+        946
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

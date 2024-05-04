@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9aV8JyG5RNapHJJ6uTQdEe"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "menu",
+      "rect": [
+        1,
+        1,
+        720,
+        188
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        722,
+        190
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

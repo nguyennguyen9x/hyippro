@@ -1,0 +1,41 @@
+
+machine.png
+size: 1517,601
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 14
+  rotate: false
+  xy: 690, 7
+  size: 787, 593
+  orig: 789, 596
+  offset: 1, 2
+  index: -1
+Layer 12
+  rotate: true
+  xy: 1478, 561
+  size: 39, 38
+  orig: 41, 40
+  offset: 1, 1
+  index: -1
+Layer 13
+  rotate: false
+  xy: 1478, 541
+  size: 18, 19
+  orig: 20, 21
+  offset: 1, 1
+  index: -1
+Layer 14
+  rotate: true
+  xy: 1478, 522
+  size: 18, 17
+  orig: 20, 19
+  offset: 1, 1
+  index: -1
+Layer 9
+  rotate: false
+  xy: 1, 1
+  size: 688, 599
+  orig: 690, 603
+  offset: 1, 3
+  index: -1

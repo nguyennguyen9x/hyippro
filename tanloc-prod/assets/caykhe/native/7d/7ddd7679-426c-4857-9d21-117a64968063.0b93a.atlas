@@ -1,0 +1,111 @@
+
+item-alien.png
+size: 396,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 15
+  rotate: true
+  xy: 243, 215
+  size: 30, 59
+  orig: 30, 59
+  offset: 0, 0
+  index: -1
+Layer 17
+  rotate: true
+  xy: 321, 176
+  size: 83, 51
+  orig: 83, 51
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: false
+  xy: 167, 189
+  size: 74, 56
+  orig: 74, 56
+  offset: 0, 0
+  index: -1
+Layer 19
+  rotate: false
+  xy: 167, 247
+  size: 152, 147
+  orig: 152, 147
+  offset: 0, 0
+  index: -1
+Layer 20
+  rotate: true
+  xy: 243, 187
+  size: 26, 61
+  orig: 26, 61
+  offset: 0, 0
+  index: -1
+Layer 21
+  rotate: false
+  xy: 91, 172
+  size: 35, 34
+  orig: 35, 34
+  offset: 0, 0
+  index: -1
+Layer 22
+  rotate: false
+  xy: 46, 205
+  size: 43, 31
+  orig: 43, 31
+  offset: 0, 0
+  index: -1
+Layer 23
+  rotate: false
+  xy: 2, 201
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1
+Layer 24
+  rotate: false
+  xy: 91, 208
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+Layer 25
+  rotate: true
+  xy: 136, 202
+  size: 34, 18
+  orig: 34, 18
+  offset: 0, 0
+  index: -1
+Layer 26
+  rotate: true
+  xy: 374, 216
+  size: 43, 20
+  orig: 43, 20
+  offset: 0, 0
+  index: -1
+Layer 27 copy
+  rotate: true
+  xy: 374, 176
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+Layer 30
+  rotate: true
+  xy: 321, 261
+  size: 133, 63
+  orig: 133, 63
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 238
+  size: 163, 156
+  orig: 163, 156
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 304, 235
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1

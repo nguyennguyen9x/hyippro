@@ -1,0 +1,34 @@
+
+item-gamepad.png
+size: 254,537
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 1, 200
+  size: 252, 195
+  orig: 252, 195
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 102, 396
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+item-bg
+  rotate: true
+  xy: 1, 1
+  size: 198, 199
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+light-burst
+  rotate: false
+  xy: 1, 438
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1

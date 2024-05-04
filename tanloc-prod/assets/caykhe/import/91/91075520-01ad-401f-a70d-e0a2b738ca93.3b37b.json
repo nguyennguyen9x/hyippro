@@ -1,0 +1,35 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.TextAsset",
+      [
+        "_name",
+        "text"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "screen-jackpotminior.atlas",
+      "\r\nscreen-jackpotminior.png\r\nsize: 1174,1174\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nLayer 16\r\n  rotate: true\r\n  xy: 769, 12\r\n  size: 139, 116\r\n  orig: 139, 116\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 17\r\n  rotate: false\r\n  xy: 1085, 683\r\n  size: 85, 117\r\n  orig: 85, 117\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 18\r\n  rotate: false\r\n  xy: 383, 22\r\n  size: 187, 288\r\n  orig: 187, 288\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 19\r\n  rotate: true\r\n  xy: 196, 7\r\n  size: 327, 185\r\n  orig: 327, 185\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 20\r\n  rotate: true\r\n  xy: 572, 331\r\n  size: 107, 149\r\n  orig: 107, 149\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 213\r\n  rotate: false\r\n  xy: 1084, 419\r\n  size: 79, 153\r\n  orig: 79, 153\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 215\r\n  rotate: false\r\n  xy: 1085, 854\r\n  size: 58, 105\r\n  orig: 58, 105\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 216\r\n  rotate: true\r\n  xy: 887, 51\r\n  size: 97, 53\r\n  orig: 97, 53\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 217\r\n  rotate: false\r\n  xy: 1085, 802\r\n  size: 86, 50\r\n  orig: 86, 50\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 218\r\n  rotate: true\r\n  xy: 1084, 364\r\n  size: 53, 72\r\n  orig: 53, 72\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 219\r\n  rotate: true\r\n  xy: 1084, 312\r\n  size: 50, 72\r\n  orig: 50, 72\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 22\r\n  rotate: false\r\n  xy: 841, 178\r\n  size: 92, 132\r\n  orig: 92, 132\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 220\r\n  rotate: false\r\n  xy: 1048, 150\r\n  size: 110, 51\r\n  orig: 110, 51\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 221\r\n  rotate: false\r\n  xy: 572, 3\r\n  size: 70, 60\r\n  orig: 70, 60\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 222\r\n  rotate: true\r\n  xy: 325, 409\r\n  size: 79, 55\r\n  orig: 79, 55\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 223\r\n  rotate: true\r\n  xy: 1145, 995\r\n  size: 48, 27\r\n  orig: 48, 27\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 224\r\n  rotate: true\r\n  xy: 687, 561\r\n  size: 39, 34\r\n  orig: 39, 34\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 225\r\n  rotate: true\r\n  xy: 271, 443\r\n  size: 45, 52\r\n  orig: 45, 52\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 225 copy\r\n  rotate: false\r\n  xy: 682, 514\r\n  size: 38, 45\r\n  orig: 38, 45\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 227\r\n  rotate: false\r\n  xy: 935, 174\r\n  size: 111, 54\r\n  orig: 111, 54\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 228\r\n  rotate: true\r\n  xy: 1145, 973\r\n  size: 20, 24\r\n  orig: 20, 24\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 229\r\n  rotate: true\r\n  xy: 1145, 953\r\n  size: 18, 22\r\n  orig: 18, 22\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 230\r\n  rotate: false\r\n  xy: 196, 440\r\n  size: 73, 48\r\n  orig: 73, 48\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 231\r\n  rotate: true\r\n  xy: 687, 602\r\n  size: 72, 35\r\n  orig: 72, 35\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 232\r\n  rotate: true\r\n  xy: 1145, 906\r\n  size: 45, 19\r\n  orig: 45, 19\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 24\r\n  rotate: false\r\n  xy: 451, 330\r\n  size: 117, 108\r\n  orig: 117, 108\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 25\r\n  rotate: true\r\n  xy: 1085, 574\r\n  size: 107, 84\r\n  orig: 107, 84\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 31\r\n  rotate: false\r\n  xy: 935, 230\r\n  size: 116, 104\r\n  orig: 116, 104\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 32\r\n  rotate: false\r\n  xy: 325, 336\r\n  size: 124, 71\r\n  orig: 124, 71\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 34\r\n  rotate: false\r\n  xy: 694, 153\r\n  size: 145, 157\r\n  orig: 145, 157\r\n  offset: 0, 0\r\n  index: -1\r\nb-arm\r\n  rotate: true\r\n  xy: 196, 338\r\n  size: 100, 127\r\n  orig: 100, 127\r\n  offset: 0, 0\r\n  index: -1\r\nb-arm-\r\n  rotate: true\r\n  xy: 196, 490\r\n  size: 100, 185\r\n  orig: 100, 185\r\n  offset: 0, 0\r\n  index: -1\r\nboard\r\n  rotate: true\r\n  xy: 2, 4\r\n  size: 660, 192\r\n  orig: 660, 192\r\n  offset: 0, 0\r\n  index: -1\r\nbody\r\n  rotate: true\r\n  xy: 724, 666\r\n  size: 293, 359\r\n  orig: 293, 359\r\n  offset: 0, 0\r\n  index: -1\r\nbody-2\r\n  rotate: true\r\n  xy: 724, 336\r\n  size: 328, 358\r\n  orig: 328, 358\r\n  offset: 0, 0\r\n  index: -1\r\nbody-patato\r\n  rotate: true\r\n  xy: 2, 680\r\n  size: 162, 211\r\n  orig: 162, 211\r\n  offset: 0, 0\r\n  index: -1\r\ngrass\r\n  rotate: false\r\n  xy: 1053, 203\r\n  size: 111, 107\r\n  orig: 111, 107\r\n  offset: 0, 0\r\n  index: -1\r\ngrass-1\r\n  rotate: false\r\n  xy: 2, 1009\r\n  size: 720, 163\r\n  orig: 720, 163\r\n  offset: 0, 0\r\n  index: -1\r\ngrass-1-\r\n  rotate: false\r\n  xy: 2, 844\r\n  size: 720, 163\r\n  orig: 720, 163\r\n  offset: 0, 0\r\n  index: -1\r\njackpot\r\n  rotate: false\r\n  xy: 724, 1045\r\n  size: 444, 127\r\n  orig: 444, 127\r\n  offset: 0, 0\r\n  index: -1\r\nleg\r\n  rotate: true\r\n  xy: 383, 440\r\n  size: 150, 297\r\n  orig: 150, 297\r\n  offset: 0, 0\r\n  index: -1\r\nleg-\r\n  rotate: false\r\n  xy: 572, 65\r\n  size: 120, 245\r\n  orig: 120, 245\r\n  offset: 0, 0\r\n  index: -1\r\nmajor\r\n  rotate: false\r\n  xy: 196, 592\r\n  size: 489, 82\r\n  orig: 489, 82\r\n  offset: 0, 0\r\n  index: -1\r\nmaxi\r\n  rotate: false\r\n  xy: 215, 760\r\n  size: 505, 82\r\n  orig: 505, 82\r\n  offset: 0, 0\r\n  index: -1\r\nmini\r\n  rotate: false\r\n  xy: 724, 961\r\n  size: 419, 82\r\n  orig: 419, 82\r\n  offset: 0, 0\r\n  index: -1\r\nminior\r\n  rotate: false\r\n  xy: 215, 676\r\n  size: 503, 82\r\n  orig: 503, 82\r\n  offset: 0, 0\r\n  index: -1\r\nmoustache\r\n  rotate: false\r\n  xy: 644, 4\r\n  size: 123, 59\r\n  orig: 123, 59\r\n  offset: 0, 0\r\n  index: -1\r\npupil\r\n  rotate: false\r\n  xy: 2, 666\r\n  size: 12, 12\r\n  orig: 12, 12\r\n  offset: 0, 0\r\n  index: -1\r\n"
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

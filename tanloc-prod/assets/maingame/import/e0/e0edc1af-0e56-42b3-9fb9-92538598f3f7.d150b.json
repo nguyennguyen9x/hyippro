@@ -1,0 +1,1125 @@
+[
+  1,
+  [
+    "22u/VIdmxLCrmxschwE8PU"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "button-bingo",
+      "\r\nbutton-bingo.png\r\nsize: 537,537\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n1\r\n  rotate: true\r\n  xy: 245, 331\r\n  size: 27, 34\r\n  orig: 27, 34\r\n  offset: 0, 0\r\n  index: -1\r\n2\r\n  rotate: true\r\n  xy: 2, 15\r\n  size: 9, 34\r\n  orig: 9, 34\r\n  offset: 0, 0\r\n  index: -1\r\n3\r\n  rotate: true\r\n  xy: 209, 330\r\n  size: 28, 34\r\n  orig: 28, 34\r\n  offset: 0, 0\r\n  index: -1\r\n4\r\n  rotate: true\r\n  xy: 281, 331\r\n  size: 27, 34\r\n  orig: 27, 34\r\n  offset: 0, 0\r\n  index: -1\r\n5\r\n  rotate: false\r\n  xy: 368, 97\r\n  size: 29, 34\r\n  orig: 29, 34\r\n  offset: 0, 0\r\n  index: -1\r\nBingo\r\n  rotate: false\r\n  xy: 132, 52\r\n  size: 176, 77\r\n  orig: 176, 77\r\n  offset: 0, 0\r\n  index: -1\r\nEllipse 1\r\n  rotate: false\r\n  xy: 2, 330\r\n  size: 205, 205\r\n  orig: 205, 205\r\n  offset: 0, 0\r\n  index: -1\r\nEllipse 1 copy\r\n  rotate: false\r\n  xy: 209, 360\r\n  size: 175, 175\r\n  orig: 175, 175\r\n  offset: 0, 0\r\n  index: -1\r\nEllipse 1 copy 3\r\n  rotate: false\r\n  xy: 195, 133\r\n  size: 192, 195\r\n  orig: 192, 195\r\n  offset: 0, 0\r\n  index: -1\r\nEllipse 1 copy 7\r\n  rotate: true\r\n  xy: 2, 131\r\n  size: 197, 191\r\n  orig: 197, 191\r\n  offset: 0, 0\r\n  index: -1\r\nLayer 10\r\n  rotate: true\r\n  xy: 2, 26\r\n  size: 103, 128\r\n  orig: 103, 128\r\n  offset: 0, 0\r\n  index: -1\r\nRectangle 7\r\n  rotate: false\r\n  xy: 132, 2\r\n  size: 192, 48\r\n  orig: 192, 48\r\n  offset: 0, 0\r\n  index: -1\r\nchip23D\r\n  rotate: false\r\n  xy: 326, 5\r\n  size: 63, 59\r\n  orig: 63, 59\r\n  offset: 0, 0\r\n  index: -1\r\nchip23D.png copy\r\n  rotate: true\r\n  xy: 310, 66\r\n  size: 65, 56\r\n  orig: 65, 56\r\n  offset: 0, 0\r\n  index: -1\r\nchip23D.png copy 2\r\n  rotate: true\r\n  xy: 310, 66\r\n  size: 65, 56\r\n  orig: 65, 56\r\n  offset: 0, 0\r\n  index: -1\r\nchip23D.png copy 3\r\n  rotate: true\r\n  xy: 310, 66\r\n  size: 65, 56\r\n  orig: 65, 56\r\n  offset: 0, 0\r\n  index: -1\r\nchip23D.png copy 4\r\n  rotate: true\r\n  xy: 310, 66\r\n  size: 65, 56\r\n  orig: 65, 56\r\n  offset: 0, 0\r\n  index: -1\r\nchip23D.png copy 5\r\n  rotate: true\r\n  xy: 310, 66\r\n  size: 65, 56\r\n  orig: 65, 56\r\n  offset: 0, 0\r\n  index: -1\r\n",
+      [
+        "button-bingo.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "BG5HqWB7XzI5vbRrTNlcakJcLRU",
+          "spine": "3.8.85",
+          "x": -126.3,
+          "y": -128.28,
+          "width": 252.6,
+          "height": 256.56
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "Layer 10",
+            "parent": "root",
+            "rotation": 102.09,
+            "x": 8.44,
+            "y": 0.45
+          },
+          {
+            "name": "Layer 11",
+            "parent": "Layer 10",
+            "x": 57.42,
+            "y": -109.6
+          },
+          {
+            "name": "Layer 12",
+            "parent": "Layer 10",
+            "x": 12.31,
+            "y": -152.98
+          },
+          {
+            "name": "Ellipse 1",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 3",
+            "parent": "root",
+            "rotation": 93.52
+          },
+          {
+            "name": "Ellipse 1 copy 7",
+            "parent": "root"
+          },
+          {
+            "name": "Ellipse 1 copy 8",
+            "parent": "root",
+            "rotation": -108.25,
+            "scaleX": 1.0391,
+            "scaleY": 1.0391
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "x": -0.06,
+            "y": -43.42
+          },
+          {
+            "name": "1",
+            "parent": "bone"
+          },
+          {
+            "name": "2",
+            "parent": "bone"
+          },
+          {
+            "name": "3",
+            "parent": "bone"
+          },
+          {
+            "name": "4",
+            "parent": "bone"
+          },
+          {
+            "name": "5",
+            "parent": "bone"
+          }
+        ],
+        "slots": [
+          {
+            "name": "Ellipse 1",
+            "bone": "Ellipse 1",
+            "attachment": "Ellipse 1"
+          },
+          {
+            "name": "Ellipse 1 copy 7",
+            "bone": "Ellipse 1 copy 7",
+            "attachment": "Ellipse 1 copy 7"
+          },
+          {
+            "name": "Ellipse 1 copy 8",
+            "bone": "Ellipse 1 copy 8",
+            "attachment": "Ellipse 1 copy 7"
+          },
+          {
+            "name": "Ellipse 1 copy 3",
+            "bone": "Ellipse 1 copy 3",
+            "color": "ffffffc7",
+            "attachment": "Ellipse 1 copy 3",
+            "blend": "additive"
+          },
+          {
+            "name": "Ellipse 1 copy",
+            "bone": "Ellipse 1 copy",
+            "attachment": "Ellipse 1 copy"
+          },
+          {
+            "name": "chip23D.png copy 5",
+            "bone": "root",
+            "attachment": "chip23D.png copy 5"
+          },
+          {
+            "name": "chip23D.png copy",
+            "bone": "root",
+            "attachment": "chip23D.png copy"
+          },
+          {
+            "name": "chip23D.png copy 2",
+            "bone": "root",
+            "attachment": "chip23D.png copy 2"
+          },
+          {
+            "name": "chip23D.png copy 3",
+            "bone": "root",
+            "attachment": "chip23D.png copy 3"
+          },
+          {
+            "name": "chip23D.png copy 4",
+            "bone": "root",
+            "attachment": "chip23D.png copy 4"
+          },
+          {
+            "name": "Layer 10",
+            "bone": "Layer 10",
+            "attachment": "Layer 10"
+          },
+          {
+            "name": "chip23D",
+            "bone": "root",
+            "attachment": "chip23D"
+          },
+          {
+            "name": "Rectangle 7",
+            "bone": "root",
+            "attachment": "Rectangle 7"
+          },
+          {
+            "name": "Bingo2",
+            "bone": "bone",
+            "attachment": "Bingo"
+          },
+          {
+            "name": "1",
+            "bone": "1",
+            "attachment": "1"
+          },
+          {
+            "name": "2",
+            "bone": "2",
+            "attachment": "2"
+          },
+          {
+            "name": "3",
+            "bone": "3",
+            "attachment": "3"
+          },
+          {
+            "name": "4",
+            "bone": "4",
+            "attachment": "4"
+          },
+          {
+            "name": "5",
+            "bone": "5",
+            "attachment": "5"
+          }
+        ],
+        "transform": [
+          {
+            "name": "Layer 12",
+            "target": "Layer 12",
+            "y": 41.59,
+            "rotateMix": 0,
+            "translateMix": -0.8,
+            "scaleMix": 0,
+            "shearMix": 0,
+            "bones": [
+              "Layer 11"
+            ]
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "1": {
+                "1": {
+                  "x": -50.49,
+                  "y": -0.24,
+                  "width": 27,
+                  "height": 34
+                }
+              },
+              "2": {
+                "2": {
+                  "x": -29.49,
+                  "y": -0.24,
+                  "width": 9,
+                  "height": 34
+                }
+              },
+              "3": {
+                "3": {
+                  "x": -6.99,
+                  "y": -0.24,
+                  "width": 28,
+                  "height": 34
+                }
+              },
+              "4": {
+                "4": {
+                  "x": 23.51,
+                  "y": -0.24,
+                  "width": 27,
+                  "height": 34
+                }
+              },
+              "5": {
+                "5": {
+                  "x": 53.51,
+                  "y": -0.24,
+                  "width": 29,
+                  "height": 34
+                }
+              },
+              "Bingo2": {
+                "Bingo": {
+                  "x": 2.01,
+                  "y": 0.26,
+                  "width": 176,
+                  "height": 77
+                }
+              },
+              "Ellipse 1": {
+                "Ellipse 1": {
+                  "width": 205,
+                  "height": 205
+                }
+              },
+              "Ellipse 1 copy": {
+                "Ellipse 1 copy": {
+                  "width": 175,
+                  "height": 175
+                }
+              },
+              "Ellipse 1 copy 3": {
+                "Ellipse 1 copy 3": {
+                  "width": 192,
+                  "height": 195
+                }
+              },
+              "Ellipse 1 copy 7": {
+                "Ellipse 1 copy 7": {
+                  "width": 197,
+                  "height": 191
+                }
+              },
+              "Ellipse 1 copy 8": {
+                "Ellipse 1 copy 7": {
+                  "width": 197,
+                  "height": 191
+                }
+              },
+              "Layer 10": {
+                "Layer 10": {
+                  "type": "mesh",
+                  "hull": 11,
+                  "uvs": [
+                    0,
+                    0.03155,
+                    0.09131,
+                    0.02811,
+                    0.77467,
+                    0.00238,
+                    0.82907,
+                    0.1928,
+                    1,
+                    0.79116,
+                    1,
+                    0.79943,
+                    0.54743,
+                    0.94561,
+                    0.35543,
+                    0.98689,
+                    0.29447,
+                    1,
+                    0.22818,
+                    1,
+                    0,
+                    0.14187,
+                    0.15664,
+                    0.26525,
+                    0.41078,
+                    0.38158,
+                    0.44524,
+                    0.26372,
+                    0.56299,
+                    0.21751,
+                    0.73243,
+                    0.27759,
+                    0.77551,
+                    0.39776,
+                    0.70371,
+                    0.47633,
+                    0.57448,
+                    0.48095,
+                    0.44524,
+                    0.43011
+                  ],
+                  "triangles": [
+                    10,
+                    0,
+                    1,
+                    14,
+                    1,
+                    2,
+                    14,
+                    2,
+                    3,
+                    13,
+                    1,
+                    14,
+                    11,
+                    10,
+                    1,
+                    13,
+                    11,
+                    1,
+                    15,
+                    14,
+                    3,
+                    12,
+                    11,
+                    13,
+                    16,
+                    15,
+                    3,
+                    19,
+                    13,
+                    14,
+                    12,
+                    13,
+                    19,
+                    14,
+                    18,
+                    19,
+                    16,
+                    18,
+                    15,
+                    14,
+                    15,
+                    18,
+                    16,
+                    17,
+                    18,
+                    16,
+                    3,
+                    4,
+                    17,
+                    16,
+                    4,
+                    6,
+                    18,
+                    17,
+                    18,
+                    7,
+                    19,
+                    17,
+                    4,
+                    6,
+                    5,
+                    6,
+                    4,
+                    19,
+                    7,
+                    11,
+                    19,
+                    11,
+                    12,
+                    6,
+                    7,
+                    18,
+                    9,
+                    11,
+                    7,
+                    10,
+                    11,
+                    9,
+                    8,
+                    9,
+                    7
+                  ],
+                  "vertices": [
+                    2,
+                    1,
+                    91.86,
+                    42.74,
+                    0.67807,
+                    3,
+                    34.44,
+                    193.93,
+                    0.32193,
+                    2,
+                    1,
+                    85.84,
+                    33.28,
+                    0.77743,
+                    3,
+                    28.42,
+                    184.46,
+                    0.22257,
+                    2,
+                    1,
+                    56.49,
+                    -36.95,
+                    0.78427,
+                    2,
+                    -0.94,
+                    72.65,
+                    0.21573,
+                    2,
+                    1,
+                    29.22,
+                    -37.41,
+                    0.72167,
+                    2,
+                    -28.2,
+                    72.19,
+                    0.27833,
+                    2,
+                    1,
+                    -43.8,
+                    -38.36,
+                    0.87559,
+                    2,
+                    -101.23,
+                    71.24,
+                    0.12441,
+                    2,
+                    1,
+                    -44.9,
+                    -38.14,
+                    0.87377,
+                    2,
+                    -102.33,
+                    71.46,
+                    0.12623,
+                    1,
+                    1,
+                    -48.88,
+                    11.55,
+                    1,
+                    2,
+                    1,
+                    -45.31,
+                    32.17,
+                    0.89823,
+                    3,
+                    -102.73,
+                    183.36,
+                    0.10177,
+                    2,
+                    1,
+                    -42.53,
+                    38.79,
+                    0.82952,
+                    3,
+                    -99.96,
+                    189.97,
+                    0.17048,
+                    2,
+                    1,
+                    -37.77,
+                    45.6,
+                    0.75558,
+                    3,
+                    -95.19,
+                    196.78,
+                    0.24442,
+                    2,
+                    1,
+                    80.93,
+                    45.82,
+                    0.61438,
+                    3,
+                    23.51,
+                    197,
+                    0.38562,
+                    2,
+                    1,
+                    57.35,
+                    33.16,
+                    0.71988,
+                    3,
+                    -0.08,
+                    184.34,
+                    0.28012,
+                    2,
+                    1,
+                    25.9,
+                    10.23,
+                    0.80257,
+                    3,
+                    -31.52,
+                    161.41,
+                    0.19743,
+                    2,
+                    1,
+                    38.67,
+                    3.55,
+                    0.9284,
+                    3,
+                    -18.75,
+                    154.73,
+                    0.0716,
+                    3,
+                    1,
+                    41.92,
+                    -9.55,
+                    0.85839,
+                    2,
+                    -15.51,
+                    100.05,
+                    0.11842,
+                    3,
+                    -15.51,
+                    141.64,
+                    0.02319,
+                    2,
+                    1,
+                    29.72,
+                    -25.04,
+                    0.97161,
+                    2,
+                    -27.71,
+                    84.55,
+                    0.02839,
+                    2,
+                    1,
+                    13.58,
+                    -26.17,
+                    0.96697,
+                    2,
+                    -43.85,
+                    83.43,
+                    0.03303,
+                    3,
+                    1,
+                    6.49,
+                    -16.78,
+                    0.80276,
+                    2,
+                    -50.94,
+                    92.82,
+                    0.03282,
+                    3,
+                    -50.94,
+                    134.4,
+                    0.16442,
+                    2,
+                    1,
+                    8.7,
+                    -3.64,
+                    0.83,
+                    3,
+                    -48.73,
+                    147.54,
+                    0.17,
+                    2,
+                    1,
+                    17.85,
+                    8.01,
+                    0.83,
+                    3,
+                    -39.58,
+                    159.2,
+                    0.17
+                  ]
+                }
+              },
+              "Rectangle 7": {
+                "Rectangle 7": {
+                  "x": -3.99,
+                  "y": -79.72,
+                  "width": 192,
+                  "height": 48
+                }
+              },
+              "chip23D": {
+                "chip23D": {
+                  "x": 57.51,
+                  "y": -37.22,
+                  "width": 63,
+                  "height": 59
+                }
+              },
+              "chip23D.png copy": {
+                "chip23D.png copy": {
+                  "x": -34.49,
+                  "y": -26.72,
+                  "width": 65,
+                  "height": 56
+                }
+              },
+              "chip23D.png copy 2": {
+                "chip23D.png copy 2": {
+                  "x": -34.49,
+                  "y": -16.72,
+                  "width": 65,
+                  "height": 56
+                }
+              },
+              "chip23D.png copy 3": {
+                "chip23D.png copy 3": {
+                  "x": -34.49,
+                  "y": -6.72,
+                  "width": 65,
+                  "height": 56
+                }
+              },
+              "chip23D.png copy 4": {
+                "chip23D.png copy 4": {
+                  "x": -34.49,
+                  "y": 3.28,
+                  "width": 65,
+                  "height": 56
+                }
+              },
+              "chip23D.png copy 5": {
+                "chip23D.png copy 5": {
+                  "x": -34.49,
+                  "y": -36.72,
+                  "width": 65,
+                  "height": 56
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "1": {
+                "color": [
+                  {
+                    "time": 3.0333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.1333,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.7667,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 3.8667,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "2": {
+                "color": [
+                  {
+                    "time": 3.1,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.2,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.8333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 3.9333,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "3": {
+                "color": [
+                  {
+                    "time": 3.1667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.2667,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.9,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 4,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "4": {
+                "color": [
+                  {
+                    "time": 3.2333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.3333,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.9667,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 4.0667,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "5": {
+                "color": [
+                  {
+                    "time": 3.2667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.3667,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 4,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 4.1,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "Bingo2": {
+                "color": [
+                  {
+                    "time": 3,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 3.3667,
+                    "color": "ffffff00",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 3.8333,
+                    "color": "ffffff00"
+                  },
+                  {
+                    "time": 4.1667,
+                    "color": "ffffffff"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "Layer 12": {
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8667,
+                    "y": -6.49,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6667,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.5,
+                    "y": -6.49,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.5333,
+                    "curve": 0.25,
+                    "c3": 0.627
+                  },
+                  {
+                    "time": 4.1,
+                    "y": -6.49,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.2,
+                    "y": 6.69,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.3,
+                    "y": -6.49,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.4,
+                    "y": 6.69,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.5,
+                    "y": -6.49,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.6667,
+                    "y": 6.69,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.9
+                  }
+                ]
+              },
+              "Layer 10": {
+                "rotate": [
+                  {
+                    "angle": 7.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "angle": -0.28,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.8,
+                    "angle": 7.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.6333,
+                    "angle": -0.28,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.5667,
+                    "angle": 7.2,
+                    "curve": 0.25,
+                    "c3": 0.627
+                  },
+                  {
+                    "time": 4.1333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.2333,
+                    "angle": 8.73,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.3333,
+                    "angle": -0.98,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.4333,
+                    "angle": 8.73,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.5333,
+                    "angle": -0.98,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.7,
+                    "angle": 8.73,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.9,
+                    "angle": 7.2
+                  }
+                ],
+                "translate": [
+                  {
+                    "y": 9.86,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7333,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.5333,
+                    "y": 9.86,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2.3667,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 3.4,
+                    "y": 9.86,
+                    "curve": 0.25,
+                    "c3": 0.627
+                  },
+                  {
+                    "time": 4.1,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 4.9,
+                    "y": 9.86
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 4.1,
+                    "curve": 0.25,
+                    "c3": 0.261
+                  },
+                  {
+                    "time": 4.3667,
+                    "x": 1.229,
+                    "y": 1.229,
+                    "curve": 0.25,
+                    "c3": 0.261
+                  },
+                  {
+                    "time": 4.9
+                  }
+                ]
+              },
+              "Ellipse 1": {
+                "rotate": [
+                  {
+                    "angle": -93.52
+                  },
+                  {
+                    "time": 2.4333,
+                    "angle": 86.48
+                  },
+                  {
+                    "time": 4.9,
+                    "angle": -93.52
+                  }
+                ]
+              },
+              "Ellipse 1 copy": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 2.4333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 4.9
+                  }
+                ]
+              },
+              "Ellipse 1 copy 3": {
+                "rotate": [
+                  {
+                    "angle": -93.52
+                  },
+                  {
+                    "time": 2.4333,
+                    "angle": 86.48
+                  },
+                  {
+                    "time": 3.7,
+                    "angle": 176.48
+                  },
+                  {
+                    "time": 4.9,
+                    "angle": -93.52
+                  }
+                ]
+              },
+              "Ellipse 1 copy 7": {
+                "rotate": [
+                  {
+                    "angle": 63.24
+                  },
+                  {
+                    "time": 0.3667,
+                    "angle": 90
+                  },
+                  {
+                    "time": 1.5667,
+                    "angle": 180
+                  },
+                  {
+                    "time": 2.7667,
+                    "angle": -90
+                  },
+                  {
+                    "time": 4.0333
+                  },
+                  {
+                    "time": 4.9,
+                    "angle": 63.24
+                  }
+                ]
+              },
+              "Ellipse 1 copy 8": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 2.4333,
+                    "angle": 180
+                  },
+                  {
+                    "time": 4.9
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

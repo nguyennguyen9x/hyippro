@@ -1,0 +1,83 @@
+
+item-pig.png
+size: 270,270
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 112
+  rotate: false
+  xy: 124, 161
+  size: 43, 54
+  orig: 43, 54
+  offset: 0, 0
+  index: -1
+Layer 113
+  rotate: false
+  xy: 121, 2
+  size: 25, 21
+  orig: 25, 21
+  offset: 0, 0
+  index: -1
+Layer 114
+  rotate: true
+  xy: 121, 25
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+Layer 115
+  rotate: true
+  xy: 124, 217
+  size: 51, 47
+  orig: 51, 47
+  offset: 0, 0
+  index: -1
+Layer 116
+  rotate: true
+  xy: 2, 21
+  size: 121, 117
+  orig: 121, 117
+  offset: 0, 0
+  index: -1
+Layer 117
+  rotate: false
+  xy: 121, 77
+  size: 39, 65
+  orig: 39, 65
+  offset: 0, 0
+  index: -1
+Layer 118
+  rotate: false
+  xy: 2, 144
+  size: 120, 124
+  orig: 120, 124
+  offset: 0, 0
+  index: -1
+Layer 119
+  rotate: false
+  xy: 2, 6
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+Layer 120
+  rotate: true
+  xy: 148, 2
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+Layer 121
+  rotate: false
+  xy: 42, 11
+  size: 20, 8
+  orig: 20, 8
+  offset: 0, 0
+  index: -1
+Layer 122
+  rotate: true
+  xy: 25, 2
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1

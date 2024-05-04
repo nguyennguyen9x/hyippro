@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1daf7d637"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bonus-sc-balls",
+      "rect": [
+        1741,
+        1604,
+        400,
+        154
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        402,
+        156
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

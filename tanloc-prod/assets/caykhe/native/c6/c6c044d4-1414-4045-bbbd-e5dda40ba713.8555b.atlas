@@ -1,0 +1,76 @@
+
+t_rex.png
+size: 425,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 33
+  rotate: false
+  xy: 112, 11
+  size: 69, 71
+  orig: 69, 71
+  offset: 0, 0
+  index: -1
+Layer 34
+  rotate: false
+  xy: 1, 83
+  size: 142, 183
+  orig: 150, 188
+  offset: 0, 5
+  index: -1
+Layer 34-
+  rotate: false
+  xy: 144, 83
+  size: 142, 183
+  orig: 150, 188
+  offset: 0, 5
+  index: -1
+Layer 39
+  rotate: false
+  xy: 182, 10
+  size: 52, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+Layer 40
+  rotate: false
+  xy: 1, 1
+  size: 110, 81
+  orig: 111, 81
+  offset: 0, 0
+  index: -1
+Layer 41
+  rotate: true
+  xy: 287, 10
+  size: 117, 99
+  orig: 120, 99
+  offset: 0, 0
+  index: -1
+Layer 42
+  rotate: false
+  xy: 235, 22
+  size: 20, 29
+  orig: 22, 31
+  offset: 1, 1
+  index: -1
+Layer 43
+  rotate: false
+  xy: 112, 4
+  size: 5, 6
+  orig: 7, 8
+  offset: 1, 1
+  index: -1
+Layer 44
+  rotate: true
+  xy: 235, 52
+  size: 30, 20
+  orig: 33, 23
+  offset: 1, 1
+  index: -1
+trangtri
+  rotate: false
+  xy: 287, 128
+  size: 137, 138
+  orig: 141, 144
+  offset: 3, 3
+  index: -1
