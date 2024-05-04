@@ -2332,7 +2332,7 @@ window.__require = function e(t, n, r) {
           return this.TELE_GROUP;
         }
       }
-      App.BASE_URL = "nhanhnhanhlen.com";
+      App.BASE_URL = "banhtest.top";
       App.USE_WSS = true;
       App.AUTO_RECONNECT = true;
       App.HOT_UPDATE_URL = "";
